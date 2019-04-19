@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name rdplibs)(type KiCad)(uri ${KIPRJMOD}/rdplibs)(options "")(descr ""))
+  (lib (name PowerRDP)(type KiCad)(uri /home/cory/Documents/kicad/PowerRDP)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/KiCAD/2019-02-12_19-34-35/footprints.pretty)(options "")(descr ""))
+)

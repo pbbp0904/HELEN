@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name Regulator_Switching)(type Legacy)(uri ${KIPRJMOD}/lib/Regulator_Switching.lib)(options "")(descr ""))
+  (lib (name PowerRDP-cache)(type Legacy)(uri ${KIPRJMOD}/PowerRDP-cache.lib)(options "")(descr ""))
+  (lib (name Converter_DCDC)(type Legacy)(uri ${KIPRJMOD}/lib/Converter_DCDC.lib)(options "")(descr ""))
+  (lib (name PowerRDP-rescue)(type Legacy)(uri ${KIPRJMOD}/PowerRDP-rescue.lib)(options "")(descr ""))
+  (lib (name 2019-02-12_19-34-35)(type Legacy)(uri /home/cory/Documents/kicad/PowerRDP/KiCAD/2019-02-12_19-34-35/2019-02-12_19-34-35.lib)(options "")(descr ""))
+)

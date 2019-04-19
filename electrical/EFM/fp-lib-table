@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name SHC_123_BATTERY_HOLDER)(type Legacy)(uri ${KIPRJMOD}/KiCAD/2019-02-12_18-03-09/SHC_123_BATTERY_HOLDER.mod)(options "")(descr ""))
+  (lib (name EFM)(type KiCad)(uri /home/cory/Documents/kicad/EFM)(options "")(descr ""))
+  (lib (name EFM_Libs)(type KiCad)(uri ${KIPRJMOD}/KiCAD/2019-02-12_19-34-35/footprints.pretty)(options "")(descr ""))
+  (lib (name rdplibs)(type KiCad)(uri /home/cory/Documents/kicad/RDP-Environmental/rdplibs.pretty)(options "")(descr "")(disabled))
+)

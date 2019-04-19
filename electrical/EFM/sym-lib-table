@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name 2019-02-12_18-03-09)(type Legacy)(uri ${KIPRJMOD}/KiCAD/2019-02-12_18-03-09/2019-02-12_18-03-09.lib)(options "")(descr ""))
+  (lib (name Converter_DCDC)(type Legacy)(uri ${KIPRJMOD}/Converter_DCDC.lib)(options "")(descr ""))
+  (lib (name EFM-rescue)(type Legacy)(uri ${KIPRJMOD}/EFM-rescue.lib)(options "")(descr ""))
+)
