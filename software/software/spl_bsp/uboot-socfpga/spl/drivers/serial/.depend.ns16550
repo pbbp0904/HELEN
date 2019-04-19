@@ -1,0 +1,36 @@
+/home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/spl/drivers/serial/ns16550.o: \
+ ns16550.c \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/config.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/config_cmd_defaults.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/config_defaults.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/configs/socfpga_cyclone5.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/configs/../../board/altera/socfpga/build.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/configs/../../board/altera/socfpga/pinmux_config.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/configs/../../board/altera/socfpga/pll_config.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/configs/../../board/altera/socfpga/sdram/sdram_config.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/configs/../../board/altera/socfpga/reset_config.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/configs/socfpga_common.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/asm/arch/hardware.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/asm/arch/clock_manager.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/asm/io.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/linux/types.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/linux/config.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/linux/posix_types.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/linux/stddef.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/asm/posix_types.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/asm/types.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/asm/byteorder.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/linux/byteorder/little_endian.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/linux/compiler.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/linux/compiler-gcc.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/linux/compiler-gcc6.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/linux/byteorder/swab.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/linux/byteorder/generic.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/asm/memory.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/config_cmd_default.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/configs/../../board/altera/socfpga/iocsr_config_cyclone5.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/asm/config.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/config_fallbacks.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/config_uncmd_spl.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/ns16550.h \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/watchdog.h

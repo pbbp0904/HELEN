@@ -1,0 +1,3 @@
+/home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/spl/lib/ctype.o: \
+ ctype.c \
+ /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/linux/ctype.h
