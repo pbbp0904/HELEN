@@ -1,8 +1,0 @@
-/home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/spl/lib/div64.o: \
- div64.c \
- /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/linux/types.h \
- /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/linux/config.h \
- /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/linux/posix_types.h \
- /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/linux/stddef.h \
- /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/asm/posix_types.h \
- /home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/include/asm/types.h

@@ -1,0 +1,7 @@
+	component a2d_data_b is
+		port (
+			probe  : in  std_logic_vector(13 downto 0) := (others => 'X'); -- probe
+			source : out std_logic_vector(0 downto 0)                      -- source
+		);
+	end component a2d_data_b;
+

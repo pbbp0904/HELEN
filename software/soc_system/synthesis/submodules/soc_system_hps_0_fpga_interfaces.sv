@@ -20,10 +20,6 @@ module soc_system_hps_0_fpga_interfaces(
  ,input wire [1 - 1 : 0 ] f2h_dbg_rst_req_n
 // f2h_warm_reset_req
  ,input wire [1 - 1 : 0 ] f2h_warm_rst_req_n
-// h2f_user0_clock
- ,output wire [1 - 1 : 0 ] h2f_user0_clk
-// h2f_user1_clock
- ,output wire [1 - 1 : 0 ] h2f_user1_clk
 // f2h_stm_hw_events
  ,input wire [28 - 1 : 0 ] f2h_stm_hwevents
 // f2h_axi_clock
@@ -120,8 +116,8 @@ module soc_system_hps_0_fpga_interfaces(
  ,output wire [1 - 1 : 0 ] h2f_AWVALID
  ,input wire [1 - 1 : 0 ] h2f_AWREADY
  ,output wire [12 - 1 : 0 ] h2f_WID
- ,output wire [128 - 1 : 0 ] h2f_WDATA
- ,output wire [16 - 1 : 0 ] h2f_WSTRB
+ ,output wire [64 - 1 : 0 ] h2f_WDATA
+ ,output wire [8 - 1 : 0 ] h2f_WSTRB
  ,output wire [1 - 1 : 0 ] h2f_WLAST
  ,output wire [1 - 1 : 0 ] h2f_WVALID
  ,input wire [1 - 1 : 0 ] h2f_WREADY
@@ -140,17 +136,54 @@ module soc_system_hps_0_fpga_interfaces(
  ,output wire [1 - 1 : 0 ] h2f_ARVALID
  ,input wire [1 - 1 : 0 ] h2f_ARREADY
  ,input wire [12 - 1 : 0 ] h2f_RID
- ,input wire [128 - 1 : 0 ] h2f_RDATA
+ ,input wire [64 - 1 : 0 ] h2f_RDATA
  ,input wire [2 - 1 : 0 ] h2f_RRESP
  ,input wire [1 - 1 : 0 ] h2f_RLAST
  ,input wire [1 - 1 : 0 ] h2f_RVALID
  ,output wire [1 - 1 : 0 ] h2f_RREADY
+// f2h_sdram0_data
+ ,input wire [27 - 1 : 0 ] f2h_sdram0_ADDRESS
+ ,input wire [8 - 1 : 0 ] f2h_sdram0_BURSTCOUNT
+ ,output wire [1 - 1 : 0 ] f2h_sdram0_WAITREQUEST
+ ,output wire [256 - 1 : 0 ] f2h_sdram0_READDATA
+ ,output wire [1 - 1 : 0 ] f2h_sdram0_READDATAVALID
+ ,input wire [1 - 1 : 0 ] f2h_sdram0_READ
+ ,input wire [256 - 1 : 0 ] f2h_sdram0_WRITEDATA
+ ,input wire [32 - 1 : 0 ] f2h_sdram0_BYTEENABLE
+ ,input wire [1 - 1 : 0 ] f2h_sdram0_WRITE
+// f2h_sdram0_clock
+ ,input wire [1 - 1 : 0 ] f2h_sdram0_clk
+// f2h_dma_req0
+ ,input wire [1 - 1 : 0 ] f2h_dma_req0_req
+ ,input wire [1 - 1 : 0 ] f2h_dma_req0_single
+ ,output wire [1 - 1 : 0 ] f2h_dma_req0_ack
+// f2h_dma_req1
+ ,input wire [1 - 1 : 0 ] f2h_dma_req1_req
+ ,input wire [1 - 1 : 0 ] f2h_dma_req1_single
+ ,output wire [1 - 1 : 0 ] f2h_dma_req1_ack
 // f2h_irq0
  ,input wire [32 - 1 : 0 ] f2h_irq_p0
 // f2h_irq1
  ,input wire [32 - 1 : 0 ] f2h_irq_p1
 );
 
+
+wire [15 - 1 : 0] intermediate;
+assign intermediate[0:0] = ~intermediate[1:1];
+assign intermediate[12:12] = intermediate[6:6]|intermediate[11:11];
+assign intermediate[2:2] = intermediate[13:13];
+assign intermediate[3:3] = intermediate[13:13];
+assign intermediate[4:4] = intermediate[13:13];
+assign intermediate[5:5] = intermediate[13:13];
+assign intermediate[7:7] = intermediate[13:13];
+assign intermediate[8:8] = intermediate[13:13];
+assign intermediate[9:9] = intermediate[13:13];
+assign intermediate[10:10] = intermediate[13:13];
+assign intermediate[14:14] = intermediate[13:13];
+assign f2h_sdram0_WAITREQUEST[0:0] = intermediate[0:0];
+assign intermediate[6:6] = f2h_sdram0_READ[0:0];
+assign intermediate[11:11] = f2h_sdram0_WRITE[0:0];
+assign intermediate[13:13] = f2h_sdram0_clk[0:0];
 
 cyclonev_hps_interface_clocks_resets clocks_resets(
  .f2h_pending_rst_ack({
@@ -165,14 +198,8 @@ cyclonev_hps_interface_clocks_resets clocks_resets(
 ,.h2f_rst_n({
     h2f_rst_n[0:0] // 0:0
   })
-,.h2f_user1_clk({
-    h2f_user1_clk[0:0] // 0:0
-  })
 ,.f2h_cold_rst_req_n({
     f2h_cold_rst_req_n[0:0] // 0:0
-  })
-,.h2f_user0_clk({
-    h2f_user0_clk[0:0] // 0:0
   })
 );
 
@@ -464,7 +491,7 @@ cyclonev_hps_interface_hps2fpga_light_weight hps2fpga_light_weight(
 
 cyclonev_hps_interface_hps2fpga hps2fpga(
  .port_size_config({
-    2'b10 // 1:0
+    2'b01 // 1:0
   })
 ,.arsize({
     h2f_ARSIZE[2:0] // 2:0
@@ -509,7 +536,7 @@ cyclonev_hps_interface_hps2fpga hps2fpga(
     h2f_AWVALID[0:0] // 0:0
   })
 ,.wdata({
-    h2f_WDATA[127:0] // 127:0
+    h2f_WDATA[63:0] // 63:0
   })
 ,.rid({
     h2f_RID[11:0] // 11:0
@@ -542,7 +569,7 @@ cyclonev_hps_interface_hps2fpga hps2fpga(
     h2f_AWID[11:0] // 11:0
   })
 ,.rdata({
-    h2f_RDATA[127:0] // 127:0
+    h2f_RDATA[63:0] // 63:0
   })
 ,.awready({
     h2f_AWREADY[0:0] // 0:0
@@ -575,32 +602,149 @@ cyclonev_hps_interface_hps2fpga hps2fpga(
     h2f_RREADY[0:0] // 0:0
   })
 ,.wstrb({
-    h2f_WSTRB[15:0] // 15:0
+    h2f_WSTRB[7:0] // 7:0
   })
 );
 
 
 cyclonev_hps_interface_fpga2sdram f2sdram(
- .cfg_cport_rfifo_map({
-    18'b000000000000000000 // 17:0
+ .cmd_data_0({
+    18'b000000000000000000 // 59:42
+   ,f2h_sdram0_BURSTCOUNT[7:0] // 41:34
+   ,5'b00000 // 33:29
+   ,f2h_sdram0_ADDRESS[26:0] // 28:2
+   ,intermediate[11:11] // 1:1
+   ,intermediate[6:6] // 0:0
   })
-,.cfg_axi_mm_select({
-    6'b000000 // 5:0
+,.cfg_port_width({
+    12'b000000000011 // 11:0
   })
-,.cfg_wfifo_cport_map({
-    16'b0000000000000000 // 15:0
+,.rd_valid_3({
+    f2h_sdram0_READDATAVALID[0:0] // 0:0
+  })
+,.wr_clk_3({
+    intermediate[10:10] // 0:0
+  })
+,.wr_clk_2({
+    intermediate[9:9] // 0:0
+  })
+,.wr_data_3({
+    2'b00 // 89:88
+   ,f2h_sdram0_BYTEENABLE[31:24] // 87:80
+   ,16'b0000000000000000 // 79:64
+   ,f2h_sdram0_WRITEDATA[255:192] // 63:0
+  })
+,.wr_clk_1({
+    intermediate[8:8] // 0:0
+  })
+,.wr_data_2({
+    2'b00 // 89:88
+   ,f2h_sdram0_BYTEENABLE[23:16] // 87:80
+   ,16'b0000000000000000 // 79:64
+   ,f2h_sdram0_WRITEDATA[191:128] // 63:0
+  })
+,.wr_clk_0({
+    intermediate[7:7] // 0:0
+  })
+,.wr_data_1({
+    2'b00 // 89:88
+   ,f2h_sdram0_BYTEENABLE[15:8] // 87:80
+   ,16'b0000000000000000 // 79:64
+   ,f2h_sdram0_WRITEDATA[127:64] // 63:0
   })
 ,.cfg_cport_type({
-    12'b000000000000 // 11:0
+    12'b000000000011 // 11:0
+  })
+,.wr_data_0({
+    2'b00 // 89:88
+   ,f2h_sdram0_BYTEENABLE[7:0] // 87:80
+   ,16'b0000000000000000 // 79:64
+   ,f2h_sdram0_WRITEDATA[63:0] // 63:0
   })
 ,.cfg_rfifo_cport_map({
     16'b0000000000000000 // 15:0
   })
-,.cfg_port_width({
-    12'b000000000000 // 11:0
-  })
 ,.cfg_cport_wfifo_map({
     18'b000000000000000000 // 17:0
+  })
+,.cmd_port_clk_0({
+    intermediate[14:14] // 0:0
+  })
+,.cfg_cport_rfifo_map({
+    18'b000000000000000000 // 17:0
+  })
+,.rd_ready_3({
+    1'b1 // 0:0
+  })
+,.rd_ready_2({
+    1'b1 // 0:0
+  })
+,.rd_ready_1({
+    1'b1 // 0:0
+  })
+,.rd_ready_0({
+    1'b1 // 0:0
+  })
+,.rd_clk_3({
+    intermediate[5:5] // 0:0
+  })
+,.rd_clk_2({
+    intermediate[4:4] // 0:0
+  })
+,.rd_clk_1({
+    intermediate[3:3] // 0:0
+  })
+,.cmd_ready_0({
+    intermediate[1:1] // 0:0
+  })
+,.rd_clk_0({
+    intermediate[2:2] // 0:0
+  })
+,.cfg_wfifo_cport_map({
+    16'b0000000000000000 // 15:0
+  })
+,.wrack_ready_0({
+    1'b1 // 0:0
+  })
+,.cmd_valid_0({
+    intermediate[12:12] // 0:0
+  })
+,.rd_data_3({
+    f2h_sdram0_READDATA[255:192] // 63:0
+  })
+,.rd_data_2({
+    f2h_sdram0_READDATA[191:128] // 63:0
+  })
+,.rd_data_1({
+    f2h_sdram0_READDATA[127:64] // 63:0
+  })
+,.rd_data_0({
+    f2h_sdram0_READDATA[63:0] // 63:0
+  })
+,.cfg_axi_mm_select({
+    6'b000000 // 5:0
+  })
+);
+
+
+cyclonev_hps_interface_dma dma(
+ .channel1_xx_ack({
+    f2h_dma_req1_ack[0:0] // 0:0
+  })
+,.channel0_req({
+    f2h_dma_req0_req[0:0] // 0:0
+  })
+,.channel0_single({
+    f2h_dma_req0_single[0:0] // 0:0
+  })
+,.channel0_xx_ack({
+    f2h_dma_req0_ack[0:0] // 0:0
+  })
+,.channel1_single({
+    f2h_dma_req1_single[0:0] // 0:0
+  })
+,.channel1_req({
+    f2h_dma_req1_req[0:0] // 0:0
   })
 );
 

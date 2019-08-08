@@ -1,0 +1,28 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\xxpeng\de10-standard\DE10_Standard_DCC\v\fir_out.qsys --block-symbol-file --output-directory=D:\xxpeng\de10-standard\DE10_Standard_DCC\v\fir_out --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading v/fir_out.qsys
+Progress: Reading input file
+Progress: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 16.1]
+Progress: Parameterizing module in_system_sources_probes_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\xxpeng\de10-standard\DE10_Standard_DCC\v\fir_out.qsys --synthesis=VERILOG --output-directory=D:\xxpeng\de10-standard\DE10_Standard_DCC\v\fir_out\synthesis --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading v/fir_out.qsys
+Progress: Reading input file
+Progress: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 16.1]
+Progress: Parameterizing module in_system_sources_probes_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: fir_out: Generating fir_out "fir_out" for QUARTUS_SYNTH
+Info: in_system_sources_probes_0: "fir_out" instantiated altera_in_system_sources_probes "in_system_sources_probes_0"
+Info: fir_out: Done "fir_out" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

@@ -1,2 +1,0 @@
-/home/sean/Documents/shc/HELEN/software/spl_bsp/uboot-socfpga/spl/board/altera/socfpga/sdram/sequencer_auto_ac_init.o: \
- sequencer_auto_ac_init.c sequencer_defines.h alt_types.h

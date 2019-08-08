@@ -1,0 +1,296 @@
+module DE10_Standard_DCC_TOP
+
+(
+   CLK,
+   KEY,
+	SW,
+	LED,
+   AD_SCLK,
+	AD_SDIO,
+	ADA_D,
+	ADA_DCO,
+	ADA_OE,
+	ADA_OR,
+	ADA_SPI_CS,
+	ADB_D,
+	ADB_DCO,
+	ADB_OE,
+	ADB_OR,
+	ADB_SPI_CS,
+	AIC_BCLK,
+	AIC_DIN,
+	AIC_DOUT,
+	AIC_LRCIN,
+	AIC_LRCOUT,
+	AIC_SPI_CS,
+	AIC_XCLK,
+	CLKIN1,
+	CLKOUT0,
+	DA,
+	DB,
+	FPGA_CLK_A_N,
+	FPGA_CLK_A_P,
+	FPGA_CLK_B_N,
+	FPGA_CLK_B_P,
+	J1_152,
+	XT_IN_N,
+	XT_IN_P
+	);
+input                      CLK;
+input           [3:0]      KEY;
+input           [3:0]      SW;
+output          [7:0]      LED;
+inout 		          		AD_SCLK;
+inout 		          		AD_SDIO;
+input 		    [13:0]		ADA_D;
+input 		          		ADA_DCO;
+output		          		ADA_OE;
+input 		          		ADA_OR;
+output		          		ADA_SPI_CS;
+input 		    [13:0]		ADB_D;
+input 		          		ADB_DCO;
+output		          		ADB_OE;
+input 		          		ADB_OR;
+output		          		ADB_SPI_CS;
+inout 		          		AIC_BCLK;
+output		          		AIC_DIN;
+input 		          		AIC_DOUT;
+inout 		          		AIC_LRCIN;
+inout 		          		AIC_LRCOUT;
+output		          		AIC_SPI_CS;
+output		          		AIC_XCLK;
+input 		          		CLKIN1;
+output		          		CLKOUT0;
+output		    [13:0]		DA;
+output		    [13:0]		DB;
+inout 		          		FPGA_CLK_A_N;
+inout 		          		FPGA_CLK_A_P;
+inout 		          		FPGA_CLK_B_N;
+inout 		          		FPGA_CLK_B_P;
+inout 		          		J1_152;
+input 		          		XT_IN_N;
+input 		          		XT_IN_P;
+
+wire						      reset_n;
+wire						      sys_clk;
+wire						      sys_clk_90deg;
+wire						      sys_clk_180deg;
+wire						      sys_clk_270deg;
+wire						      pll_locked;
+
+wire		   [12:0]			i_sine1;
+wire		   [12:0]			i_sine10;
+wire		   [12:12]			t_sine1;
+wire		   [12:12]			t_sine10;
+reg			[12:0]			is_sine1;
+reg			[12:0]			is_sine10;
+reg			[12:0]			iu_sine1;
+reg			[12:0]			iu_sine10;
+
+wire		   [13:0]			o_sine;
+reg			[13:0]			o_sine_p;
+reg			[13:0]			o_sine_n;
+
+reg			[13:0]			per_a2da_d;
+reg			[13:0]			per_a2db_d;
+reg			[13:0]			a2da_data;
+reg			[13:0]			a2db_data;
+
+wire		   [13:0]			fir_in_data;
+wire		   [13:0]			fir_data;
+
+assign	reset_n			= KEY[3];
+
+assign	FAN_CTRL		   = 1'bz;
+
+assign	FPGA_CLK_A_P	=  sys_clk_180deg;
+assign	FPGA_CLK_A_N	= ~sys_clk_180deg;
+assign	FPGA_CLK_B_P	=  sys_clk_270deg;
+assign	FPGA_CLK_B_N	= ~sys_clk_270deg;
+
+assign	LED[0]			= pll_locked;		// pll locked
+assign	LED[1]			= SW[0];		// (DFS)Data Format Select indicator
+assign	LED[2]			= SW[1];		// (DCS)Duty Cycle Stabilizer Select indicator
+assign	LED[3]			= !SW[2] ? ADA_OR : ADB_OR;	// Out-of-Range indicator
+assign	LED[4]			= KEY[0];		// reset 1MHz NCO output indicator
+assign	LED[5]			= KEY[1];		// reset 10MHz NCO output indicator
+assign	LED[6] 			= SW[3];		// channel A or B indicator
+assign	LED[7] 			= count[24];		// heartbeat
+
+ // assign for ADC control signal
+assign	AD_SCLK			= SW[0];		// (DFS)Data Format Select
+assign	AD_SDIO			= SW[1];		// (DCS)Duty Cycle Stabilizer Select
+assign	ADA_OE			= 1'b0;				// enable ADA output
+assign	ADA_SPI_CS		= 1'b1;				// disable ADA_SPI_CS (CSB)
+assign	ADB_OE			= 1'b0;				// enable ADB output
+assign	ADB_SPI_CS		= 1'b1;				// disable ADB_SPI_CS (CSB)
+
+ // assign for DAC output data
+assign	DA             = o_sine_p;
+assign	DB             = o_sine_n;
+
+
+
+//--- pll
+lpm_pll		pll_inst(
+			.refclk(CLK),
+			.outclk_0(sys_clk),
+			.outclk_1(sys_clk_90deg),
+			.outclk_2(sys_clk_180deg),
+			.outclk_3(sys_clk_270deg),
+			.locked(pll_locked)
+			);
+
+//--- NCO function 1.001MHz
+lpm_nco	NCO_1MHz_inst(
+			.phi_inc_i(32'd42992623),
+			.clk(sys_clk),
+			.reset_n(KEY[0]),
+			.clken(1'b1),
+			.fsin_o(i_sine1),
+			.out_valid()
+			);
+
+//--- NCO function 10.01MHz
+lpm_10M_nco	NCO_10MHz_inst(
+			.phi_inc_i(32'd429926226),
+			.clk(sys_clk),
+			.reset_n(KEY[1]),
+			.clken(1'b1),
+			.fsin_o(i_sine10),
+			.out_valid()
+			);
+
+always @(negedge reset_n or posedge sys_clk)
+begin
+	if (!reset_n) begin
+		is_sine1	<= 13'd0;
+		is_sine10	<= 13'd0;
+		iu_sine1	<= 13'd0;
+		iu_sine10	<= 13'd0;
+	end
+	else begin
+		is_sine1	<= i_sine1;
+		is_sine10	<= i_sine10;
+		iu_sine1	<= {~is_sine1[12],is_sine1[11:0]};
+		iu_sine10	<= {~is_sine10[12],is_sine10[11:0]};
+	end
+end
+
+//--- Sum of the two signals
+add		add_inst(
+			.dataa({1'b1,iu_sine1}),
+			.datab({1'b1,iu_sine10}),
+			.result(o_sine)
+			);
+
+always @(negedge reset_n or posedge sys_clk)
+begin
+	if (!reset_n) begin
+		o_sine_p	<= 14'd0;
+		o_sine_n	<= 14'd0;
+	end
+	else begin
+		o_sine_p	<= o_sine;
+		o_sine_n	<= ~o_sine_p;
+	end
+end
+
+
+//--- analog to digital converter capture and sync
+	//--- Channel A
+always @(negedge reset_n or posedge ADA_DCO)
+begin
+	if (!reset_n) begin
+		per_a2da_d	<= 14'd0;
+	end
+	else begin
+		per_a2da_d	<= ADA_D;
+	end
+end
+
+always @(negedge reset_n or posedge sys_clk)
+begin
+	if (!reset_n) begin
+		a2da_data	<= 14'd0;
+	end
+	else begin
+		a2da_data	<= per_a2da_d;
+	end
+end
+
+	//--- Channel B
+always @(negedge reset_n or posedge ADB_DCO)
+begin
+	if (!reset_n) begin
+		per_a2db_d	<= 14'd0;
+	end
+	else begin
+		per_a2db_d	<= ADB_D;
+	end
+end
+
+always @(negedge reset_n or posedge sys_clk)
+begin
+	if (!reset_n) begin
+		a2db_data	<= 14'd0;
+	end
+	else begin
+		a2db_data	<= per_a2db_d;
+	end
+end
+
+
+//--- 3 MHz low pass FIR filter
+assign	fir_in_data	= !SW[3] ?  a2da_data : a2db_data; 
+
+FIR_3MHz_low	FIR_3MHz_low_inst (
+			.clk(sys_clk),
+			.reset_n(reset_n),
+			.ast_sink_data(fir_in_data),
+			.ast_sink_valid(1'b1),              
+			.ast_sink_error(2'b00),
+			.ast_source_data(fir_data),
+			.ast_source_valid(),
+			.ast_source_error()
+			);
+
+//--- count for Heartbeat
+reg		[31:0]				count;
+always @(negedge reset_n or posedge sys_clk)
+begin
+	if (!reset_n) begin
+		count	<= 0;
+	end
+	else begin
+		count	<= count + 1'b1;
+	end
+end
+
+
+//--- probe points for data capture
+sine_1		sin1_inst(
+			.probe(iu_sine1),
+			.source());
+
+sine_10		sin10_inst(
+			.probe(iu_sine10),
+			.source());
+
+p_sine		p_sine_inst(
+			.probe(o_sine_p),
+			.source());
+
+a2d_data_a	a2d_data_a_inst(
+			.probe(a2da_data),
+			.source());
+
+a2d_data_b	a2d_data_b_inst(
+			.probe(a2db_data),
+			.source());
+
+fir_out		fir_out_inst(
+			.probe(fir_data),
+			.source());
+
+endmodule

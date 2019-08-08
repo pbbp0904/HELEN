@@ -1,14 +1,17 @@
 
 module soc_system (
-	axi_signals_awcache,
-	axi_signals_awprot,
-	axi_signals_awuser,
-	axi_signals_arcache,
-	axi_signals_aruser,
-	axi_signals_arprot,
 	clk_clk,
+	ddc_peak_out_external_connection_export,
+	ddc_tail_out_external_connection_export,
+	ddc_time_out_external_connection_export,
 	hps_0_f2h_cold_reset_req_reset_n,
 	hps_0_f2h_debug_reset_req_reset_n,
+	hps_0_f2h_dma_req0_dma_req,
+	hps_0_f2h_dma_req0_dma_single,
+	hps_0_f2h_dma_req0_dma_ack,
+	hps_0_f2h_dma_req1_dma_req,
+	hps_0_f2h_dma_req1_dma_single,
+	hps_0_f2h_dma_req1_dma_ack,
 	hps_0_f2h_stm_hw_events_stm_hwevents,
 	hps_0_f2h_warm_reset_req_reset_n,
 	hps_0_h2f_reset_reset_n,
@@ -50,6 +53,10 @@ module soc_system (
 	hps_0_hps_io_hps_io_usb1_inst_STP,
 	hps_0_hps_io_hps_io_usb1_inst_DIR,
 	hps_0_hps_io_hps_io_usb1_inst_NXT,
+	hps_0_hps_io_hps_io_spim0_inst_CLK,
+	hps_0_hps_io_hps_io_spim0_inst_MOSI,
+	hps_0_hps_io_hps_io_spim0_inst_MISO,
+	hps_0_hps_io_hps_io_spim0_inst_SS0,
 	hps_0_hps_io_hps_io_spim1_inst_CLK,
 	hps_0_hps_io_hps_io_spim1_inst_MOSI,
 	hps_0_hps_io_hps_io_spim1_inst_MISO,
@@ -62,13 +69,16 @@ module soc_system (
 	hps_0_hps_io_hps_io_i2c1_inst_SCL,
 	hps_0_hps_io_hps_io_gpio_inst_GPIO09,
 	hps_0_hps_io_hps_io_gpio_inst_GPIO35,
+	hps_0_hps_io_hps_io_gpio_inst_GPIO37,
 	hps_0_hps_io_hps_io_gpio_inst_GPIO40,
+	hps_0_hps_io_hps_io_gpio_inst_GPIO41,
+	hps_0_hps_io_hps_io_gpio_inst_GPIO44,
 	hps_0_hps_io_hps_io_gpio_inst_GPIO48,
 	hps_0_hps_io_hps_io_gpio_inst_GPIO53,
 	hps_0_hps_io_hps_io_gpio_inst_GPIO54,
 	hps_0_hps_io_hps_io_gpio_inst_GPIO61,
-	mcu_axi_signals_in_port,
-	mcu_axi_signals_out_port,
+	hps_read_bit_external_connection_export,
+	ledr_external_connection_export,
 	memory_mem_a,
 	memory_mem_ba,
 	memory_mem_ck,
@@ -85,18 +95,21 @@ module soc_system (
 	memory_mem_odt,
 	memory_mem_dm,
 	memory_oct_rzqin,
-	pll_0_outclk1_clk,
-	reset_reset_n);	
+	reset_reset_n,
+	sw_external_connection_export);	
 
-	input	[3:0]	axi_signals_awcache;
-	input	[2:0]	axi_signals_awprot;
-	input	[4:0]	axi_signals_awuser;
-	input	[3:0]	axi_signals_arcache;
-	input	[4:0]	axi_signals_aruser;
-	input	[2:0]	axi_signals_arprot;
 	input		clk_clk;
+	input	[31:0]	ddc_peak_out_external_connection_export;
+	input	[31:0]	ddc_tail_out_external_connection_export;
+	input	[25:0]	ddc_time_out_external_connection_export;
 	input		hps_0_f2h_cold_reset_req_reset_n;
 	input		hps_0_f2h_debug_reset_req_reset_n;
+	input		hps_0_f2h_dma_req0_dma_req;
+	input		hps_0_f2h_dma_req0_dma_single;
+	output		hps_0_f2h_dma_req0_dma_ack;
+	input		hps_0_f2h_dma_req1_dma_req;
+	input		hps_0_f2h_dma_req1_dma_single;
+	output		hps_0_f2h_dma_req1_dma_ack;
 	input	[27:0]	hps_0_f2h_stm_hw_events_stm_hwevents;
 	input		hps_0_f2h_warm_reset_req_reset_n;
 	output		hps_0_h2f_reset_reset_n;
@@ -138,6 +151,10 @@ module soc_system (
 	output		hps_0_hps_io_hps_io_usb1_inst_STP;
 	input		hps_0_hps_io_hps_io_usb1_inst_DIR;
 	input		hps_0_hps_io_hps_io_usb1_inst_NXT;
+	output		hps_0_hps_io_hps_io_spim0_inst_CLK;
+	output		hps_0_hps_io_hps_io_spim0_inst_MOSI;
+	input		hps_0_hps_io_hps_io_spim0_inst_MISO;
+	output		hps_0_hps_io_hps_io_spim0_inst_SS0;
 	output		hps_0_hps_io_hps_io_spim1_inst_CLK;
 	output		hps_0_hps_io_hps_io_spim1_inst_MOSI;
 	input		hps_0_hps_io_hps_io_spim1_inst_MISO;
@@ -150,13 +167,16 @@ module soc_system (
 	inout		hps_0_hps_io_hps_io_i2c1_inst_SCL;
 	inout		hps_0_hps_io_hps_io_gpio_inst_GPIO09;
 	inout		hps_0_hps_io_hps_io_gpio_inst_GPIO35;
+	inout		hps_0_hps_io_hps_io_gpio_inst_GPIO37;
 	inout		hps_0_hps_io_hps_io_gpio_inst_GPIO40;
+	inout		hps_0_hps_io_hps_io_gpio_inst_GPIO41;
+	inout		hps_0_hps_io_hps_io_gpio_inst_GPIO44;
 	inout		hps_0_hps_io_hps_io_gpio_inst_GPIO48;
 	inout		hps_0_hps_io_hps_io_gpio_inst_GPIO53;
 	inout		hps_0_hps_io_hps_io_gpio_inst_GPIO54;
 	inout		hps_0_hps_io_hps_io_gpio_inst_GPIO61;
-	input	[31:0]	mcu_axi_signals_in_port;
-	output	[31:0]	mcu_axi_signals_out_port;
+	output		hps_read_bit_external_connection_export;
+	output	[9:0]	ledr_external_connection_export;
 	output	[14:0]	memory_mem_a;
 	output	[2:0]	memory_mem_ba;
 	output		memory_mem_ck;
@@ -173,6 +193,6 @@ module soc_system (
 	output		memory_mem_odt;
 	output	[3:0]	memory_mem_dm;
 	input		memory_oct_rzqin;
-	output		pll_0_outclk1_clk;
 	input		reset_reset_n;
+	input	[13:0]	sw_external_connection_export;
 endmodule
