@@ -488,32 +488,42 @@ reg			[25:0]			ddc_time;
 
 
 // A Data
-reg			[13:0]			per_a2da_d[7:0];
+reg			[13:0]			per_a2da_d[25:0];
 reg			[13:0]			a2da_peak;
 reg			[13:0]			a2da_tail;
+
+assign a_pre_peak = per_a2da_d[25];
+assign a_post_peak = per_a2da_d[23];
+assign a_peak = per_a2da_d[24];
+
+assign a_pre_tail = per_a2da_d[2];
+assign a_post_tail = per_a2da_d[0];
+assign a_tail = per_a2da_d[1];
+
+
 always @(posedge ADA_DCO)
 begin
 	if(ADA_D >= 8192) // If value is negative
 	begin
-		if (per_a2da_d[7] <= per_a2da_d[6])
+		if (a_pre_peak <= a_peak)
 		begin
-			if (per_a2da_d[6] >= per_a2da_d[5])
+			if (a_peak >= a_post_peak)
 			begin
-				if(per_a2da_d[6] > 2760) //Threshold
+				if(a_peak > 2760) //Threshold
 				begin
-					if (per_a2da_d[6] < 8000) //If less than max
+					if (a_peak < 8000) //If less than max
 					begin
-						//a2da_peak	<= per_a2da_d[6];
-						//a2da_tail   <= per_a2da_d[0];
+						//a2da_peak	<= peak;
+						//a2da_tail   <= a_post_tail;
 						
-						a2da_peak <= per_a2da_d[5] - per_a2da_d[7];
+						a2da_peak <= a_post_peak - a_pre_peak;
 						if (a2da_peak < 0) begin
-							a2da_peak = -a2da_peak;
+							a2da_peak <= -a2da_peak;
 						end
-						a2da_peak <= ((a2da_peak)**3+2*per_a2da_d[6])/2;
+						a2da_peak <= ((a2da_peak)**3+2*a_peak)/2;
 						
-						a2da_tail <= ((per_a2da_d[6] - per_a2da_d[7]) * (per_a2da_d[0]) + (per_a2da_d[6] - per_a2da_d[5]) * (per_a2da_d[2])) 
-										 / (per_a2da_d[6] - per_a2da_d[7] + per_a2da_d[6] - per_a2da_d[5]);
+						a2da_tail <= ((a_peak - a_pre_peak) * (a_post_tail) + (a_peak - a_post_peak) * (a_pre_tail)) 
+										 / (a_peak - a_pre_peak + a_peak - a_post_peak);
 					end
 					else
 					begin
@@ -533,33 +543,42 @@ end
 
 
 // B Data
-reg			[13:0]			per_a2db_d[7:0];
+reg			[13:0]			per_a2db_d[25:0];
 reg			[13:0]			a2db_peak;
 reg			[13:0]			a2db_tail;
+
+assign b_pre_peak = per_a2db_d[25];
+assign b_post_peak = per_a2db_d[23];
+assign b_peak = per_a2db_d[24];
+
+assign b_pre_tail = per_a2db_d[2];
+assign b_post_tail = per_a2db_d[0];
+assign b_tail = per_a2db_d[1];
+
 always @(posedge ADB_DCO)
 begin
 	if(ADB_D >= 8192)
 	begin
-		if (per_a2db_d[7] <= per_a2db_d[6])
+		if (b_pre_peak <= b_peak)
 		begin
-			if (per_a2db_d[6] >= per_a2db_d[5])
+			if (b_peak >= b_post_peak)
 			begin
-				if(per_a2db_d[6]*12 > 2760)
+				if(b_peak*12 > 2760)
 				begin
 					ddc_time		<= counter;
-					if (per_a2db_d[6] < 8000)
+					if (b_peak < 8000)
 					begin
-//						a2db_peak	<= per_a2db_d[6];
-//						a2db_tail   <= per_a2db_d[0];
+//						a2db_peak	<= b_peak;
+//						a2db_tail   <= b_post_tail;
 
-						a2db_peak <= per_a2db_d[5] - per_a2db_d[7];
+						a2db_peak <= b_post_peak - b_pre_peak;
 						if (a2db_peak < 0) begin
-							a2db_peak = -a2db_peak;
+							a2db_peak <= -a2db_peak;
 						end
-						a2db_peak <= ((a2db_peak)**3+2*per_a2db_d[6])/2;
+						a2db_peak <= ((a2db_peak)**3+2*b_peak)/2;
 						
-						a2db_tail <= ((per_a2db_d[6] - per_a2db_d[7]) * (per_a2db_d[0]) + (per_a2db_d[6] - per_a2db_d[5]) * (per_a2db_d[2])) 
-										 / (per_a2db_d[6] - per_a2db_d[7] + per_a2db_d[6] - per_a2db_d[5]);
+						a2db_tail <= ((b_peak - b_pre_peak) * (b_post_tail) + (b_peak - b_post_peak) * (b_pre_tail)) 
+										 / (b_peak - b_pre_peak + b_peak - b_post_peak);
 					end
 					else
 					begin
