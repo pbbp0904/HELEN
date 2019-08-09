@@ -486,19 +486,19 @@ assign LEDR[9]=led_level;
 integer i;
 reg			[25:0]			ddc_time;
 
-
+parameter WINDOW_SIZE = 28;
 // A Data
-reg			[13:0]			per_a2da_d[25:0];
+reg			[13:0]			per_a2da_d[WINDOW_SIZE:0];
 reg			[13:0]			a2da_peak;
 reg			[13:0]			a2da_tail;
 
-assign a_pre_peak = per_a2da_d[25];
-assign a_post_peak = per_a2da_d[23];
-assign a_peak = per_a2da_d[24];
+assign a_pre_peak 	= per_a2da_d[WINDOW_SIZE];
+assign a_post_peak 	= per_a2da_d[WINDOW_SIZE-2];
+assign a_peak 			= per_a2da_d[WINDOW_SIZE-1];
 
-assign a_pre_tail = per_a2da_d[2];
-assign a_post_tail = per_a2da_d[0];
-assign a_tail = per_a2da_d[1];
+assign a_pre_tail 	= per_a2da_d[2];
+assign a_post_tail 	= per_a2da_d[0];
+assign a_tail 			= per_a2da_d[1];
 
 
 always @(posedge ADA_DCO)
@@ -533,7 +533,7 @@ begin
 				end
 			end
 		end
-		for(i=7;i>0;i=i-1)
+		for(i=WINDOW_SIZE;i>0;i=i-1)
 		begin
 			per_a2da_d[i] <= per_a2da_d[i-1];
 		end
@@ -543,17 +543,17 @@ end
 
 
 // B Data
-reg			[13:0]			per_a2db_d[25:0];
+reg			[13:0]			per_a2db_d[WINDOW_SIZE:0];
 reg			[13:0]			a2db_peak;
 reg			[13:0]			a2db_tail;
 
-assign b_pre_peak = per_a2db_d[25];
-assign b_post_peak = per_a2db_d[23];
-assign b_peak = per_a2db_d[24];
+assign b_pre_peak 	= per_a2db_d[WINDOW_SIZE];
+assign b_post_peak 	= per_a2db_d[WINDOW_SIZE-2];
+assign b_peak 			= per_a2db_d[WINDOW_SIZE-1];
 
-assign b_pre_tail = per_a2db_d[2];
-assign b_post_tail = per_a2db_d[0];
-assign b_tail = per_a2db_d[1];
+assign b_pre_tail 	= per_a2db_d[2];
+assign b_post_tail 	= per_a2db_d[0];
+assign b_tail 			= per_a2db_d[1];
 
 always @(posedge ADB_DCO)
 begin
@@ -588,7 +588,7 @@ begin
 				end
 			end
 		end
-		for(i=7;i>0;i=i-1)
+		for(i=WINDOW_SIZE;i>0;i=i-1)
 		begin
 			per_a2db_d[i] <= per_a2db_d[i-1];
 		end
