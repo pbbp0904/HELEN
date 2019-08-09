@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
+<<<<<<< HEAD
  date="2019.08.08.20:35:07"
+=======
+ date="2019.08.08.19:44:56"
+>>>>>>> 8288b5ef26ab3b8a8f82cf6e7e1d003cfe9ac905
  outputDirectory="C:/Users/chris/Desktop/HELEN/software/db/ip/sldb46d4dbb/">
  <perimeter>
   <parameter
