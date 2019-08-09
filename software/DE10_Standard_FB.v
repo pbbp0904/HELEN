@@ -486,7 +486,7 @@ assign LEDR[9]=led_level;
 integer i;
 reg			[25:0]			ddc_time;
 
-parameter WINDOW_SIZE = 28;
+parameter WINDOW_SIZE = 20;
 // A Data
 reg			[13:0]			per_a2da_d[WINDOW_SIZE:0];
 reg			[13:0]			a2da_peak;
