@@ -488,13 +488,13 @@ reg			[25:0]			ddc_time;
 
 
 // A Data
-reg			[13:0]			per_a2da_d[25:0];
+reg			[13:0]			per_a2da_d[28:0];
 reg			[13:0]			a2da_peak;
 reg			[13:0]			a2da_tail;
 
-assign a_pre_peak = per_a2da_d[25];
-assign a_post_peak = per_a2da_d[23];
-assign a_peak = per_a2da_d[24];
+assign a_pre_peak = per_a2da_d[28];
+assign a_post_peak = per_a2da_d[26];
+assign a_peak = per_a2da_d[27];
 
 assign a_pre_tail = per_a2da_d[2];
 assign a_post_tail = per_a2da_d[0];
@@ -543,13 +543,13 @@ end
 
 
 // B Data
-reg			[13:0]			per_a2db_d[25:0];
+reg			[13:0]			per_a2db_d[28:0];
 reg			[13:0]			a2db_peak;
 reg			[13:0]			a2db_tail;
 
-assign b_pre_peak = per_a2db_d[25];
-assign b_post_peak = per_a2db_d[23];
-assign b_peak = per_a2db_d[24];
+assign b_pre_peak = per_a2db_d[28];
+assign b_post_peak = per_a2db_d[26];
+assign b_peak = per_a2db_d[27];
 
 assign b_pre_tail = per_a2db_d[2];
 assign b_post_tail = per_a2db_d[0];
