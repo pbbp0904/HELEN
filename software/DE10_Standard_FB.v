@@ -486,15 +486,23 @@ assign LEDR[9]=led_level;
 integer i;
 reg			[25:0]			ddc_time;
 
-parameter WINDOW_SIZE = 20;
+
 // A Data
-reg			[13:0]			per_a2da_d[WINDOW_SIZE:0];
+reg			[13:0]			per_a2da_d[20:0];
 reg			[13:0]			a2da_peak;
 reg			[13:0]			a2da_tail;
 
-assign a_pre_peak 	= per_a2da_d[WINDOW_SIZE];
-assign a_post_peak 	= per_a2da_d[WINDOW_SIZE-2];
-assign a_peak 			= per_a2da_d[WINDOW_SIZE-1];
+wire			[13:0]			a_pre_peak;
+wire			[13:0]			a_post_peak;
+wire			[13:0]			a_peak;
+
+wire			[13:0]			a_pre_tail;
+wire			[13:0]			a_post_tail;
+wire			[13:0]			a_tail;
+
+assign a_pre_peak 	= per_a2da_d[20];
+assign a_post_peak 	= per_a2da_d[20-2];
+assign a_peak 			= per_a2da_d[20-1];
 
 assign a_pre_tail 	= per_a2da_d[2];
 assign a_post_tail 	= per_a2da_d[0];
@@ -513,17 +521,8 @@ begin
 				begin
 					if (a_peak < 8000) //If less than max
 					begin
-						//a2da_peak	<= peak;
-						//a2da_tail   <= a_post_tail;
-						
-						a2da_peak <= a_post_peak - a_pre_peak;
-						if (a2da_peak < 0) begin
-							a2da_peak <= -a2da_peak;
-						end
-						a2da_peak <= ((a2da_peak)**3+2*a_peak)/2;
-						
-						a2da_tail <= ((a_peak - a_pre_peak) * (a_post_tail) + (a_peak - a_post_peak) * (a_pre_tail)) 
-										 / (a_peak - a_pre_peak + a_peak - a_post_peak);
+						a2da_peak	<= a_peak;
+						a2da_tail   <= a_tail;
 					end
 					else
 					begin
@@ -533,7 +532,7 @@ begin
 				end
 			end
 		end
-		for(i=WINDOW_SIZE;i>0;i=i-1)
+		for(i=20;i>0;i=i-1)
 		begin
 			per_a2da_d[i] <= per_a2da_d[i-1];
 		end
@@ -543,13 +542,21 @@ end
 
 
 // B Data
-reg			[13:0]			per_a2db_d[WINDOW_SIZE:0];
+reg			[13:0]			per_a2db_d[20:0];
 reg			[13:0]			a2db_peak;
 reg			[13:0]			a2db_tail;
 
-assign b_pre_peak 	= per_a2db_d[WINDOW_SIZE];
-assign b_post_peak 	= per_a2db_d[WINDOW_SIZE-2];
-assign b_peak 			= per_a2db_d[WINDOW_SIZE-1];
+wire			[13:0]			b_pre_peak;
+wire			[13:0]			b_post_peak;
+wire			[13:0]			b_peak;
+
+wire			[13:0]			b_pre_tail;
+wire			[13:0]			b_post_tail;
+wire			[13:0]			b_tail;
+
+assign b_pre_peak 	= per_a2db_d[20];
+assign b_post_peak 	= per_a2db_d[20-2];
+assign b_peak 			= per_a2db_d[20-1];
 
 assign b_pre_tail 	= per_a2db_d[2];
 assign b_post_tail 	= per_a2db_d[0];
@@ -568,17 +575,8 @@ begin
 					ddc_time		<= counter;
 					if (b_peak < 8000)
 					begin
-//						a2db_peak	<= b_peak;
-//						a2db_tail   <= b_post_tail;
-
-						a2db_peak <= b_post_peak - b_pre_peak;
-						if (a2db_peak < 0) begin
-							a2db_peak <= -a2db_peak;
-						end
-						a2db_peak <= ((a2db_peak)**3+2*b_peak)/2;
-						
-						a2db_tail <= ((b_peak - b_pre_peak) * (b_post_tail) + (b_peak - b_post_peak) * (b_pre_tail)) 
-										 / (b_peak - b_pre_peak + b_peak - b_post_peak);
+						a2db_peak	<= b_peak;
+						a2db_tail   <= b_tail;
 					end
 					else
 					begin
@@ -588,7 +586,7 @@ begin
 				end
 			end
 		end
-		for(i=WINDOW_SIZE;i>0;i=i-1)
+		for(i=20;i>0;i=i-1)
 		begin
 			per_a2db_d[i] <= per_a2db_d[i-1];
 		end
