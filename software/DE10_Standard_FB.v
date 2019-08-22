@@ -2,6 +2,14 @@
 `define ENABLE_HSMC
 //`define ENABLE_OTHER
 
+////////////////////////////////////////////
+//
+//
+// SYSTEM SETUP CODE - PLEASE DON'T MODIFY
+//
+//
+///////////////////////////////////////////
+
 module DE10_Standard_FB(
 
     ///////// CLOCK /////////
@@ -28,11 +36,11 @@ module DE10_Standard_FB(
     output             DRAM_WE_N,
     output             DRAM_CAS_N,
     output             DRAM_RAS_N,
-	 
+
 	 ///////// KEY /////////
     input    [ 3: 0]   KEY,
 
-	 
+
 `ifdef ENABLE_HSMC
     ///////// HSMC /////////
 	input 		          		ADA_DCO,
@@ -165,7 +173,7 @@ module DE10_Standard_FB(
     ///////// I2C for Audio and Video-In /////////
     output             FPGA_I2C_SCLK,
     inout              FPGA_I2C_SDAT,
-	 
+
 	 ///////// Seg7 /////////
     output   [ 6: 0]   HEX0,
     output   [ 6: 0]   HEX1,
@@ -173,13 +181,13 @@ module DE10_Standard_FB(
     output   [ 6: 0]   HEX3,
     output   [ 6: 0]   HEX4,
     output   [ 6: 0]   HEX5,
-	
+
 
     ///////// IR /////////
     output             IRDA_TXD,
     input              IRDA_RXD,
-	 
-	 
+
+
     ///////// VGA /////////
     output             VGA_CLK,
     output             VGA_HS,
@@ -248,16 +256,6 @@ wire hps_0_f2h_dma_req3_dma_ack;
 //assign	AD_SDIO			= SW[9];		// (DCS)Duty Cycle Stabilizer Select
 //assign	ADA_OE			= 1'b0;				// enable ADA output
 //assign	ADA_SPI_CS		= 1'b1;				// disable ADA_SPI_CS (CSB)
-
-
-
-
-
-
-
-
-
-
 
 //wire clk_48, clk_44;
 //=======================================================
@@ -363,22 +361,20 @@ soc_system u0 (
         .hps_0_f2h_debug_reset_req_reset_n     (~hps_debug_reset),      //      hps_0_f2h_debug_reset_req.reset_n
         .hps_0_f2h_stm_hw_events_stm_hwevents  (stm_hw_events),         //        hps_0_f2h_stm_hw_events.stm_hwevents
         .hps_0_f2h_warm_reset_req_reset_n      (~hps_warm_reset),       //       hps_0_f2h_warm_reset_req.reset_n
-		  
+
         ////////////////////////
         // FPGA
         // pio
         .ledr_external_connection_export            (fpga_led_internal),           //               ledr_external_connection.export
         .sw_external_connection_export              (SW),                          //               sw_external_connection.export
-		  
-		  // ADC Data
-		  .ddc_peak_out_external_connection_export	 (data_peak_out),               //               ddc_peak_out_external_connection.export
-		  .ddc_tail_out_external_connection_export	 (data_tail_out),               //               ddc_tail_out_external_connection.export
-		  .ddc_time_out_external_connection_export	 (data_time_out),               //               ddc_time_out_external_connection.export
-		  .hps_read_bit_external_connection_export    (hps_read)                     //               hps_read_bit_external_connection.export
+
+        // ADC Data
+        .ddc_peak_out_external_connection_export	 (data_peak_out),               //               ddc_peak_out_external_connection.export
+        .ddc_tail_out_external_connection_export	 (data_tail_out),               //               ddc_tail_out_external_connection.export
+        .ddc_time_out_external_connection_export	 (data_time_out),               //               ddc_time_out_external_connection.export
+        .hps_read_bit_external_connection_export    (hps_read)                     //               hps_read_bit_external_connection.export
 
 );
-
-
 
 // Imported from DCC Demo
 DE10_Standard_DCC_TOP DCC_TOP_ins(
@@ -418,8 +414,6 @@ DE10_Standard_DCC_TOP DCC_TOP_ins(
 	.XT_IN_P(XT_IN_P)
 	);
 
-	
-	
 
 // Source/Probe megawizard instance
 hps_reset hps_reset_inst (
@@ -457,6 +451,7 @@ defparam pulse_debug_reset.PULSE_EXT = 32;
 defparam pulse_debug_reset.EDGE_TYPE = 1;
 defparam pulse_debug_reset.IGNORE_RST_WHILE_BUSY = 1;
 
+/* HEARTBEAT */
 reg [25:0] counter;
 reg  led_level;
 always @(posedge fpga_clk_50 or negedge hps_fpga_reset_n)
@@ -474,39 +469,53 @@ begin
     end
 	 else
         counter<=counter+1'b1;
-		  
+
 end
 
 assign LEDR[9]=led_level;
 
-	
-	
-	
+////////////////////////////////////////////
+//
+//
+// END OF SYSTEM SETUP CODE
+//
+//
+///////////////////////////////////////////
+
+////////////////////////////////////////////
+//
+//
+// HELEN CODE - PLEASE MODIFY
+//
+//
+///////////////////////////////////////////
+parameter WINDOW_SIZE = 20;
+
 // Custom code for triggering
 integer i;
 reg			[25:0]			ddc_time;
 
 
 // A Data
-reg			[13:0]			per_a2da_d[20:0];
+reg			[13:0]			per_a2da_d[WINDOW_SIZE:0];
 reg			[13:0]			a2da_peak;
 reg			[13:0]			a2da_tail;
 
-wire			[13:0]			a_pre_peak;
-wire			[13:0]			a_post_peak;
-wire			[13:0]			a_peak;
+wire	    [13:0]			a_pre_peak;
+wire	    [13:0]			a_post_peak;
+wire	    [13:0]			a_peak;
 
-wire			[13:0]			a_pre_tail;
-wire			[13:0]			a_post_tail;
-wire			[13:0]			a_tail;
+wire	    [13:0]			a_pre_tail;
+wire	    [13:0]			a_post_tail;
+wire	    [13:0]			a_tail;
 
-assign a_pre_peak 	= per_a2da_d[20];
-assign a_post_peak 	= per_a2da_d[20-2];
-assign a_peak 			= per_a2da_d[20-1];
+assign a_pre_peak 	= per_a2da_d[WINDOW_SIZE];
+assign a_post_peak 	= per_a2da_d[WINDOW_SIZE-2];
+assign a_peak 		= per_a2da_d[WINDOW_SIZE-1];
 
 assign a_pre_tail 	= per_a2da_d[2];
 assign a_post_tail 	= per_a2da_d[0];
-assign a_tail 			= per_a2da_d[1];
+assign a_tail 	    = per_a2da_d[1];
 
 
 always @(posedge ADA_DCO)
@@ -532,7 +541,7 @@ begin
 				end
 			end
 		end
-		for(i=20;i>0;i=i-1)
+		for(i=WINDOW_SIZE;i>0;i=i-1)
 		begin
 			per_a2da_d[i] <= per_a2da_d[i-1];
 		end
@@ -546,21 +555,21 @@ reg			[13:0]			per_a2db_d[20:0];
 reg			[13:0]			a2db_peak;
 reg			[13:0]			a2db_tail;
 
-wire			[13:0]			b_pre_peak;
-wire			[13:0]			b_post_peak;
-wire			[13:0]			b_peak;
+wire		[13:0]			b_pre_peak;
+wire		[13:0]			b_post_peak;
+wire		[13:0]			b_peak;
 
-wire			[13:0]			b_pre_tail;
-wire			[13:0]			b_post_tail;
-wire			[13:0]			b_tail;
+wire		[13:0]			b_pre_tail;
+wire		[13:0]			b_post_tail;
+wire		[13:0]			b_tail;
 
-assign b_pre_peak 	= per_a2db_d[20];
-assign b_post_peak 	= per_a2db_d[20-2];
-assign b_peak 			= per_a2db_d[20-1];
+assign b_pre_peak 	= per_a2db_d[WINDOW_SIZE];
+assign b_post_peak 	= per_a2db_d[WINDOW_SIZE-2];
+assign b_peak 		= per_a2db_d[WINDOW_SIZE-1];
 
 assign b_pre_tail 	= per_a2db_d[2];
 assign b_post_tail 	= per_a2db_d[0];
-assign b_tail 			= per_a2db_d[1];
+assign b_tail 		= per_a2db_d[1];
 
 always @(posedge ADB_DCO)
 begin
@@ -586,7 +595,7 @@ begin
 				end
 			end
 		end
-		for(i=20;i>0;i=i-1)
+		for(i=WINDOW_SIZE;i>0;i=i-1)
 		begin
 			per_a2db_d[i] <= per_a2db_d[i-1];
 		end
@@ -601,6 +610,7 @@ reg			[13:0]			data_peak_b;
 reg			[13:0]			data_tail_a;
 reg			[13:0]			data_tail_b;
 reg			[25:0]			data_time;
+
 always @(posedge hps_read)
 begin
 	data_peak_a	<= a2da_peak;
@@ -610,26 +620,20 @@ begin
 	data_time	<= ddc_time;
 end
 
-assign data_peak_out[13:0] = data_peak_a;
-assign data_peak_out[14] = 0;
-assign data_peak_out[15] = 0;
+assign data_peak_out[13:0]  = data_peak_a;
+assign data_peak_out[14]    = 0;
+assign data_peak_out[15]    = 0;
 assign data_peak_out[29:16] = data_peak_b;
-assign data_peak_out[30] = 0;
-assign data_peak_out[31] = 0;
+assign data_peak_out[30]    = 0;
+assign data_peak_out[31]    = 0;
 
-assign data_tail_out[13:0] = data_tail_a;
-assign data_tail_out[14] = 0;
-assign data_tail_out[15] = 0;
+assign data_tail_out[13:0]  = data_tail_a;
+assign data_tail_out[14]    = 0;
+assign data_tail_out[15]    = 0;
 assign data_tail_out[29:16] = data_tail_b;
-assign data_tail_out[30] = 0;
-assign data_tail_out[31] = 0;
+assign data_tail_out[30]    = 0;
+assign data_tail_out[31]    = 0;
 
 assign data_time_out = data_time;
 
-
-
-
-
-
 endmodule
-
