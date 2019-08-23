@@ -378,40 +378,40 @@ soc_system u0 (
 
 // Imported from DCC Demo
 DE10_Standard_DCC_TOP DCC_TOP_ins(
-   .CLK(CLOCK_50),
-   .KEY(KEY),
-	.SW(SW),
-	.LED(LEDR),
-   .AD_SCLK(AD_SCLK),
-	.AD_SDIO(AD_SDIO),
-	.ADA_D(ADA_D),
-	.ADA_DCO(ADA_DCO),
-	.ADA_OE(ADA_OE),
-	.ADA_OR(ADA_OR),
-	.ADA_SPI_CS(ADA_SPI_CS),
-	.ADB_D(ADB_D),
-	.ADB_DCO(ADB_DCO),
-	.ADB_OE(ADB_OE),
-	.ADB_OR(ADB_OR),
-	.ADB_SPI_CS(ADB_SPI_CS),
-	.AIC_BCLK(AIC_BCLK),
-	.AIC_DIN(AIC_DIN),
-	.AIC_DOUT(AIC_DOUT),
-	.AIC_LRCIN(AIC_LRCIN),
-	.AIC_LRCOUT(AIC_LRCOUT),
-	.AIC_SPI_CS(AIC_SPI_CS),
-	.AIC_XCLK(AIC_XCLK),
-	.CLKIN1(CLKIN1),
-	.CLKOUT0(CLKOUT0),
-	.DA(DA),
-	.DB(DB),
-	.FPGA_CLK_A_N(FPGA_CLK_A_N),
-	.FPGA_CLK_A_P(FPGA_CLK_A_P),
-	.FPGA_CLK_B_N(FPGA_CLK_B_N),
-	.FPGA_CLK_B_P(FPGA_CLK_B_P),
-	.J1_152(J1_152),
-	.XT_IN_N(XT_IN_N),
-	.XT_IN_P(XT_IN_P)
+    .CLK(CLOCK_50),
+    .KEY(KEY),
+    .SW(SW),
+    .LED(LEDR),
+    .AD_SCLK(AD_SCLK),
+    .AD_SDIO(AD_SDIO),
+    .ADA_D(ADA_D),
+    .ADA_DCO(ADA_DCO),
+    .ADA_OE(ADA_OE),
+    .ADA_OR(ADA_OR),
+    .ADA_SPI_CS(ADA_SPI_CS),
+    .ADB_D(ADB_D),
+    .ADB_DCO(ADB_DCO),
+    .ADB_OE(ADB_OE),
+    .ADB_OR(ADB_OR),
+    .ADB_SPI_CS(ADB_SPI_CS),
+    .AIC_BCLK(AIC_BCLK),
+    .AIC_DIN(AIC_DIN),
+    .AIC_DOUT(AIC_DOUT),
+    .AIC_LRCIN(AIC_LRCIN),
+    .AIC_LRCOUT(AIC_LRCOUT),
+    .AIC_SPI_CS(AIC_SPI_CS),
+    .AIC_XCLK(AIC_XCLK),
+    .CLKIN1(CLKIN1),
+    .CLKOUT0(CLKOUT0),
+    .DA(DA),
+    .DB(DB),
+    .FPGA_CLK_A_N(FPGA_CLK_A_N),
+    .FPGA_CLK_A_P(FPGA_CLK_A_P),
+    .FPGA_CLK_B_N(FPGA_CLK_B_N),
+    .FPGA_CLK_B_P(FPGA_CLK_B_P),
+    .J1_152(J1_152),
+    .XT_IN_N(XT_IN_N),
+    .XT_IN_P(XT_IN_P)
 	);
 
 
@@ -491,118 +491,48 @@ assign LEDR[9]=led_level;
 ///////////////////////////////////////////
 parameter WINDOW_SIZE = 20;
 
-// Custom code for triggering
-integer i;
-reg			[25:0]			ddc_time;
+integer a_count, b_count, time_index;
+reg			[32:0]			ddc_time;
 
+// a channel and b channel data
+reg			[16:0]			a_data;
+reg			[16:0]			b_data;
 
-// A Data
-reg			[13:0]			per_a2da_d[WINDOW_SIZE:0];
-reg			[13:0]			a2da_peak;
-reg			[13:0]			a2da_tail;
+// combined data register
+reg         [32:0]          full_data[320000:0];
+// time array, corresponds to every 32 entries in full_data
+reg         [32:0]          times[10000:0];
 
-wire	    [13:0]			a_pre_peak;
-wire	    [13:0]			a_post_peak;
-wire	    [13:0]			a_peak;
+always @(negedge ADA_DCO or negedge ADB_DCO)
+begin
+    // grab the two values for where they're at but only modify what they're supposed to modify
+    full_data[a_count] <= {a_data, full_data[a_count][16:0]};
+    full_data[b_count] <= {full_data[b_count][16:32], b_data};
 
-wire	    [13:0]			a_pre_tail;
-wire	    [13:0]			a_post_tail;
-wire	    [13:0]			a_tail;
-
-assign a_pre_peak 	= per_a2da_d[WINDOW_SIZE];
-assign a_post_peak 	= per_a2da_d[WINDOW_SIZE-2];
-assign a_peak 		= per_a2da_d[WINDOW_SIZE-1];
-
-assign a_pre_tail 	= per_a2da_d[2];
-assign a_post_tail 	= per_a2da_d[0];
-assign a_tail 	    = per_a2da_d[1];
-
+    if(a_count >= 31 or b_count >= 31)
+    begin
+        times[time_index] = counter;
+        time_index = time_index + 1;
+    end
+end
 
 always @(posedge ADA_DCO)
 begin
 	if(ADA_D >= 8192) // If value is negative
 	begin
-		if (a_pre_peak <= a_peak)
-		begin
-			if (a_peak >= a_post_peak)
-			begin
-				if(a_peak > 2760) //Threshold
-				begin
-					if (a_peak < 8000) //If less than max
-					begin
-						a2da_peak	<= a_peak;
-						a2da_tail   <= a_tail;
-					end
-					else
-					begin
-						a2da_peak	<= 0;
-						a2da_tail   <= 0;
-					end
-				end
-			end
-		end
-		for(i=WINDOW_SIZE;i>0;i=i-1)
-		begin
-			per_a2da_d[i] <= per_a2da_d[i-1];
-		end
-		per_a2da_d[0]	<= 16384-ADA_D;
+        a_data  <= 16384-ADA_D;
+        a_count <= a_count + 1;
 	end
 end
-
-
-// B Data
-reg			[13:0]			per_a2db_d[20:0];
-reg			[13:0]			a2db_peak;
-reg			[13:0]			a2db_tail;
-
-wire		[13:0]			b_pre_peak;
-wire		[13:0]			b_post_peak;
-wire		[13:0]			b_peak;
-
-wire		[13:0]			b_pre_tail;
-wire		[13:0]			b_post_tail;
-wire		[13:0]			b_tail;
-
-assign b_pre_peak 	= per_a2db_d[WINDOW_SIZE];
-assign b_post_peak 	= per_a2db_d[WINDOW_SIZE-2];
-assign b_peak 		= per_a2db_d[WINDOW_SIZE-1];
-
-assign b_pre_tail 	= per_a2db_d[2];
-assign b_post_tail 	= per_a2db_d[0];
-assign b_tail 		= per_a2db_d[1];
 
 always @(posedge ADB_DCO)
 begin
-	if(ADB_D >= 8192)
+	if(ADB_D >= 8192) // If value is negative
 	begin
-		if (b_pre_peak <= b_peak)
-		begin
-			if (b_peak >= b_post_peak)
-			begin
-				if(b_peak*12 > 2760)
-				begin
-					ddc_time		<= counter;
-					if (b_peak < 8000)
-					begin
-						a2db_peak	<= b_peak;
-						a2db_tail   <= b_tail;
-					end
-					else
-					begin
-						a2db_peak	<= 0;
-						a2db_tail   <= 0;
-					end
-				end
-			end
-		end
-		for(i=WINDOW_SIZE;i>0;i=i-1)
-		begin
-			per_a2db_d[i] <= per_a2db_d[i-1];
-		end
-		per_a2db_d[0]	<= 16384-ADB_D;
+        b_data  <= 16384-ADB_D;
+        b_count <= b_count + 1;
 	end
 end
-
 
 // Sending out
 reg			[13:0]			data_peak_a;
