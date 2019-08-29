@@ -491,7 +491,7 @@ assign LEDR[9]=led_level;
 ///////////////////////////////////////////
 parameter WINDOW_SIZE = 20;
 
-integer post_window_count, store_flag, data_count, time_index;
+integer post_window_count, store_flag, data_count, time_index, a_index, b_index, pre_index, post_index;
 reg			[31:0]			ddc_time;
 
 // a channel and b channel data
@@ -508,9 +508,9 @@ reg		 	[15:0]			b_post_window[27:0];
 reg								triggered;
 
 // combined data register
-reg         [31:0]          full_data[319999:0];
+reg         [31:0]          full_data[319:0];
 // time array, corresponds to every 32 entries in full_data
-reg         [31:0]          times[9999:0];
+reg         [31:0]          times[9:0];
 
 
 always @(posedge ADA_DCO)
@@ -537,16 +537,16 @@ begin
 	begin
 	
 		// Shifting A data
-		for(integer i=1;i<3;i=i+1)
+		for(a_index=1;a_index<3;a_index=a_index+1)
 		begin
-			a_pre_window[i] = a_pre_window[i+1]
+			a_pre_window[a_index] = a_pre_window[a_index+1];
 		end
 		a_pre_window[3] = ADA_D;
 		
 		// Shifting B data
-		for(integer i=1;i<3;i=i+1)
+		for(b_index=1;b_index<3;b_index=b_index+1)
 		begin
-			b_pre_window[i] = b_pre_window[i+1]
+			b_pre_window[b_index] = b_pre_window[b_index+1];
 		end
 		b_pre_window[3] = ADB_D;
 	end
@@ -560,15 +560,15 @@ begin
 		// Storing to full_data buffer
 		
 		// Pre trigger window
-		for(integer i=0;i<4;i=i+1)
+		for(pre_index=0;pre_index<4;pre_index=pre_index+1)
 		begin
-			full_data[data_count*32+i] = {a_pre_window[i], b_pre_window[i]};
+			full_data[data_count*32+pre_index] = {a_pre_window[pre_index], b_pre_window[pre_index]};
 		end
 		
 		// Post trigger window
-		for(integer i=0;i<28;i=i+1)
+		for(post_index=0;post_index<28;post_index=post_index+1)
 		begin
-			full_data[data_count*32+i+4] = {a_post_window[i], b_post_window[i]};
+			full_data[data_count*32+post_index+4] = {a_post_window[post_index], b_post_window[post_index]};
 		end
 		
 		// Time data of last measurement plus 1/2 clock cycle
@@ -582,35 +582,35 @@ end
 
 
 // Sending out
-reg			[13:0]			data_peak_a;
-reg			[13:0]			data_peak_b;
-reg			[13:0]			data_tail_a;
-reg			[13:0]			data_tail_b;
-reg			[25:0]			data_time;
-
-always @(posedge hps_read)
-begin
-	data_peak_a	<= a2da_peak;
-	data_peak_b <= a2db_peak;
-	data_tail_a <= a2da_tail;
-	data_tail_b <= a2db_tail;
-	data_time	<= ddc_time;
-end
-
-assign data_peak_out[13:0]  = data_peak_a;
-assign data_peak_out[14]    = 0;
-assign data_peak_out[15]    = 0;
-assign data_peak_out[29:16] = data_peak_b;
-assign data_peak_out[30]    = 0;
-assign data_peak_out[31]    = 0;
-
-assign data_tail_out[13:0]  = data_tail_a;
-assign data_tail_out[14]    = 0;
-assign data_tail_out[15]    = 0;
-assign data_tail_out[29:16] = data_tail_b;
-assign data_tail_out[30]    = 0;
-assign data_tail_out[31]    = 0;
-
-assign data_time_out = data_time;
+//reg			[13:0]			data_peak_a;
+//reg			[13:0]			data_peak_b;
+//reg			[13:0]			data_tail_a;
+//reg			[13:0]			data_tail_b;
+//reg			[25:0]			data_time;
+//
+//always @(posedge hps_read)
+//begin
+//	//data_peak_a	<= a2da_peak;
+//	//data_peak_b <= a2db_peak;
+//	//data_tail_a <= a2da_tail;
+//	//data_tail_b <= a2db_tail;
+//	//data_time	<= ddc_time;
+//end
+//
+//assign data_peak_out[13:0]  = data_peak_a;
+//assign data_peak_out[14]    = 0;
+//assign data_peak_out[15]    = 0;
+//assign data_peak_out[29:16] = data_peak_b;
+//assign data_peak_out[30]    = 0;
+//assign data_peak_out[31]    = 0;
+//
+//assign data_tail_out[13:0]  = data_tail_a;
+//assign data_tail_out[14]    = 0;
+//assign data_tail_out[15]    = 0;
+//assign data_tail_out[29:16] = data_tail_b;
+//assign data_tail_out[30]    = 0;
+//assign data_tail_out[31]    = 0;
+//
+//assign data_time_out = data_time;
 
 endmodule
