@@ -491,48 +491,95 @@ assign LEDR[9]=led_level;
 ///////////////////////////////////////////
 parameter WINDOW_SIZE = 20;
 
-integer a_count, b_count, time_index;
-reg			[32:0]			ddc_time;
+integer post_window_count, store_flag, data_count, time_index;
+reg			[31:0]			ddc_time;
 
 // a channel and b channel data
-reg			[16:0]			a_data;
-reg			[16:0]			b_data;
+reg			[15:0]			a_data;
+reg			[15:0]			b_data;
+
+reg		 	[15:0]			a_pre_window[3:0];
+reg		 	[15:0]			b_pre_window[3:0];
+
+reg		 	[15:0]			a_post_window[27:0];
+reg		 	[15:0]			b_post_window[27:0];
+
+
+reg								triggered;
 
 // combined data register
-reg         [32:0]          full_data[320000:0];
+reg         [31:0]          full_data[319999:0];
 // time array, corresponds to every 32 entries in full_data
-reg         [32:0]          times[10000:0];
+reg         [31:0]          times[9999:0];
 
-always @(negedge ADA_DCO or negedge ADB_DCO)
-begin
-    // grab the two values for where they're at but only modify what they're supposed to modify
-    full_data[a_count] <= {a_data, full_data[a_count][16:0]};
-    full_data[b_count] <= {full_data[b_count][16:32], b_data};
-
-    if(a_count >= 31 or b_count >= 31)
-    begin
-        times[time_index] = counter;
-        time_index = time_index + 1;
-    end
-end
 
 always @(posedge ADA_DCO)
-begin
-	if(ADA_D >= 8192) // If value is negative
+begin	
+	if(ADA_D <= -2170) // If value is negative and below the trigger value
 	begin
-        a_data  <= 16384-ADA_D;
-        a_count <= a_count + 1;
+		triggered = 1;
+		post_window_count = 0;
+	end
+	
+	if(triggered)
+	begin
+		a_post_window[post_window_count] = ADA_D;
+		b_post_window[post_window_count] = ADB_D;
+		post_window_count=post_window_count+1;
+		
+		if(post_window_count>27)
+		begin
+			triggered = 0;
+			store_flag = 1;
+		end
+	end
+	else
+	begin
+	
+		// Shifting A data
+		for(integer i=1;i<3;i=i+1)
+		begin
+			a_pre_window[i] = a_pre_window[i+1]
+		end
+		a_pre_window[3] = ADA_D;
+		
+		// Shifting B data
+		for(integer i=1;i<3;i=i+1)
+		begin
+			b_pre_window[i] = b_pre_window[i+1]
+		end
+		b_pre_window[3] = ADB_D;
+	end
+	
+end
+
+always @(negedge ADA_DCO)
+begin
+	if (store_flag)
+	begin
+		// Storing to full_data buffer
+		
+		// Pre trigger window
+		for(integer i=0;i<4;i=i+1)
+		begin
+			full_data[data_count*32+i] = {a_pre_window[i], b_pre_window[i]};
+		end
+		
+		// Post trigger window
+		for(integer i=0;i<28;i=i+1)
+		begin
+			full_data[data_count*32+i+4] = {a_post_window[i], b_post_window[i]};
+		end
+		
+		// Time data of last measurement plus 1/2 clock cycle
+		times[data_count] = counter;
+		
+		data_count = data_count + 1;
+		store_flag = 0;
 	end
 end
 
-always @(posedge ADB_DCO)
-begin
-	if(ADB_D >= 8192) // If value is negative
-	begin
-        b_data  <= 16384-ADB_D;
-        b_count <= b_count + 1;
-	end
-end
+
 
 // Sending out
 reg			[13:0]			data_peak_a;
