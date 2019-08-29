@@ -483,12 +483,14 @@ assign LEDR[9]=led_level;
 	
 	
 // Custom code for triggering
-integer i;
+integer iA;
+integer iB;
+integer deadTime = 0;
 reg			[25:0]			ddc_time;
 
 
 // A Data
-reg			[13:0]			per_a2da_d[20:0];
+reg			[13:0]			per_a2da_d[103:0];
 reg			[13:0]			a2da_peak;
 reg			[13:0]			a2da_tail;
 
@@ -500,9 +502,9 @@ wire			[13:0]			a_pre_tail;
 wire			[13:0]			a_post_tail;
 wire			[13:0]			a_tail;
 
-assign a_pre_peak 	= per_a2da_d[20];
-assign a_post_peak 	= per_a2da_d[20-2];
-assign a_peak 			= per_a2da_d[20-1];
+assign a_pre_peak 	= per_a2da_d[103];
+assign a_post_peak 	= per_a2da_d[103-2];
+assign a_peak 			= per_a2da_d[103-1];
 
 assign a_pre_tail 	= per_a2da_d[2];
 assign a_post_tail 	= per_a2da_d[0];
@@ -517,24 +519,27 @@ begin
 		begin
 			if (a_peak >= a_post_peak)
 			begin
-				if(a_peak > 2760) //Threshold
+				if(a_peak > 3120) //Threshold
 				begin
-					if (a_peak < 8000) //If less than max
+					if (deadTime > 1000)
 					begin
-						a2da_peak	<= a_peak;
-						a2da_tail   <= a_tail;
-					end
-					else
-					begin
-						a2da_peak	<= 0;
-						a2da_tail   <= 0;
+						if (a_peak < 8000) //If less than max
+						begin
+							a2da_peak	<= a_peak;
+							a2da_tail   <= a_tail;
+						end
+						else
+						begin
+							a2da_peak	<= 0;
+							a2da_tail   <= 0;
+						end
 					end
 				end
 			end
 		end
-		for(i=20;i>0;i=i-1)
+		for(iA=103;iA>0;iA=iA-1)
 		begin
-			per_a2da_d[i] <= per_a2da_d[i-1];
+			per_a2da_d[iA] <= per_a2da_d[iA-1];
 		end
 		per_a2da_d[0]	<= 16384-ADA_D;
 	end
@@ -542,7 +547,7 @@ end
 
 
 // B Data
-reg			[13:0]			per_a2db_d[20:0];
+reg			[13:0]			per_a2db_d[103:0];
 reg			[13:0]			a2db_peak;
 reg			[13:0]			a2db_tail;
 
@@ -554,9 +559,9 @@ wire			[13:0]			b_pre_tail;
 wire			[13:0]			b_post_tail;
 wire			[13:0]			b_tail;
 
-assign b_pre_peak 	= per_a2db_d[20];
-assign b_post_peak 	= per_a2db_d[20-2];
-assign b_peak 			= per_a2db_d[20-1];
+assign b_pre_peak 	= per_a2db_d[103];
+assign b_post_peak 	= per_a2db_d[103-2];
+assign b_peak 			= per_a2db_d[103-1];
 
 assign b_pre_tail 	= per_a2db_d[2];
 assign b_post_tail 	= per_a2db_d[0];
@@ -570,27 +575,32 @@ begin
 		begin
 			if (b_peak >= b_post_peak)
 			begin
-				if(b_peak*12 > 2760)
+				if(b_peak*12 > 3120)
 				begin
-					ddc_time		<= counter;
-					if (b_peak < 8000)
+					if (deadTime > 1000)
 					begin
-						a2db_peak	<= b_peak;
-						a2db_tail   <= b_tail;
-					end
-					else
-					begin
-						a2db_peak	<= 0;
-						a2db_tail   <= 0;
+						ddc_time		<= counter;
+						deadTime = 0;
+						if (b_peak < 8000)
+						begin
+							a2db_peak	<= b_peak;
+							a2db_tail   <= b_tail;
+						end
+						else
+						begin
+							a2db_peak	<= 0;
+							a2db_tail   <= 0;
+						end
 					end
 				end
 			end
 		end
-		for(i=20;i>0;i=i-1)
+		for(iB=103;iB>0;iB=iB-1)
 		begin
-			per_a2db_d[i] <= per_a2db_d[i-1];
+			per_a2db_d[iB] <= per_a2db_d[iB-1];
 		end
 		per_a2db_d[0]	<= 16384-ADB_D;
+		deadTime = deadTime + 1;
 	end
 end
 
