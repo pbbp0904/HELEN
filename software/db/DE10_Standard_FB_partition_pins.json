@@ -8,6 +8,14 @@
 					"strict" : false
 				},
 				{
+					"name" : "LEDR[9]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[7]",
+					"strict" : false
+				},
+				{
 					"name" : "LEDR[4]",
 					"strict" : false
 				},
@@ -16,11 +24,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[7]",
-					"strict" : false
-				},
-				{
-					"name" : "LEDR[9]",
+					"name" : "GPIO[0]",
 					"strict" : false
 				},
 				{
@@ -41,14 +45,6 @@
 				},
 				{
 					"name" : "ADA_OR",
-					"strict" : false
-				},
-				{
-					"name" : "KEY[0]",
-					"strict" : false
-				},
-				{
-					"name" : "KEY[1]",
 					"strict" : false
 				},
 				{
@@ -81,6 +77,14 @@
 				},
 				{
 					"name" : "CLOCK_50",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[0]",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[1]",
 					"strict" : false
 				},
 				{
