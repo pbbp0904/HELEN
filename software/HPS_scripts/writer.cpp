@@ -22,19 +22,14 @@ Writer::~Writer()
 void Writer::DCCPolling(){
 
     //Creating Files
-    datafile_peak = fopen("data_peak.binary", "ab");
-    datafile_tail = fopen("data_tail.binary", "ab");
-    datafile_time = fopen("data_time.binary", "ab");
+    datafile = fopen("data.bin", "ab");
 
     qDebug() << "Starting Data Collection...";
 
     uint32_t StartUp;
-    StartUp = 4294967295;
+    StartUp = UINT32_MAX;
 
-    fwrite(&StartUp, 4, 1, datafile_peak);
-    fwrite(&StartUp, 4, 1, datafile_tail);
-    fwrite(&StartUp, 4, 1, datafile_time);
-
+    fwrite(&StartUp, 4, 1, datafile);
 
     DCCPoll();
 }
@@ -61,9 +56,7 @@ void Writer::DCCPoll(){
             if (DccTimeBuffer[j] < DccTimeBuffer[j-1]){
                 //qDebug() << "Writing data to file";
 
-                fwrite(&DccPeakBuffer[0], 4, j, datafile_peak);
-                fwrite(&DccTailBuffer[0], 4, j, datafile_tail);
-                fwrite(&DccTimeBuffer[0], 4, j, datafile_time);
+                fwrite(&buff[0], 4, j, datafile);
 
                 //qDebug() << "Wrote data to file";
 

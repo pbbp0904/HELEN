@@ -13,8 +13,8 @@
 #include "socal/alt_gpio.h"
 
 // QSyS dependent address
-#define FPGA_LED_PIO_BASE 0x03000
-#define FPGA_SW_PIO_BASE 0x04000
+#define FPGA_LED_PIO_BASE 0x3000
+#define FPGA_SW_PIO_BASE 0x4000
 #define FPGA_DDC_DATA_0_BASE 0x5000
 #define FPGA_DDC_DATA_1_BASE 0x6000
 #define FPGA_DDC_DATA_2_BASE 0x01e0
@@ -47,7 +47,9 @@
 #define FPGA_DDC_DATA_29_BASE 0x0030
 #define FPGA_DDC_DATA_30_BASE 0x0020
 #define FPGA_DDC_DATA_31_BASE 0x0010
-#define FPGA_READ_PIO_BASE 0x08000
+#define FPGA_PPS_COUNT_OUT_BASE 0x01f0
+#define FPGA_DCC_TIME_OUT_BASE 0x7000
+#define FPGA_READ_PIO_BASE 0x8000
 
 // ///////////////////////////////////////
 // memory map
@@ -93,6 +95,15 @@ bool FPGA::Init()
     }
 
     return bSuccess;
+}
+
+bool FPGA::DataRead(uint32_t *mask)
+{
+    //    if (!m_bInitSuccess)
+    //        return false;
+
+    *mask = *(uint32_t *)m_dcc_peak_base;
+    return true;
 }
 
 //bool FPGA::LedSet(int mask){
