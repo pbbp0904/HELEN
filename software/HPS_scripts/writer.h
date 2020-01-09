@@ -10,6 +10,7 @@
 
 using namespace std;
 
+
 class Writer
 {
 public:
@@ -36,9 +37,7 @@ private:
     FILE* datafile_time;
     FILE* datafile_info;
     uint16_t Status;
-    uint32_t DccPeakBuffer [1000000];
-    uint32_t DccTailBuffer [1000000];
-    uint32_t DccTimeBuffer [1000000];
+    buff_t buff[2];
     uint32_t write_place;
     uint32_t read_place;
     time_t now;

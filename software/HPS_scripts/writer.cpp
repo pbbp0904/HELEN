@@ -39,37 +39,20 @@ void Writer::DCCPolling(){
 void Writer::DCCPoll(){
 
     fpga->ReadSet(1);
-    int j = 0;
 
     while(1){
 
         // Reading Data
         fpga->ReadSet(0);
-        fpga->DccPeakRead(&DccPeakBuffer[j]);
-        fpga->DccTailRead(&DccTailBuffer[j]);
-        fpga->DccTimeRead(&DccTimeBuffer[j]);
+        fpga->DataRead(&buff[0]);
         fpga->ReadSet(1);
 
-        if (j > 0){
-
-            // Writing to File Every Second
-            if (DccTimeBuffer[j] < DccTimeBuffer[j-1]){
-                //qDebug() << "Writing data to file";
-
-                fwrite(&buff[0], 4, j, datafile);
-
-                //qDebug() << "Wrote data to file";
-
-                j = 0;
-                continue;
-            }
-
-            // Check if buffer is the same
-            if(DccPeakBuffer[j] == DccPeakBuffer[j-1] && DccTailBuffer[j] == DccTailBuffer[j-1] && DccTimeBuffer[j] == DccTimeBuffer[j-1]){
-                j--;
-            }
+        if(!(buff[0] == buff[1])){
+            fwrite(&buff[0], 4, 34, datafile);        
         }
-        j++;
+        
+        buff[1] = buff[0];
+        }
     }
 
 }
