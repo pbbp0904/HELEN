@@ -986,19 +986,11 @@ set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_LEVEL_PIP
 set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ENABLE_ADVANCED_TRIGGER=0" -section_id auto_signaltap_0
 set_global_assignment -name SIP_FILE v/lpm_pll.sip
 set_global_assignment -name QIP_FILE v/lpm_pll.qip
-set_global_assignment -name SIP_FILE v/FIR_3MHz_low.sip
-set_global_assignment -name QIP_FILE v/FIR_3MHz_low.qip
 set_global_assignment -name QIP_FILE v/add.qip
 set_global_assignment -name SIGNALTAP_FILE stp1.stp
 set_global_assignment -name VERILOG_FILE v/DE10_Standard_DCC_TOP.v
-set_global_assignment -name QIP_FILE v/lpm_nco/synthesis/lpm_nco.qip
-set_global_assignment -name QIP_FILE v/lpm_10M_nco/synthesis/lpm_10M_nco.qip
-set_global_assignment -name QIP_FILE v/sine_1/synthesis/sine_1.qip
-set_global_assignment -name QIP_FILE v/sine_10/synthesis/sine_10.qip
-set_global_assignment -name QIP_FILE v/p_sine/synthesis/p_sine.qip
 set_global_assignment -name QIP_FILE v/a2d_data_b/synthesis/a2d_data_b.qip
 set_global_assignment -name QIP_FILE v/a2d_data_a/synthesis/a2d_data_a.qip
-set_global_assignment -name QIP_FILE v/fir_out/synthesis/fir_out.qip
 set_global_assignment -name VERILOG_FILE DE10_Standard_FB.v
 set_global_assignment -name QIP_FILE software/NIOS_APP/mem_init/meminit.qip
 set_global_assignment -name SDC_FILE DE10_Standard_FB.sdc

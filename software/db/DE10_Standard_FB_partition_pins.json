@@ -8,11 +8,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[9]",
+					"name" : "LEDR[7]",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[7]",
+					"name" : "LEDR[9]",
 					"strict" : false
 				},
 				{

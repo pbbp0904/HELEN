@@ -1,12 +1,12 @@
-Fitter Status : Successful - Wed Jan 08 21:49:28 2020
+Fitter Status : Successful - Thu Jan 09 19:29:31 2020
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : DE10_Standard_FB
 Top-level Entity Name : DE10_Standard_FB
 Family : Cyclone V
 Device : 5CSXFC6D6F31C6
 Timing Models : Final
-Logic utilization (in ALMs) : 3,551 / 41,910 ( 8 % )
-Total registers : 7504
+Logic utilization (in ALMs) : 3,559 / 41,910 ( 8 % )
+Total registers : 7655
 Total pins : 321 / 499 ( 64 % )
 Total virtual pins : 0
 Total block memory bits : 814,336 / 5,662,720 ( 14 % )

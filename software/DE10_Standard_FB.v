@@ -220,9 +220,9 @@ wire               vid_datavalid;
 //=======================================================
 
 wire        hps_read;
-wire [31:0] ddc_data_0;
-wire [31:0] ddc_data_1;
-wire [31:0] ddc_data_2;
+wire [31:0] dcc_data_0;
+wire [31:0] dcc_data_1;
+wire [31:0] dcc_data_2;
 wire [31:0] dcc_data_3;
 wire [31:0] dcc_data_4;
 wire [31:0] dcc_data_5;
@@ -252,6 +252,7 @@ wire [31:0] dcc_data_28;
 wire [31:0] dcc_data_29;
 wire [31:0] dcc_data_30;
 wire [31:0] dcc_data_31;
+wire [31:0] pps_count_out;
 wire [25:0] data_time_out;
 
 wire        hps_fpga_reset_n;
@@ -399,40 +400,40 @@ soc_system u0 (
         .sw_external_connection_export              (SW),                          //               sw_external_connection.export
 
         // ADC Data
-        .dcc_data_0_external_connection_export	 (ddc_data_0),               //               ddc_peak_out_external_connection.export
-        .dcc_data_1_external_connection_export	 (ddc_data_1),               //               ddc_tail_out_external_connection.export
-        .ddc_data_2_external_connection_export	 (ddc_data_2),               //               ddc_tail_out_external_connection.export
-        .ddc_data_3_external_connection_export	 (ddc_data_3),               //               ddc_tail_out_external_connection.export
-        .ddc_data_4_external_connection_export	 (ddc_data_4),               //               ddc_tail_out_external_connection.export
-        .ddc_data_5_external_connection_export	 (ddc_data_5),               //               ddc_tail_out_external_connection.export
-        .ddc_data_6_external_connection_export	 (ddc_data_6),               //               ddc_tail_out_external_connection.export
-        .ddc_data_7_external_connection_export	 (ddc_data_7),               //               ddc_tail_out_external_connection.export
-        .ddc_data_8_external_connection_export	 (ddc_data_8),               //               ddc_tail_out_external_connection.export
-        .ddc_data_9_external_connection_export	 (ddc_data_9),               //               ddc_tail_out_external_connection.export
-        .ddc_data_10_external_connection_export	 (ddc_data_10),               //               ddc_tail_out_external_connection.export
-        .ddc_data_11_external_connection_export	 (ddc_data_11),               //               ddc_tail_out_external_connection.export
-        .ddc_data_12_external_connection_export	 (ddc_data_12),               //               ddc_tail_out_external_connection.export
-        .ddc_data_13_external_connection_export	 (ddc_data_13),               //               ddc_tail_out_external_connection.export
-        .ddc_data_14_external_connection_export	 (ddc_data_14),               //               ddc_tail_out_external_connection.export
-        .ddc_data_15_external_connection_export	 (ddc_data_15),               //               ddc_tail_out_external_connection.export
-        .ddc_data_16_external_connection_export	 (ddc_data_16),               //               ddc_tail_out_external_connection.export
-        .ddc_data_17_external_connection_export	 (ddc_data_17),               //               ddc_tail_out_external_connection.export
-        .ddc_data_18_external_connection_export	 (ddc_data_18),               //               ddc_tail_out_external_connection.export
-        .ddc_data_19_external_connection_export	 (ddc_data_19),               //               ddc_tail_out_external_connection.export
-        .ddc_data_20_external_connection_export	 (ddc_data_20),               //               ddc_tail_out_external_connection.export
-        .ddc_data_21_external_connection_export	 (ddc_data_21),               //               ddc_tail_out_external_connection.export
-        .ddc_data_22_external_connection_export	 (ddc_data_22),               //               ddc_tail_out_external_connection.export
-        .ddc_data_23_external_connection_export	 (ddc_data_23),               //               ddc_tail_out_external_connection.export
-        .ddc_data_24_external_connection_export	 (ddc_data_24),               //               ddc_tail_out_external_connection.export
-        .ddc_data_25_external_connection_export	 (ddc_data_25),               //               ddc_tail_out_external_connection.export
-        .ddc_data_26_external_connection_export	 (ddc_data_26),               //               ddc_tail_out_external_connection.export
-        .ddc_data_27_external_connection_export	 (ddc_data_27),               //               ddc_tail_out_external_connection.export
-        .ddc_data_28_external_connection_export	 (ddc_data_28),               //               ddc_tail_out_external_connection.export
-        .ddc_data_29_external_connection_export	 (ddc_data_29),               //               ddc_tail_out_external_connection.export
-        .ddc_data_30_external_connection_export	 (ddc_data_30),               //               ddc_tail_out_external_connection.export
-        .ddc_data_31_external_connection_export	 (ddc_data_31),               //               ddc_tail_out_external_connection.export
-        .ddc_time_out_external_connection_export	 (data_time_out),               //               ddc_time_out_external_connection.export
-        .hps_read_bit_external_connection_export    (hps_read),                     //               hps_read_bit_external_connection.export
+        .dcc_data_0_external_connection_export	 (dcc_data_0),               //               dcc_peak_out_external_connection.export
+        .dcc_data_1_external_connection_export	 (dcc_data_1),               //               dcc_tail_out_external_connection.export
+        .dcc_data_2_external_connection_export	 (dcc_data_2),               //               dcc_tail_out_external_connection.export
+        .dcc_data_3_external_connection_export	 (dcc_data_3),               //               dcc_tail_out_external_connection.export
+        .dcc_data_4_external_connection_export	 (dcc_data_4),               //               dcc_tail_out_external_connection.export
+        .dcc_data_5_external_connection_export	 (dcc_data_5),               //               dcc_tail_out_external_connection.export
+        .dcc_data_6_external_connection_export	 (dcc_data_6),               //               dcc_tail_out_external_connection.export
+        .dcc_data_7_external_connection_export	 (dcc_data_7),               //               dcc_tail_out_external_connection.export
+        .dcc_data_8_external_connection_export	 (dcc_data_8),               //               dcc_tail_out_external_connection.export
+        .dcc_data_9_external_connection_export	 (dcc_data_9),               //               dcc_tail_out_external_connection.export
+        .dcc_data_10_external_connection_export	 (dcc_data_10),               //              dcc_tail_out_external_connection.export
+        .dcc_data_11_external_connection_export	 (dcc_data_11),               //              dcc_tail_out_external_connection.export
+        .dcc_data_12_external_connection_export	 (dcc_data_12),               //              dcc_tail_out_external_connection.export
+        .dcc_data_13_external_connection_export	 (dcc_data_13),               //              dcc_tail_out_external_connection.export
+        .dcc_data_14_external_connection_export	 (dcc_data_14),               //              dcc_tail_out_external_connection.export
+        .dcc_data_15_external_connection_export	 (dcc_data_15),               //              dcc_tail_out_external_connection.export
+        .dcc_data_16_external_connection_export	 (dcc_data_16),               //              dcc_tail_out_external_connection.export
+        .dcc_data_17_external_connection_export	 (dcc_data_17),               //              dcc_tail_out_external_connection.export
+        .dcc_data_18_external_connection_export	 (dcc_data_18),               //              dcc_tail_out_external_connection.export
+        .dcc_data_19_external_connection_export	 (dcc_data_19),               //              dcc_tail_out_external_connection.export
+        .dcc_data_20_external_connection_export	 (dcc_data_20),               //              dcc_tail_out_external_connection.export
+        .dcc_data_21_external_connection_export	 (dcc_data_21),               //              dcc_tail_out_external_connection.export
+        .dcc_data_22_external_connection_export	 (dcc_data_22),               //              dcc_tail_out_external_connection.export
+        .dcc_data_23_external_connection_export	 (dcc_data_23),               //              dcc_tail_out_external_connection.export
+        .dcc_data_24_external_connection_export	 (dcc_data_24),               //              dcc_tail_out_external_connection.export
+        .dcc_data_25_external_connection_export	 (dcc_data_25),               //              dcc_tail_out_external_connection.export
+        .dcc_data_26_external_connection_export	 (dcc_data_26),               //              dcc_tail_out_external_connection.export
+        .dcc_data_27_external_connection_export	 (dcc_data_27),               //              dcc_tail_out_external_connection.export
+        .dcc_data_28_external_connection_export	 (dcc_data_28),               //              dcc_tail_out_external_connection.export
+        .dcc_data_29_external_connection_export	 (dcc_data_29),               //              dcc_tail_out_external_connection.export
+        .dcc_data_30_external_connection_export	 (dcc_data_30),               //              dcc_tail_out_external_connection.export
+        .dcc_data_31_external_connection_export	 (dcc_data_31),               //              dcc_tail_out_external_connection.export
+        .dcc_time_out_external_connection_export	 (data_time_out),               //         dc_time_out_external_connection.export
+        .hps_read_bit_external_connection_export    (hps_read),                     //        hps_read_bit_external_connection.export
         .pps_count_out_external_connection_export   (pps_count_out)
 );
 
@@ -549,12 +550,11 @@ assign LEDR[9]=led_level;
 //
 //
 ///////////////////////////////////////////
-parameter NUM_WINDOWS = 10;
+parameter NUM_WINDOWS = 100;
 parameter BUFFER_SIZE = 32*NUM_WINDOWS-1;
 
 integer post_window_count, store_flag, data_count, time_index, a_index, b_index, pre_index, post_index;
 integer send_count;
-reg			[31:0]			ddc_time;
 reg         [31:0]          pps_count;
 
 // a channel and b channel data
@@ -573,12 +573,12 @@ reg								triggered;
 // combined data register
 reg         [31:0]          full_data[BUFFER_SIZE:0];
 // time array, corresponds to every 32 entries in full_data
-reg         [31:0]          times[9:0];
+reg         [31:0]          times[NUM_WINDOWS-1:0];
 
 
 always @(posedge ADA_DCO)
 begin	
-	if(ADA_D <= -2170) // If value is negative and below the trigger value
+	if(ADA_D <= -5400) // If value is negative and below the trigger value
 	begin
 		triggered = 1;
 		post_window_count = 0;
@@ -699,7 +699,7 @@ reg         [31:0]          data_28;
 reg         [31:0]          data_29;
 reg         [31:0]          data_30;
 reg         [31:0]          data_31;
-reg			[25:0]			data_time;
+reg			[25:0]			 data_time;
 //
 always @(posedge hps_read)
 begin
@@ -747,38 +747,38 @@ begin
     end
 end
 
-assign ddc_data_0 = data_0;
-assign ddc_data_1 = data_1;
-assign ddc_data_2 = data_2;
-assign ddc_data_3 = data_3;
-assign ddc_data_4 = data_4;
-assign ddc_data_5 = data_5;
-assign ddc_data_6 = data_6;
-assign ddc_data_7 = data_7;
-assign ddc_data_8 = data_8;
-assign ddc_data_9 = data_9;
-assign ddc_data_10 = data_10;
-assign ddc_data_11 = data_11;
-assign ddc_data_12 = data_12;
-assign ddc_data_13 = data_13;
-assign ddc_data_14 = data_14;
-assign ddc_data_15 = data_15;
-assign ddc_data_16 = data_16;
-assign ddc_data_17 = data_17;
-assign ddc_data_18 = data_18;
-assign ddc_data_19 = data_19;
-assign ddc_data_20 = data_20;
-assign ddc_data_21 = data_21;
-assign ddc_data_22 = data_22;
-assign ddc_data_23 = data_23;
-assign ddc_data_24 = data_24;
-assign ddc_data_25 = data_25;
-assign ddc_data_26 = data_26;
-assign ddc_data_27 = data_27;
-assign ddc_data_28 = data_28;
-assign ddc_data_29 = data_29;
-assign ddc_data_30 = data_30;
-assign ddc_data_31 = data_31;
+assign dcc_data_0 = data_0;
+assign dcc_data_1 = data_1;
+assign dcc_data_2 = data_2;
+assign dcc_data_3 = data_3;
+assign dcc_data_4 = data_4;
+assign dcc_data_5 = data_5;
+assign dcc_data_6 = data_6;
+assign dcc_data_7 = data_7;
+assign dcc_data_8 = data_8;
+assign dcc_data_9 = data_9;
+assign dcc_data_10 = data_10;
+assign dcc_data_11 = data_11;
+assign dcc_data_12 = data_12;
+assign dcc_data_13 = data_13;
+assign dcc_data_14 = data_14;
+assign dcc_data_15 = data_15;
+assign dcc_data_16 = data_16;
+assign dcc_data_17 = data_17;
+assign dcc_data_18 = data_18;
+assign dcc_data_19 = data_19;
+assign dcc_data_20 = data_20;
+assign dcc_data_21 = data_21;
+assign dcc_data_22 = data_22;
+assign dcc_data_23 = data_23;
+assign dcc_data_24 = data_24;
+assign dcc_data_25 = data_25;
+assign dcc_data_26 = data_26;
+assign dcc_data_27 = data_27;
+assign dcc_data_28 = data_28;
+assign dcc_data_29 = data_29;
+assign dcc_data_30 = data_30;
+assign dcc_data_31 = data_31;
 
 assign data_time_out = data_time;
 assign pps_count_out = pps_count;

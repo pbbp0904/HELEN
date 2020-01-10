@@ -3,155 +3,157 @@
 preplace inst soc_system.hps_0.clk_0 -pg 1
 preplace inst soc_system.hps_0.axi_sdram -pg 1
 preplace inst soc_system -pg 1 -lvl 1 -y 40 -regml 8 -regy -20
-preplace inst soc_system.ddc_data_1 -pg 1 -lvl 4 -y 3850
-preplace inst soc_system.timer -pg 1 -lvl 6 -y 2190
-preplace inst soc_system.dcc_data_0 -pg 1 -lvl 4 -y 4690
+preplace inst soc_system.timer -pg 1 -lvl 6 -y 5580
+preplace inst soc_system.dcc_data_0 -pg 1 -lvl 4 -y 8080
 preplace inst soc_system.hps_0.timer0 -pg 1
-preplace inst soc_system.ddc_data_2 -pg 1 -lvl 4 -y 4450
-preplace inst soc_system.nios2_gen2 -pg 1 -lvl 3 -y 1260
+preplace inst soc_system.nios2_gen2 -pg 1 -lvl 3 -y 4660
 preplace inst soc_system.hps_0.i2c0 -pg 1
+preplace inst soc_system.dcc_data_1 -pg 1 -lvl 4 -y 1850
 preplace inst soc_system.hps_0.timer1 -pg 1
-preplace inst soc_system.ddc_data_3 -pg 1 -lvl 4 -y 2890
 preplace inst soc_system.nios2_gen2.cpu -pg 1
 preplace inst soc_system.nios2_gen2.reset_bridge -pg 1
-preplace inst soc_system.hps_read_bit -pg 1 -lvl 4 -y 1250
+preplace inst soc_system.hps_read_bit -pg 1 -lvl 4 -y 4760
 preplace inst soc_system.hps_0.i2c1 -pg 1
+preplace inst soc_system.dcc_data_2 -pg 1 -lvl 4 -y 2090
+preplace inst soc_system.dcc_data_10 -pg 1 -lvl 4 -y 3050
 preplace inst soc_system.hps_0.timer2 -pg 1
 preplace inst soc_system.hps_0.wd_timer0 -pg 1
-preplace inst soc_system.ddc_data_4 -pg 1 -lvl 4 -y 3010
 preplace inst soc_system.hps_0.qspi -pg 1
 preplace inst soc_system.hps_0.i2c2 -pg 1
+preplace inst soc_system.dcc_data_11 -pg 1 -lvl 4 -y 3170
 preplace inst soc_system.hps_0.timer3 -pg 1
 preplace inst soc_system.hps_0.wd_timer1 -pg 1
-preplace inst soc_system.ddc_data_5 -pg 1 -lvl 4 -y 3130
+preplace inst soc_system.dcc_data_3 -pg 1 -lvl 4 -y 2210
 preplace inst soc_system.hps_0.i2c3 -pg 1
 preplace inst soc_system.hps_0.gpio0 -pg 1
-preplace inst soc_system.ddc_data_6 -pg 1 -lvl 4 -y 3250
 preplace inst soc_system.hps_0.clkmgr -pg 1
-preplace inst soc_system.clk_50 -pg 1 -lvl 1 -y 1150
+preplace inst soc_system.dcc_data_4 -pg 1 -lvl 4 -y 2330
+preplace inst soc_system.clk_50 -pg 1 -lvl 1 -y 4570
+preplace inst soc_system.dcc_data_12 -pg 1 -lvl 4 -y 3290
 preplace inst soc_system.hps_0.gpio1 -pg 1
 preplace inst soc_system.hps_0.arm_a9_0 -pg 1
 preplace inst soc_system.hps_0.L2 -pg 1
-preplace inst soc_system.ddc_data_7 -pg 1 -lvl 4 -y 3370
+preplace inst soc_system.dcc_data_5 -pg 1 -lvl 4 -y 2450
+preplace inst soc_system.dcc_data_13 -pg 1 -lvl 4 -y 3410
 preplace inst soc_system.hps_0.gpio2 -pg 1
 preplace inst soc_system.hps_0.arm_a9_1 -pg 1
-preplace inst soc_system.ddc_data_8 -pg 1 -lvl 4 -y 3490
+preplace inst soc_system.dcc_data_6 -pg 1 -lvl 4 -y 2570
+preplace inst soc_system.dcc_data_14 -pg 1 -lvl 4 -y 3530
 preplace inst soc_system.hps_0.uart0 -pg 1
-preplace inst soc_system.ddc_data_9 -pg 1 -lvl 4 -y 3610
+preplace inst soc_system.dcc_data_7 -pg 1 -lvl 4 -y 2690
+preplace inst soc_system.dcc_data_15 -pg 1 -lvl 4 -y 3650
 preplace inst soc_system.hps_0.uart1 -pg 1
 preplace inst soc_system.hps_0.spim0 -pg 1
+preplace inst soc_system.dcc_data_8 -pg 1 -lvl 4 -y 2810
+preplace inst soc_system.dcc_data_16 -pg 1 -lvl 4 -y 30
 preplace inst soc_system.hps_0.spim1 -pg 1
-preplace inst soc_system.ddc_data_20 -pg 1 -lvl 4 -y 510
+preplace inst soc_system.dcc_data_9 -pg 1 -lvl 4 -y 2930
+preplace inst soc_system.dcc_data_17 -pg 1 -lvl 4 -y 150
 preplace inst soc_system.nios2_gen2.clock_bridge -pg 1
 preplace inst soc_system.hps_0.timer -pg 1
-preplace inst soc_system.ddc_data_21 -pg 1 -lvl 4 -y 630
+preplace inst soc_system.dcc_data_18 -pg 1 -lvl 4 -y 270
 preplace inst soc_system.hps_0.sysmgr -pg 1
-preplace inst soc_system.ddc_data_22 -pg 1 -lvl 4 -y 890
+preplace inst soc_system.dcc_data_19 -pg 1 -lvl 4 -y 390
 preplace inst soc_system.hps_0.l3regs -pg 1
 preplace inst soc_system.hps_0.f2s_periph_ref_clk -pg 1
-preplace inst soc_system.ddc_data_23 -pg 1 -lvl 4 -y 1010
 preplace inst soc_system.hps_0.axi_ocram -pg 1
 preplace inst soc_system.hps_0.sdmmc -pg 1
-preplace inst soc_system.ddc_data_24 -pg 1 -lvl 4 -y 1130
-preplace inst soc_system.sysid_qsys -pg 1 -lvl 6 -y 2370
-preplace inst soc_system.ddc_data_25 -pg 1 -lvl 4 -y 2050
-preplace inst soc_system.ddc_data_10 -pg 1 -lvl 4 -y 3970
-preplace inst soc_system.ddc_data_11 -pg 1 -lvl 4 -y 4090
-preplace inst soc_system.ddc_data_26 -pg 1 -lvl 4 -y 2170
-preplace inst soc_system.ddc_data_12 -pg 1 -lvl 4 -y 4210
-preplace inst soc_system.ddc_data_27 -pg 1 -lvl 4 -y 2290
-preplace inst soc_system.onchip_memory2 -pg 1 -lvl 6 -y 2290
+preplace inst soc_system.sysid_qsys -pg 1 -lvl 6 -y 5760
+preplace inst soc_system.dcc_data_30 -pg 1 -lvl 4 -y 1730
+preplace inst soc_system.dcc_data_31 -pg 1 -lvl 4 -y 1970
+preplace inst soc_system.onchip_memory2 -pg 1 -lvl 6 -y 5680
 preplace inst soc_system.hps_0.arm_gic_0 -pg 1
-preplace inst soc_system.ddc_data_13 -pg 1 -lvl 4 -y 4330
 preplace inst soc_system.hps_0.rstmgr -pg 1
-preplace inst soc_system.ddc_data_28 -pg 1 -lvl 4 -y 2410
 preplace inst soc_system.hps_0.usb0 -pg 1
-preplace inst soc_system.ddc_data_14 -pg 1 -lvl 4 -y 4570
-preplace inst soc_system.ddc_data_29 -pg 1 -lvl 4 -y 2530
 preplace inst soc_system.hps_0.scu -pg 1
 preplace inst soc_system.hps_0.usb1 -pg 1
-preplace inst soc_system.ddc_data_15 -pg 1 -lvl 4 -y 3730
-preplace inst soc_system.mm_bridge_0 -pg 1 -lvl 3 -y 1050
-preplace inst soc_system.ddc_data_16 -pg 1 -lvl 4 -y 30
+preplace inst soc_system.dcc_data_20 -pg 1 -lvl 4 -y 510
+preplace inst soc_system.mm_bridge_0 -pg 1 -lvl 3 -y 4440
 preplace inst soc_system.hps_0.hps_io -pg 1
-preplace inst soc_system.ddc_data_17 -pg 1 -lvl 4 -y 150
+preplace inst soc_system.dcc_data_21 -pg 1 -lvl 4 -y 630
+preplace inst soc_system.dcc_data_22 -pg 1 -lvl 4 -y 750
 preplace inst soc_system.hps_0.nand0 -pg 1
-preplace inst soc_system.ddc_data_18 -pg 1 -lvl 4 -y 270
-preplace inst soc_system.ddc_data_19 -pg 1 -lvl 4 -y 390
-preplace inst soc_system.ddc_time_out -pg 1 -lvl 4 -y 770
+preplace inst soc_system.dcc_data_23 -pg 1 -lvl 4 -y 870
+preplace inst soc_system.pps_count_out -pg 1 -lvl 4 -y 4020
+preplace inst soc_system.dcc_data_24 -pg 1 -lvl 4 -y 990
+preplace inst soc_system.dcc_time_out -pg 1 -lvl 4 -y 3770
+preplace inst soc_system.dcc_data_25 -pg 1 -lvl 4 -y 1130
 preplace inst soc_system.hps_0.gmac0 -pg 1
+preplace inst soc_system.dcc_data_26 -pg 1 -lvl 4 -y 1250
 preplace inst soc_system.hps_0.gmac1 -pg 1
-preplace inst soc_system.ddc_data_30 -pg 1 -lvl 4 -y 2650
-preplace inst soc_system.hps_0 -pg 1 -lvl 2 -y 700
+preplace inst soc_system.hps_0 -pg 1 -lvl 2 -y 3850
+preplace inst soc_system.dcc_data_27 -pg 1 -lvl 4 -y 1370
 preplace inst soc_system.hps_0.hps_io.border -pg 1
-preplace inst soc_system.ddc_data_31 -pg 1 -lvl 4 -y 2770
+preplace inst soc_system.dcc_data_28 -pg 1 -lvl 4 -y 1490
 preplace inst soc_system.hps_0.eosc1 -pg 1
 preplace inst soc_system.hps_0.fpgamgr -pg 1
-preplace inst soc_system.jtag_uart -pg 1 -lvl 6 -y 2090
+preplace inst soc_system.jtag_uart -pg 1 -lvl 6 -y 5480
 preplace inst soc_system.hps_0.dcan0 -pg 1
+preplace inst soc_system.dcc_data_29 -pg 1 -lvl 4 -y 1610
 preplace inst soc_system.hps_0.eosc2 -pg 1
 preplace inst soc_system.hps_0.dcan1 -pg 1
 preplace inst soc_system.hps_0.fpga_interfaces -pg 1
 preplace inst soc_system.hps_0.f2s_sdram_ref_clk -pg 1
-preplace inst soc_system.sw -pg 1 -lvl 6 -y 1970
-preplace inst soc_system.ledr -pg 1 -lvl 6 -y 1530
+preplace inst soc_system.sw -pg 1 -lvl 6 -y 5360
+preplace inst soc_system.ledr -pg 1 -lvl 6 -y 4920
 preplace inst soc_system.hps_0.sdrctl -pg 1
 preplace inst soc_system.hps_0.dma -pg 1
 preplace inst soc_system.hps_0.bridges -pg 1
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)ddc_data_30.external_connection,(SLAVE)soc_system.ddc_data_30_external_connection) 1 0 4 NJ 2680 NJ 2680 NJ 2680 NJ
-preplace netloc FAN_OUT<net_container>soc_system</net_container>(SLAVE)ddc_data_19.irq,(SLAVE)ddc_data_25.irq,(SLAVE)ddc_data_28.irq,(SLAVE)ddc_data_18.irq,(SLAVE)ddc_data_26.irq,(MASTER)hps_0.f2h_irq1,(SLAVE)ddc_data_24.irq,(SLAVE)ddc_data_16.irq,(SLAVE)ddc_data_29.irq,(SLAVE)ddc_data_27.irq,(SLAVE)ddc_data_20.irq,(SLAVE)ddc_data_30.irq,(SLAVE)ddc_data_17.irq,(SLAVE)ddc_data_21.irq,(SLAVE)ddc_data_31.irq,(SLAVE)ddc_data_23.irq,(SLAVE)ddc_data_22.irq) 1 2 2 NJ 810 1480
-preplace netloc FAN_OUT<net_container>soc_system</net_container>(SLAVE)ddc_time_out.irq,(SLAVE)ddc_data_4.irq,(SLAVE)sw.irq,(SLAVE)dcc_data_0.irq,(SLAVE)ddc_data_7.irq,(SLAVE)ddc_data_13.irq,(SLAVE)ddc_data_9.irq,(SLAVE)ddc_data_6.irq,(SLAVE)ddc_data_5.irq,(SLAVE)ddc_data_14.irq,(SLAVE)ddc_data_3.irq,(SLAVE)ddc_data_11.irq,(SLAVE)ddc_data_12.irq,(SLAVE)ddc_data_8.irq,(MASTER)hps_0.f2h_irq0,(SLAVE)ddc_data_15.irq,(SLAVE)ddc_data_10.irq,(SLAVE)ddc_data_1.irq,(SLAVE)ddc_data_2.irq) 1 2 4 NJ 790 1500 2020 NJ 2020 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)hps_0.memory,(SLAVE)soc_system.memory) 1 0 2 NJ 1040 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)ddc_data_9.external_connection,(SLAVE)soc_system.ddc_data_9_external_connection) 1 0 4 NJ 3640 NJ 3640 NJ 3640 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_16_external_connection,(SLAVE)ddc_data_16.external_connection) 1 0 4 NJ 60 NJ 60 NJ 60 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.hps_0_f2h_stm_hw_events,(SLAVE)hps_0.f2h_stm_hw_events) 1 0 2 NJ 920 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)hps_0.f2h_dma_req0,(SLAVE)soc_system.hps_0_f2h_dma_req0) 1 0 2 NJ 880 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)ddc_data_24.external_connection,(SLAVE)soc_system.ddc_data_24_external_connection) 1 0 4 NJ 1420 NJ 1420 NJ 1420 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.hps_0_f2h_cold_reset_req,(SLAVE)hps_0.f2h_cold_reset_req) 1 0 2 NJ 750 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)ddc_data_13.external_connection,(SLAVE)soc_system.ddc_data_13_external_connection) 1 0 4 NJ 4360 NJ 4360 NJ 4360 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_25_external_connection,(SLAVE)ddc_data_25.external_connection) 1 0 4 NJ 2080 NJ 2080 NJ 2080 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_20_external_connection,(SLAVE)ddc_data_20.external_connection) 1 0 4 NJ 1060 NJ 1020 NJ 950 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_31_external_connection,(SLAVE)ddc_data_31.external_connection) 1 0 4 NJ 2800 NJ 2800 NJ 2800 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)ddc_data_29.external_connection,(SLAVE)soc_system.ddc_data_29_external_connection) 1 0 4 NJ 2560 NJ 2560 NJ 2560 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)ddc_data_8.external_connection,(SLAVE)soc_system.ddc_data_8_external_connection) 1 0 4 NJ 3520 NJ 3520 NJ 3520 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)ddc_data_3.external_connection,(SLAVE)soc_system.ddc_data_3_external_connection) 1 0 4 NJ 2920 NJ 2920 NJ 2920 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_15_external_connection,(SLAVE)ddc_data_15.external_connection) 1 0 4 NJ 3760 NJ 3760 NJ 3760 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)ddc_data_22.external_connection,(SLAVE)soc_system.ddc_data_22_external_connection) 1 0 4 NJ 1220 NJ 1130 NJ 1160 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_time_out_external_connection,(SLAVE)ddc_time_out.external_connection) 1 0 4 NJ 1120 NJ 1150 NJ 990 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_26_external_connection,(SLAVE)ddc_data_26.external_connection) 1 0 4 NJ 2200 NJ 2200 NJ 2200 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)ddc_data_1.external_connection,(SLAVE)soc_system.dcc_data_1_external_connection) 1 0 4 NJ 3880 NJ 3880 NJ 3880 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_5_external_connection,(SLAVE)ddc_data_5.external_connection) 1 0 4 NJ 3160 NJ 3160 NJ 3160 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)ddc_data_17.external_connection,(SLAVE)soc_system.ddc_data_17_external_connection) 1 0 4 NJ 180 NJ 180 NJ 180 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_10_external_connection,(SLAVE)ddc_data_10.external_connection) 1 0 4 NJ 4000 NJ 4000 NJ 4000 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)ddc_data_27.external_connection,(SLAVE)soc_system.ddc_data_27_external_connection) 1 0 4 NJ 2320 NJ 2320 NJ 2320 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_21_external_connection,(SLAVE)ddc_data_21.external_connection) 1 0 4 NJ 1080 NJ 1040 NJ 970 NJ
-preplace netloc POINT_TO_POINT<net_container>soc_system</net_container>(SLAVE)nios2_gen2.reset,(MASTER)nios2_gen2.debug_reset_request) 1 2 2 1040 1220 1420
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)hps_0.f2h_debug_reset_req,(SLAVE)soc_system.hps_0_f2h_debug_reset_req) 1 0 2 NJ 860 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)ddc_data_28.external_connection,(SLAVE)soc_system.ddc_data_28_external_connection) 1 0 4 NJ 2440 NJ 2440 NJ 2440 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_7_external_connection,(SLAVE)ddc_data_7.external_connection) 1 0 4 NJ 3400 NJ 3400 NJ 3400 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.dcc_data_0_external_connection,(SLAVE)dcc_data_0.external_connection) 1 0 4 NJ 4720 NJ 4720 NJ 4720 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)ddc_data_14.external_connection,(SLAVE)soc_system.ddc_data_14_external_connection) 1 0 4 NJ 4600 NJ 4600 NJ 4600 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)ddc_data_6.external_connection,(SLAVE)soc_system.ddc_data_6_external_connection) 1 0 4 NJ 3280 NJ 3280 NJ 3280 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)ddc_data_4.external_connection,(SLAVE)soc_system.ddc_data_4_external_connection) 1 0 4 NJ 3040 NJ 3040 NJ 3040 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)hps_0.f2h_warm_reset_req,(SLAVE)soc_system.hps_0_f2h_warm_reset_req) 1 0 2 NJ 1000 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.clk,(SLAVE)clk_50.clk_in) 1 0 1 NJ
-preplace netloc FAN_OUT<net_container>soc_system</net_container>(SLAVE)ddc_data_10.clk,(SLAVE)hps_0.f2h_axi_clock,(SLAVE)hps_0.h2f_axi_clock,(SLAVE)hps_0.h2f_lw_axi_clock,(SLAVE)ddc_data_24.clk,(SLAVE)ddc_data_23.clk,(SLAVE)ddc_data_2.clk,(SLAVE)ddc_data_14.clk,(SLAVE)ddc_data_16.clk,(SLAVE)ddc_data_18.clk,(SLAVE)ddc_data_8.clk,(SLAVE)ddc_data_27.clk,(SLAVE)sysid_qsys.clk,(SLAVE)ddc_data_26.clk,(SLAVE)ddc_time_out.clk,(SLAVE)ddc_data_11.clk,(SLAVE)hps_0.f2h_sdram0_clock,(SLAVE)ddc_data_1.clk,(SLAVE)jtag_uart.clk,(SLAVE)ddc_data_22.clk,(SLAVE)ddc_data_4.clk,(SLAVE)ddc_data_3.clk,(SLAVE)ddc_data_20.clk,(SLAVE)ddc_data_7.clk,(SLAVE)ddc_data_12.clk,(SLAVE)ddc_data_25.clk,(SLAVE)ddc_data_28.clk,(SLAVE)ddc_data_30.clk,(SLAVE)hps_read_bit.clk,(SLAVE)ddc_data_13.clk,(MASTER)clk_50.clk,(SLAVE)sw.clk,(SLAVE)ddc_data_15.clk,(SLAVE)ddc_data_17.clk,(SLAVE)mm_bridge_0.clk,(SLAVE)ddc_data_19.clk,(SLAVE)ddc_data_6.clk,(SLAVE)nios2_gen2.clk,(SLAVE)ddc_data_5.clk,(SLAVE)ddc_data_31.clk,(SLAVE)onchip_memory2.clk1,(SLAVE)timer.clk,(SLAVE)ddc_data_29.clk,(SLAVE)ddc_data_9.clk,(SLAVE)ddc_data_21.clk,(SLAVE)ledr.clk,(SLAVE)dcc_data_0.clk) 1 1 5 530 1060 1000 1200 1580 1540 NJ 1540 2050
-preplace netloc POINT_TO_POINT<net_container>soc_system</net_container>(MASTER)hps_0.h2f_lw_axi_master,(SLAVE)mm_bridge_0.s0) 1 2 1 1060
-preplace netloc FAN_OUT<net_container>soc_system</net_container>(SLAVE)dcc_data_0.reset,(SLAVE)ddc_data_15.reset,(SLAVE)onchip_memory2.reset1,(SLAVE)hps_read_bit.reset,(SLAVE)ddc_data_1.reset,(SLAVE)ddc_data_24.reset,(SLAVE)ddc_data_12.reset,(SLAVE)ddc_data_7.reset,(SLAVE)ddc_data_6.reset,(SLAVE)sw.reset,(SLAVE)ddc_data_27.reset,(SLAVE)ddc_data_16.reset,(SLAVE)ddc_data_8.reset,(SLAVE)ddc_data_11.reset,(SLAVE)ddc_data_13.reset,(SLAVE)ddc_data_21.reset,(SLAVE)ddc_data_29.reset,(SLAVE)ddc_data_2.reset,(SLAVE)ddc_data_5.reset,(SLAVE)ddc_time_out.reset,(SLAVE)ddc_data_31.reset,(SLAVE)ddc_data_22.reset,(SLAVE)ddc_data_30.reset,(SLAVE)ddc_data_10.reset,(SLAVE)mm_bridge_0.reset,(SLAVE)timer.reset,(SLAVE)ddc_data_20.reset,(SLAVE)ddc_data_23.reset,(SLAVE)ddc_data_9.reset,(SLAVE)ddc_data_17.reset,(SLAVE)ddc_data_18.reset,(SLAVE)ddc_data_28.reset,(SLAVE)ledr.reset,(SLAVE)ddc_data_4.reset,(MASTER)clk_50.clk_reset,(SLAVE)ddc_data_26.reset,(SLAVE)ddc_data_14.reset,(SLAVE)sysid_qsys.reset,(SLAVE)jtag_uart.reset,(SLAVE)ddc_data_3.reset,(SLAVE)ddc_data_19.reset,(SLAVE)ddc_data_25.reset) 1 1 5 570 1110 1040 1140 1560 1580 NJ 1580 2030
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.hps_0_hps_io,(SLAVE)hps_0.hps_io) 1 0 2 NJ 1020 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.hps_0_f2h_dma_req1,(SLAVE)hps_0.f2h_dma_req1) 1 0 2 NJ 900 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)ddc_data_18.external_connection,(SLAVE)soc_system.ddc_data_18_external_connection) 1 0 4 NJ 300 NJ 300 NJ 300 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)sw.external_connection,(SLAVE)soc_system.sw_external_connection) 1 0 6 NJ 2000 NJ 2000 NJ 2000 NJ 2000 NJ 2000 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)ddc_data_11.external_connection,(SLAVE)soc_system.ddc_data_11_external_connection) 1 0 4 NJ 4120 NJ 4120 NJ 4120 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_12_external_connection,(SLAVE)ddc_data_12.external_connection) 1 0 4 NJ 4240 NJ 4240 NJ 4240 NJ
-preplace netloc INTERCONNECT<net_container>soc_system</net_container>(SLAVE)ddc_data_23.s1,(SLAVE)ddc_data_6.s1,(SLAVE)ddc_data_11.s1,(SLAVE)ddc_data_30.s1,(SLAVE)nios2_gen2.debug_mem_slave,(SLAVE)ddc_data_9.s1,(SLAVE)ddc_data_2.s1,(SLAVE)ddc_data_26.s1,(SLAVE)ddc_data_16.s1,(SLAVE)ddc_data_29.s1,(SLAVE)ddc_data_17.s1,(SLAVE)dcc_data_0.s1,(SLAVE)timer.s1,(MASTER)mm_bridge_0.m0,(SLAVE)ddc_data_19.s1,(SLAVE)ddc_data_7.s1,(SLAVE)ddc_data_20.s1,(SLAVE)jtag_uart.avalon_jtag_slave,(SLAVE)ddc_data_15.s1,(SLAVE)ddc_data_3.s1,(SLAVE)ddc_data_31.s1,(SLAVE)ddc_data_13.s1,(SLAVE)ddc_data_28.s1,(SLAVE)ledr.s1,(SLAVE)ddc_data_27.s1,(SLAVE)hps_read_bit.s1,(SLAVE)ddc_data_24.s1,(SLAVE)onchip_memory2.s1,(SLAVE)ddc_data_14.s1,(MASTER)nios2_gen2.data_master,(SLAVE)ddc_data_1.s1,(SLAVE)ddc_data_18.s1,(SLAVE)ddc_data_4.s1,(SLAVE)sysid_qsys.control_slave,(SLAVE)ddc_data_10.s1,(MASTER)nios2_gen2.instruction_master,(SLAVE)ddc_data_21.s1,(SLAVE)ddc_data_25.s1,(SLAVE)sw.s1,(SLAVE)ddc_time_out.s1,(SLAVE)ddc_data_5.s1,(SLAVE)ddc_data_8.s1,(SLAVE)ddc_data_12.s1,(SLAVE)ddc_data_22.s1) 1 2 4 1060 1400 1540 1600 NJ 1600 1990
-preplace netloc EXPORT<net_container>soc_system</net_container>(MASTER)hps_0.h2f_reset,(MASTER)soc_system.hps_0_h2f_reset) 1 2 6 NJ 930 NJ 760 NJ 760 NJ 760 NJ 760 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)dcc_data_15.external_connection,(SLAVE)soc_system.ddc_data_15_external_connection) 1 0 4 NJ 5160 NJ 5160 NJ 5160 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_10_external_connection,(SLAVE)dcc_data_10.external_connection) 1 0 4 NJ 5060 NJ 5060 NJ 5060 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)dcc_data_8.external_connection,(SLAVE)soc_system.ddc_data_8_external_connection) 1 0 4 NJ 5020 NJ 5020 NJ 5020 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)dcc_data_2.external_connection,(SLAVE)soc_system.ddc_data_2_external_connection) 1 0 4 NJ 4880 NJ 4880 NJ 4880 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)dcc_data_12.external_connection,(SLAVE)soc_system.ddc_data_12_external_connection) 1 0 4 NJ 5100 NJ 5100 NJ 5100 NJ
+preplace netloc FAN_OUT<net_container>soc_system</net_container>(SLAVE)hps_0.h2f_lw_axi_clock,(SLAVE)dcc_data_25.clk,(SLAVE)onchip_memory2.clk1,(SLAVE)dcc_data_15.clk,(SLAVE)hps_0.h2f_axi_clock,(SLAVE)hps_0.f2h_axi_clock,(SLAVE)dcc_data_11.clk,(SLAVE)dcc_data_28.clk,(SLAVE)dcc_data_5.clk,(SLAVE)dcc_data_22.clk,(SLAVE)dcc_data_16.clk,(SLAVE)dcc_data_17.clk,(SLAVE)dcc_data_24.clk,(SLAVE)dcc_data_4.clk,(SLAVE)dcc_data_7.clk,(SLAVE)dcc_data_29.clk,(SLAVE)hps_read_bit.clk,(SLAVE)dcc_data_2.clk,(SLAVE)dcc_data_26.clk,(MASTER)clk_50.clk,(SLAVE)dcc_data_8.clk,(SLAVE)dcc_data_30.clk,(SLAVE)dcc_data_6.clk,(SLAVE)dcc_data_27.clk,(SLAVE)mm_bridge_0.clk,(SLAVE)sw.clk,(SLAVE)hps_0.f2h_sdram0_clock,(SLAVE)ledr.clk,(SLAVE)dcc_data_10.clk,(SLAVE)dcc_data_12.clk,(SLAVE)dcc_data_14.clk,(SLAVE)timer.clk,(SLAVE)dcc_time_out.clk,(SLAVE)nios2_gen2.clk,(SLAVE)dcc_data_13.clk,(SLAVE)pps_count_out.clk,(SLAVE)dcc_data_23.clk,(SLAVE)dcc_data_3.clk,(SLAVE)sysid_qsys.clk,(SLAVE)dcc_data_9.clk,(SLAVE)dcc_data_21.clk,(SLAVE)dcc_data_31.clk,(SLAVE)dcc_data_0.clk,(SLAVE)dcc_data_20.clk,(SLAVE)dcc_data_1.clk,(SLAVE)jtag_uart.clk,(SLAVE)dcc_data_18.clk,(SLAVE)dcc_data_19.clk) 1 1 5 470 4560 1160 4820 1900 3990 NJ 3990 2500
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)hps_0.memory,(SLAVE)soc_system.memory) 1 0 2 NJ 4420 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.hps_0_f2h_debug_reset_req,(SLAVE)hps_0.f2h_debug_reset_req) 1 0 2 NJ 3920 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)dcc_data_9.external_connection,(SLAVE)soc_system.ddc_data_9_external_connection) 1 0 4 NJ 5040 NJ 5040 NJ 5040 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)hps_0.f2h_dma_req0,(SLAVE)soc_system.hps_0_f2h_dma_req0) 1 0 2 NJ 4270 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_7_external_connection,(SLAVE)dcc_data_7.external_connection) 1 0 4 NJ 5000 NJ 5000 NJ 5000 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_16_external_connection,(SLAVE)dcc_data_16.external_connection) 1 0 4 NJ 60 NJ 60 NJ 60 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)dcc_data_30.external_connection,(SLAVE)soc_system.ddc_data_30_external_connection) 1 0 4 NJ 4560 NJ 4600 NJ 4530 NJ
+preplace netloc FAN_OUT<net_container>soc_system</net_container>(SLAVE)timer.irq,(MASTER)nios2_gen2.irq,(SLAVE)jtag_uart.irq) 1 3 3 NJ 4750 NJ 4750 2480
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_4_external_connection,(SLAVE)dcc_data_4.external_connection) 1 0 4 NJ 4940 NJ 4940 NJ 4940 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)dcc_data_13.external_connection,(SLAVE)soc_system.ddc_data_13_external_connection) 1 0 4 NJ 5120 NJ 5120 NJ 5120 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_18_external_connection,(SLAVE)dcc_data_18.external_connection) 1 0 4 NJ 300 NJ 300 NJ 300 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)hps_0.f2h_cold_reset_req,(SLAVE)soc_system.hps_0_f2h_cold_reset_req) 1 0 2 NJ 3900 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_24_external_connection,(SLAVE)dcc_data_24.external_connection) 1 0 4 NJ 4440 NJ 4170 NJ 4170 NJ
+preplace netloc FAN_OUT<net_container>soc_system</net_container>(SLAVE)dcc_data_20.irq,(SLAVE)dcc_data_31.irq,(SLAVE)dcc_data_30.irq,(SLAVE)dcc_data_16.irq,(SLAVE)dcc_data_18.irq,(SLAVE)dcc_data_28.irq,(MASTER)hps_0.f2h_irq1,(SLAVE)dcc_data_22.irq,(SLAVE)dcc_data_26.irq,(SLAVE)dcc_data_24.irq,(SLAVE)dcc_data_19.irq,(SLAVE)dcc_data_25.irq,(SLAVE)dcc_data_29.irq,(SLAVE)dcc_data_23.irq,(SLAVE)dcc_data_17.irq,(SLAVE)dcc_data_21.irq,(SLAVE)dcc_data_27.irq) 1 2 2 NJ 3960 1600
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.pps_count_out_external_connection,(SLAVE)pps_count_out.external_connection) 1 0 4 NJ 5200 NJ 5200 NJ 5200 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_21_external_connection,(SLAVE)dcc_data_21.external_connection) 1 0 4 NJ 660 NJ 660 NJ 660 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)clk_50.clk_in,(SLAVE)soc_system.clk) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>soc_system</net_container>(SLAVE)nios2_gen2.reset,(MASTER)nios2_gen2.debug_reset_request) 1 2 2 1220 4600 1700
+preplace netloc FAN_OUT<net_container>soc_system</net_container>(SLAVE)jtag_uart.reset,(SLAVE)dcc_data_20.reset,(SLAVE)dcc_time_out.reset,(SLAVE)dcc_data_23.reset,(SLAVE)sw.reset,(SLAVE)dcc_data_17.reset,(SLAVE)dcc_data_19.reset,(SLAVE)mm_bridge_0.reset,(SLAVE)sysid_qsys.reset,(SLAVE)dcc_data_14.reset,(SLAVE)dcc_data_1.reset,(SLAVE)dcc_data_3.reset,(SLAVE)onchip_memory2.reset1,(SLAVE)dcc_data_21.reset,(SLAVE)dcc_data_9.reset,(SLAVE)hps_read_bit.reset,(SLAVE)dcc_data_18.reset,(SLAVE)dcc_data_12.reset,(SLAVE)dcc_data_8.reset,(SLAVE)dcc_data_30.reset,(SLAVE)dcc_data_4.reset,(SLAVE)dcc_data_5.reset,(SLAVE)dcc_data_10.reset,(SLAVE)dcc_data_2.reset,(SLAVE)dcc_data_28.reset,(SLAVE)dcc_data_11.reset,(SLAVE)dcc_data_13.reset,(SLAVE)dcc_data_6.reset,(SLAVE)pps_count_out.reset,(SLAVE)dcc_data_15.reset,(SLAVE)dcc_data_25.reset,(SLAVE)dcc_data_0.reset,(SLAVE)timer.reset,(SLAVE)dcc_data_16.reset,(SLAVE)dcc_data_7.reset,(SLAVE)dcc_data_31.reset,(SLAVE)dcc_data_26.reset,(SLAVE)dcc_data_22.reset,(SLAVE)ledr.reset,(SLAVE)dcc_data_24.reset,(MASTER)clk_50.clk_reset,(SLAVE)dcc_data_27.reset,(SLAVE)dcc_data_29.reset) 1 1 5 530 4580 1180 4550 1920 4710 NJ 4710 2460
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_17_external_connection,(SLAVE)dcc_data_17.external_connection) 1 0 4 NJ 180 NJ 180 NJ 180 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)dcc_data_19.external_connection,(SLAVE)soc_system.ddc_data_19_external_connection) 1 0 4 NJ 420 NJ 420 NJ 420 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.dcc_data_0_external_connection,(SLAVE)dcc_data_0.external_connection) 1 0 4 NJ 8110 NJ 8110 NJ 8110 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)dcc_data_5.external_connection,(SLAVE)soc_system.ddc_data_5_external_connection) 1 0 4 NJ 4960 NJ 4960 NJ 4960 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_3_external_connection,(SLAVE)dcc_data_3.external_connection) 1 0 4 NJ 4920 NJ 4920 NJ 4920 NJ
+preplace netloc FAN_OUT<net_container>soc_system</net_container>(SLAVE)dcc_data_8.irq,(SLAVE)sw.irq,(SLAVE)dcc_data_2.irq,(SLAVE)dcc_data_6.irq,(SLAVE)dcc_data_11.irq,(SLAVE)dcc_data_12.irq,(SLAVE)dcc_data_9.irq,(SLAVE)dcc_data_10.irq,(SLAVE)dcc_data_15.irq,(SLAVE)dcc_data_14.irq,(SLAVE)pps_count_out.irq,(SLAVE)dcc_data_7.irq,(SLAVE)dcc_data_1.irq,(SLAVE)dcc_data_3.irq,(SLAVE)dcc_data_5.irq,(SLAVE)dcc_data_13.irq,(MASTER)hps_0.f2h_irq0,(SLAVE)dcc_data_0.irq,(SLAVE)dcc_time_out.irq,(SLAVE)dcc_data_4.irq) 1 2 4 1120 4800 1620 4010 NJ 4010 2520
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)dcc_data_29.external_connection,(SLAVE)soc_system.ddc_data_29_external_connection) 1 0 4 NJ 4540 NJ 4540 NJ 4290 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_6_external_connection,(SLAVE)dcc_data_6.external_connection) 1 0 4 NJ 4980 NJ 4980 NJ 4980 NJ
+preplace netloc POINT_TO_POINT<net_container>soc_system</net_container>(MASTER)hps_0.h2f_lw_axi_master,(SLAVE)mm_bridge_0.s0) 1 2 1 1100
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)dcc_data_23.external_connection,(SLAVE)soc_system.ddc_data_23_external_connection) 1 0 4 NJ 900 NJ 900 NJ 900 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.hps_0_hps_io,(SLAVE)hps_0.hps_io) 1 0 2 NJ 4400 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.hps_0_f2h_dma_req1,(SLAVE)hps_0.f2h_dma_req1) 1 0 2 NJ 4290 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_28_external_connection,(SLAVE)dcc_data_28.external_connection) 1 0 4 NJ 4520 NJ 4520 NJ 4270 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)sw.external_connection,(SLAVE)soc_system.sw_external_connection) 1 0 6 NJ 5390 NJ 5390 NJ 5390 NJ 5390 NJ 5390 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.hps_0_f2h_warm_reset_req,(SLAVE)hps_0.f2h_warm_reset_req) 1 0 2 NJ 4330 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_25_external_connection,(SLAVE)dcc_data_25.external_connection) 1 0 4 NJ 4460 NJ 4460 NJ 4210 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)dcc_data_14.external_connection,(SLAVE)soc_system.ddc_data_14_external_connection) 1 0 4 NJ 5140 NJ 5140 NJ 5140 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)dcc_data_20.external_connection,(SLAVE)soc_system.ddc_data_20_external_connection) 1 0 4 NJ 540 NJ 540 NJ 540 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(MASTER)hps_0.h2f_reset,(MASTER)soc_system.hps_0_h2f_reset) 1 2 6 NJ 4190 NJ 1120 NJ 1120 NJ 1120 NJ 1120 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_time_out_external_connection,(SLAVE)dcc_time_out.external_connection) 1 0 4 NJ 5180 NJ 5180 NJ 5180 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)dcc_data_22.external_connection,(SLAVE)soc_system.ddc_data_22_external_connection) 1 0 4 NJ 780 NJ 780 NJ 780 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_27_external_connection,(SLAVE)dcc_data_27.external_connection) 1 0 4 NJ 4500 NJ 4500 NJ 4250 NJ
 preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)clk_50.clk_in_reset,(SLAVE)soc_system.reset) 1 0 1 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)hps_read_bit.external_connection,(SLAVE)soc_system.hps_read_bit_external_connection) 1 0 4 NJ 1440 NJ 1440 NJ 1440 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)ddc_data_23.external_connection,(SLAVE)soc_system.ddc_data_23_external_connection) 1 0 4 NJ 1240 NJ 1240 NJ 1180 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_19_external_connection,(SLAVE)ddc_data_19.external_connection) 1 0 4 NJ 420 NJ 420 NJ 420 NJ
-preplace netloc FAN_OUT<net_container>soc_system</net_container>(SLAVE)jtag_uart.irq,(MASTER)nios2_gen2.irq,(SLAVE)timer.irq) 1 3 3 1520 2040 NJ 2040 2010
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)ledr.external_connection,(SLAVE)soc_system.ledr_external_connection) 1 0 6 NJ 1560 NJ 1560 NJ 1560 NJ 1560 NJ 1560 NJ
-preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_2_external_connection,(SLAVE)ddc_data_2.external_connection) 1 0 4 NJ 4480 NJ 4480 NJ 4480 NJ
-levelinfo -pg 1 0 200 2720
-levelinfo -hier soc_system 210 240 730 1180 1670 1970 2390 2570 2590
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)hps_read_bit.external_connection,(SLAVE)soc_system.hps_read_bit_external_connection) 1 0 4 NJ 5220 NJ 5220 NJ 5220 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)dcc_data_1.external_connection,(SLAVE)soc_system.dcc_data_1_external_connection) 1 0 4 NJ 4860 NJ 4860 NJ 4860 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)ledr.external_connection,(SLAVE)soc_system.ledr_external_connection) 1 0 6 NJ 5240 NJ 5240 NJ 5240 NJ 4950 NJ 4950 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)hps_0.f2h_stm_hw_events,(SLAVE)soc_system.hps_0_f2h_stm_hw_events) 1 0 2 NJ 4310 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)dcc_data_11.external_connection,(SLAVE)soc_system.ddc_data_11_external_connection) 1 0 4 NJ 5080 NJ 5080 NJ 5080 NJ
+preplace netloc INTERCONNECT<net_container>soc_system</net_container>(SLAVE)dcc_data_4.s1,(SLAVE)hps_read_bit.s1,(SLAVE)pps_count_out.s1,(SLAVE)dcc_data_14.s1,(MASTER)nios2_gen2.data_master,(SLAVE)nios2_gen2.debug_mem_slave,(SLAVE)dcc_data_29.s1,(SLAVE)dcc_data_0.s1,(SLAVE)dcc_data_1.s1,(SLAVE)dcc_data_2.s1,(SLAVE)dcc_data_3.s1,(SLAVE)dcc_data_10.s1,(SLAVE)ledr.s1,(SLAVE)dcc_time_out.s1,(SLAVE)dcc_data_6.s1,(SLAVE)dcc_data_15.s1,(SLAVE)dcc_data_25.s1,(SLAVE)dcc_data_5.s1,(SLAVE)dcc_data_19.s1,(SLAVE)dcc_data_21.s1,(SLAVE)dcc_data_17.s1,(SLAVE)dcc_data_8.s1,(SLAVE)dcc_data_13.s1,(MASTER)nios2_gen2.instruction_master,(SLAVE)dcc_data_16.s1,(SLAVE)dcc_data_22.s1,(SLAVE)onchip_memory2.s1,(SLAVE)timer.s1,(SLAVE)dcc_data_7.s1,(SLAVE)dcc_data_27.s1,(SLAVE)jtag_uart.avalon_jtag_slave,(SLAVE)dcc_data_28.s1,(SLAVE)dcc_data_24.s1,(SLAVE)dcc_data_31.s1,(SLAVE)sw.s1,(MASTER)mm_bridge_0.m0,(SLAVE)dcc_data_12.s1,(SLAVE)dcc_data_30.s1,(SLAVE)sysid_qsys.control_slave,(SLAVE)dcc_data_11.s1,(SLAVE)dcc_data_18.s1,(SLAVE)dcc_data_23.s1,(SLAVE)dcc_data_26.s1,(SLAVE)dcc_data_9.s1,(SLAVE)dcc_data_20.s1) 1 2 4 1240 4840 1940 4730 NJ 4730 2440
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.ddc_data_31_external_connection,(SLAVE)dcc_data_31.external_connection) 1 0 4 NJ 4900 NJ 4900 NJ 4900 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)dcc_data_26.external_connection,(SLAVE)soc_system.ddc_data_26_external_connection) 1 0 4 NJ 4480 NJ 4480 NJ 4230 NJ
+levelinfo -pg 1 0 200 2860
+levelinfo -hier soc_system 210 240 830 1360 2270 2420 2560 2710 2730

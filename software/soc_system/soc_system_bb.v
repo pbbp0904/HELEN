@@ -3,37 +3,37 @@ module soc_system (
 	clk_clk,
 	dcc_data_0_external_connection_export,
 	dcc_data_1_external_connection_export,
-	ddc_data_10_external_connection_export,
-	ddc_data_11_external_connection_export,
-	ddc_data_12_external_connection_export,
-	ddc_data_13_external_connection_export,
-	ddc_data_14_external_connection_export,
-	ddc_data_15_external_connection_export,
-	ddc_data_16_external_connection_export,
-	ddc_data_17_external_connection_export,
-	ddc_data_18_external_connection_export,
-	ddc_data_19_external_connection_export,
-	ddc_data_20_external_connection_export,
-	ddc_data_21_external_connection_export,
-	ddc_data_22_external_connection_export,
-	ddc_data_23_external_connection_export,
-	ddc_data_24_external_connection_export,
-	ddc_data_25_external_connection_export,
-	ddc_data_26_external_connection_export,
-	ddc_data_27_external_connection_export,
-	ddc_data_28_external_connection_export,
-	ddc_data_29_external_connection_export,
-	ddc_data_2_external_connection_export,
-	ddc_data_30_external_connection_export,
-	ddc_data_31_external_connection_export,
-	ddc_data_3_external_connection_export,
-	ddc_data_4_external_connection_export,
-	ddc_data_5_external_connection_export,
-	ddc_data_6_external_connection_export,
-	ddc_data_7_external_connection_export,
-	ddc_data_8_external_connection_export,
-	ddc_data_9_external_connection_export,
-	ddc_time_out_external_connection_export,
+	dcc_data_10_external_connection_export,
+	dcc_data_11_external_connection_export,
+	dcc_data_12_external_connection_export,
+	dcc_data_13_external_connection_export,
+	dcc_data_14_external_connection_export,
+	dcc_data_15_external_connection_export,
+	dcc_data_16_external_connection_export,
+	dcc_data_17_external_connection_export,
+	dcc_data_18_external_connection_export,
+	dcc_data_19_external_connection_export,
+	dcc_data_20_external_connection_export,
+	dcc_data_21_external_connection_export,
+	dcc_data_22_external_connection_export,
+	dcc_data_23_external_connection_export,
+	dcc_data_24_external_connection_export,
+	dcc_data_25_external_connection_export,
+	dcc_data_26_external_connection_export,
+	dcc_data_27_external_connection_export,
+	dcc_data_28_external_connection_export,
+	dcc_data_29_external_connection_export,
+	dcc_data_2_external_connection_export,
+	dcc_data_30_external_connection_export,
+	dcc_data_31_external_connection_export,
+	dcc_data_3_external_connection_export,
+	dcc_data_4_external_connection_export,
+	dcc_data_5_external_connection_export,
+	dcc_data_6_external_connection_export,
+	dcc_data_7_external_connection_export,
+	dcc_data_8_external_connection_export,
+	dcc_data_9_external_connection_export,
+	dcc_time_out_external_connection_export,
 	hps_0_f2h_cold_reset_req_reset_n,
 	hps_0_f2h_debug_reset_req_reset_n,
 	hps_0_f2h_dma_req0_dma_req,
@@ -125,44 +125,44 @@ module soc_system (
 	memory_mem_odt,
 	memory_mem_dm,
 	memory_oct_rzqin,
+	pps_count_out_external_connection_export,
 	reset_reset_n,
-	sw_external_connection_export,
-	pps_count_out_external_connection_export);	
+	sw_external_connection_export);	
 
 	input		clk_clk;
 	input	[31:0]	dcc_data_0_external_connection_export;
 	input	[31:0]	dcc_data_1_external_connection_export;
-	input	[31:0]	ddc_data_10_external_connection_export;
-	input	[31:0]	ddc_data_11_external_connection_export;
-	input	[31:0]	ddc_data_12_external_connection_export;
-	input	[31:0]	ddc_data_13_external_connection_export;
-	input	[31:0]	ddc_data_14_external_connection_export;
-	input	[31:0]	ddc_data_15_external_connection_export;
-	input	[31:0]	ddc_data_16_external_connection_export;
-	input	[31:0]	ddc_data_17_external_connection_export;
-	input	[31:0]	ddc_data_18_external_connection_export;
-	input	[31:0]	ddc_data_19_external_connection_export;
-	input	[31:0]	ddc_data_20_external_connection_export;
-	input	[31:0]	ddc_data_21_external_connection_export;
-	input	[31:0]	ddc_data_22_external_connection_export;
-	input	[31:0]	ddc_data_23_external_connection_export;
-	input	[31:0]	ddc_data_24_external_connection_export;
-	input	[31:0]	ddc_data_25_external_connection_export;
-	input	[31:0]	ddc_data_26_external_connection_export;
-	input	[31:0]	ddc_data_27_external_connection_export;
-	input	[31:0]	ddc_data_28_external_connection_export;
-	input	[31:0]	ddc_data_29_external_connection_export;
-	input	[31:0]	ddc_data_2_external_connection_export;
-	input	[31:0]	ddc_data_30_external_connection_export;
-	input	[31:0]	ddc_data_31_external_connection_export;
-	input	[31:0]	ddc_data_3_external_connection_export;
-	input	[31:0]	ddc_data_4_external_connection_export;
-	input	[31:0]	ddc_data_5_external_connection_export;
-	input	[31:0]	ddc_data_6_external_connection_export;
-	input	[31:0]	ddc_data_7_external_connection_export;
-	input	[31:0]	ddc_data_8_external_connection_export;
-	input	[31:0]	ddc_data_9_external_connection_export;
-	input	[25:0]	ddc_time_out_external_connection_export;
+	input	[31:0]	dcc_data_10_external_connection_export;
+	input	[31:0]	dcc_data_11_external_connection_export;
+	input	[31:0]	dcc_data_12_external_connection_export;
+	input	[31:0]	dcc_data_13_external_connection_export;
+	input	[31:0]	dcc_data_14_external_connection_export;
+	input	[31:0]	dcc_data_15_external_connection_export;
+	input	[31:0]	dcc_data_16_external_connection_export;
+	input	[31:0]	dcc_data_17_external_connection_export;
+	input	[31:0]	dcc_data_18_external_connection_export;
+	input	[31:0]	dcc_data_19_external_connection_export;
+	input	[31:0]	dcc_data_20_external_connection_export;
+	input	[31:0]	dcc_data_21_external_connection_export;
+	input	[31:0]	dcc_data_22_external_connection_export;
+	input	[31:0]	dcc_data_23_external_connection_export;
+	input	[31:0]	dcc_data_24_external_connection_export;
+	input	[31:0]	dcc_data_25_external_connection_export;
+	input	[31:0]	dcc_data_26_external_connection_export;
+	input	[31:0]	dcc_data_27_external_connection_export;
+	input	[31:0]	dcc_data_28_external_connection_export;
+	input	[31:0]	dcc_data_29_external_connection_export;
+	input	[31:0]	dcc_data_2_external_connection_export;
+	input	[31:0]	dcc_data_30_external_connection_export;
+	input	[31:0]	dcc_data_31_external_connection_export;
+	input	[31:0]	dcc_data_3_external_connection_export;
+	input	[31:0]	dcc_data_4_external_connection_export;
+	input	[31:0]	dcc_data_5_external_connection_export;
+	input	[31:0]	dcc_data_6_external_connection_export;
+	input	[31:0]	dcc_data_7_external_connection_export;
+	input	[31:0]	dcc_data_8_external_connection_export;
+	input	[31:0]	dcc_data_9_external_connection_export;
+	input	[25:0]	dcc_time_out_external_connection_export;
 	input		hps_0_f2h_cold_reset_req_reset_n;
 	input		hps_0_f2h_debug_reset_req_reset_n;
 	input		hps_0_f2h_dma_req0_dma_req;
@@ -254,7 +254,7 @@ module soc_system (
 	output		memory_mem_odt;
 	output	[3:0]	memory_mem_dm;
 	input		memory_oct_rzqin;
+	input	[31:0]	pps_count_out_external_connection_export;
 	input		reset_reset_n;
 	input	[13:0]	sw_external_connection_export;
-	input	[31:0]	pps_count_out_external_connection_export;
 endmodule

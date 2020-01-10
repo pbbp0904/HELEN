@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="soc_system" kind="soc_system" version="1.0" fabric="QSYS">
  <!-- Format version 18.1 625 (Future versions may contain additional information.) -->
- <!-- 2020.01.08.21:39:34 -->
+ <!-- 2020.01.09.18:53:23 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1578541174</value>
+  <value>1578617602</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -386,195 +386,195 @@ parameters are a RESULT of the module parameters. -->
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_1</moduleName>
+    <moduleName>dcc_data_1</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_1.clk</name>
+    <name>dcc_data_1.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_time_out</moduleName>
+    <moduleName>dcc_time_out</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_time_out.clk</name>
+    <name>dcc_time_out.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_2</moduleName>
+    <moduleName>dcc_data_2</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_2.clk</name>
+    <name>dcc_data_2.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_4</moduleName>
+    <moduleName>dcc_data_4</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_4.clk</name>
+    <name>dcc_data_4.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_3</moduleName>
+    <moduleName>dcc_data_3</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_3.clk</name>
+    <name>dcc_data_3.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_5</moduleName>
+    <moduleName>dcc_data_5</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_5.clk</name>
+    <name>dcc_data_5.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_6</moduleName>
+    <moduleName>dcc_data_6</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_6.clk</name>
+    <name>dcc_data_6.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_7</moduleName>
+    <moduleName>dcc_data_7</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_7.clk</name>
+    <name>dcc_data_7.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_8</moduleName>
+    <moduleName>dcc_data_8</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_8.clk</name>
+    <name>dcc_data_8.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_9</moduleName>
+    <moduleName>dcc_data_9</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_9.clk</name>
+    <name>dcc_data_9.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_10</moduleName>
+    <moduleName>dcc_data_10</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_10.clk</name>
+    <name>dcc_data_10.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_11</moduleName>
+    <moduleName>dcc_data_11</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_11.clk</name>
+    <name>dcc_data_11.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_12</moduleName>
+    <moduleName>dcc_data_12</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_12.clk</name>
+    <name>dcc_data_12.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_13</moduleName>
+    <moduleName>dcc_data_13</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_13.clk</name>
+    <name>dcc_data_13.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_14</moduleName>
+    <moduleName>dcc_data_14</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_14.clk</name>
+    <name>dcc_data_14.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_15</moduleName>
+    <moduleName>dcc_data_15</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_15.clk</name>
+    <name>dcc_data_15.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_16</moduleName>
+    <moduleName>dcc_data_16</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_16.clk</name>
+    <name>dcc_data_16.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_17</moduleName>
+    <moduleName>dcc_data_17</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_17.clk</name>
+    <name>dcc_data_17.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_18</moduleName>
+    <moduleName>dcc_data_18</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_18.clk</name>
+    <name>dcc_data_18.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_19</moduleName>
+    <moduleName>dcc_data_19</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_19.clk</name>
+    <name>dcc_data_19.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_20</moduleName>
+    <moduleName>dcc_data_20</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_20.clk</name>
+    <name>dcc_data_20.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_21</moduleName>
+    <moduleName>dcc_data_21</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_21.clk</name>
+    <name>dcc_data_21.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_22</moduleName>
+    <moduleName>dcc_data_22</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_22.clk</name>
+    <name>dcc_data_22.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_23</moduleName>
+    <moduleName>dcc_data_23</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_23.clk</name>
+    <name>dcc_data_23.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_24</moduleName>
+    <moduleName>dcc_data_24</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_24.clk</name>
+    <name>dcc_data_24.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_25</moduleName>
+    <moduleName>dcc_data_25</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_25.clk</name>
+    <name>dcc_data_25.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_26</moduleName>
+    <moduleName>dcc_data_26</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_26.clk</name>
+    <name>dcc_data_26.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_27</moduleName>
+    <moduleName>dcc_data_27</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_27.clk</name>
+    <name>dcc_data_27.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_28</moduleName>
+    <moduleName>dcc_data_28</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_28.clk</name>
+    <name>dcc_data_28.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_29</moduleName>
+    <moduleName>dcc_data_29</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_29.clk</name>
+    <name>dcc_data_29.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_30</moduleName>
+    <moduleName>dcc_data_30</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_30.clk</name>
+    <name>dcc_data_30.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_31</moduleName>
+    <moduleName>dcc_data_31</moduleName>
     <slaveName>clk</slaveName>
-    <name>ddc_data_31.clk</name>
+    <name>dcc_data_31.clk</name>
    </clockDomainMember>
    <clockDomainMember>
     <isBridge>false</isBridge>
@@ -1551,10 +1551,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_1"
+   name="dcc_data_1"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_1">
+   path="dcc_data_1">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -2353,7 +2353,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_1.s1</value>
+    <value>dcc_data_1.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -2426,10 +2426,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_10"
+   name="dcc_data_10"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_10">
+   path="dcc_data_10">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -3228,7 +3228,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_10.s1</value>
+    <value>dcc_data_10.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -3301,10 +3301,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_11"
+   name="dcc_data_11"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_11">
+   path="dcc_data_11">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -4103,7 +4103,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_11.s1</value>
+    <value>dcc_data_11.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -4176,10 +4176,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_12"
+   name="dcc_data_12"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_12">
+   path="dcc_data_12">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -4978,7 +4978,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_12.s1</value>
+    <value>dcc_data_12.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -5051,10 +5051,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_13"
+   name="dcc_data_13"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_13">
+   path="dcc_data_13">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -5853,7 +5853,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_13.s1</value>
+    <value>dcc_data_13.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -5926,10 +5926,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_14"
+   name="dcc_data_14"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_14">
+   path="dcc_data_14">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -6728,7 +6728,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_14.s1</value>
+    <value>dcc_data_14.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -6801,10 +6801,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_15"
+   name="dcc_data_15"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_15">
+   path="dcc_data_15">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -7603,7 +7603,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_15.s1</value>
+    <value>dcc_data_15.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -7676,10 +7676,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_16"
+   name="dcc_data_16"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_16">
+   path="dcc_data_16">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -8478,7 +8478,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_16.s1</value>
+    <value>dcc_data_16.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -8551,10 +8551,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_17"
+   name="dcc_data_17"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_17">
+   path="dcc_data_17">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -9353,7 +9353,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_17.s1</value>
+    <value>dcc_data_17.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -9426,10 +9426,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_18"
+   name="dcc_data_18"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_18">
+   path="dcc_data_18">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -10228,7 +10228,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_18.s1</value>
+    <value>dcc_data_18.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -10301,10 +10301,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_19"
+   name="dcc_data_19"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_19">
+   path="dcc_data_19">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -11103,7 +11103,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_19.s1</value>
+    <value>dcc_data_19.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -11176,10 +11176,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_2"
+   name="dcc_data_2"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_2">
+   path="dcc_data_2">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -11978,7 +11978,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_2.s1</value>
+    <value>dcc_data_2.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -12051,10 +12051,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_20"
+   name="dcc_data_20"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_20">
+   path="dcc_data_20">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -12853,7 +12853,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_20.s1</value>
+    <value>dcc_data_20.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -12926,10 +12926,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_21"
+   name="dcc_data_21"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_21">
+   path="dcc_data_21">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -13728,7 +13728,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_21.s1</value>
+    <value>dcc_data_21.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -13801,10 +13801,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_22"
+   name="dcc_data_22"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_22">
+   path="dcc_data_22">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -14603,7 +14603,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_22.s1</value>
+    <value>dcc_data_22.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -14676,10 +14676,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_23"
+   name="dcc_data_23"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_23">
+   path="dcc_data_23">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -15478,7 +15478,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_23.s1</value>
+    <value>dcc_data_23.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -15551,10 +15551,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_24"
+   name="dcc_data_24"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_24">
+   path="dcc_data_24">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -16353,7 +16353,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_24.s1</value>
+    <value>dcc_data_24.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -16426,10 +16426,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_25"
+   name="dcc_data_25"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_25">
+   path="dcc_data_25">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -17228,7 +17228,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_25.s1</value>
+    <value>dcc_data_25.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -17301,10 +17301,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_26"
+   name="dcc_data_26"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_26">
+   path="dcc_data_26">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -18103,7 +18103,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_26.s1</value>
+    <value>dcc_data_26.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -18176,10 +18176,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_27"
+   name="dcc_data_27"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_27">
+   path="dcc_data_27">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -18978,7 +18978,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_27.s1</value>
+    <value>dcc_data_27.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -19051,10 +19051,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_28"
+   name="dcc_data_28"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_28">
+   path="dcc_data_28">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -19853,7 +19853,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_28.s1</value>
+    <value>dcc_data_28.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -19926,10 +19926,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_29"
+   name="dcc_data_29"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_29">
+   path="dcc_data_29">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -20728,7 +20728,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_29.s1</value>
+    <value>dcc_data_29.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -20801,10 +20801,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_3"
+   name="dcc_data_3"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_3">
+   path="dcc_data_3">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -21603,7 +21603,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_3.s1</value>
+    <value>dcc_data_3.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -21676,10 +21676,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_30"
+   name="dcc_data_30"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_30">
+   path="dcc_data_30">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -22478,7 +22478,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_30.s1</value>
+    <value>dcc_data_30.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -22551,10 +22551,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_31"
+   name="dcc_data_31"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_31">
+   path="dcc_data_31">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -23353,7 +23353,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_31.s1</value>
+    <value>dcc_data_31.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -23426,10 +23426,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_4"
+   name="dcc_data_4"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_4">
+   path="dcc_data_4">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -24228,7 +24228,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_4.s1</value>
+    <value>dcc_data_4.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -24301,10 +24301,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_5"
+   name="dcc_data_5"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_5">
+   path="dcc_data_5">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -25103,7 +25103,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_5.s1</value>
+    <value>dcc_data_5.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -25176,10 +25176,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_6"
+   name="dcc_data_6"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_6">
+   path="dcc_data_6">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -25978,7 +25978,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_6.s1</value>
+    <value>dcc_data_6.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -26051,10 +26051,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_7"
+   name="dcc_data_7"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_7">
+   path="dcc_data_7">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -26853,7 +26853,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_7.s1</value>
+    <value>dcc_data_7.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -26926,10 +26926,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_8"
+   name="dcc_data_8"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_8">
+   path="dcc_data_8">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -27728,7 +27728,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_8.s1</value>
+    <value>dcc_data_8.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -27801,10 +27801,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_data_9"
+   name="dcc_data_9"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_data_9">
+   path="dcc_data_9">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -28603,7 +28603,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_data_9.s1</value>
+    <value>dcc_data_9.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -28676,10 +28676,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="ddc_time_out"
+   name="dcc_time_out"
    kind="altera_avalon_pio"
    version="18.1"
-   path="ddc_time_out">
+   path="dcc_time_out">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <assignment>
@@ -29478,7 +29478,7 @@ parameters are a RESULT of the module parameters. -->
    </assignment>
    <parameter name="associatedAddressablePoint">
     <type>com.altera.entityinterfaces.IConnectionPoint</type>
-    <value>ddc_time_out.s1</value>
+    <value>dcc_time_out.s1</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -46800,257 +46800,257 @@ parameters are a RESULT of the module parameters. -->
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_1</moduleName>
+    <moduleName>dcc_data_1</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_1.s1</name>
+    <name>dcc_data_1.s1</name>
     <baseAddress>24576</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_time_out</moduleName>
+    <moduleName>dcc_time_out</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_time_out.s1</name>
+    <name>dcc_time_out.s1</name>
     <baseAddress>28672</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_2</moduleName>
+    <moduleName>dcc_data_2</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_2.s1</name>
+    <name>dcc_data_2.s1</name>
     <baseAddress>480</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_3</moduleName>
+    <moduleName>dcc_data_3</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_3.s1</name>
+    <name>dcc_data_3.s1</name>
     <baseAddress>464</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_4</moduleName>
+    <moduleName>dcc_data_4</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_4.s1</name>
+    <name>dcc_data_4.s1</name>
     <baseAddress>448</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_5</moduleName>
+    <moduleName>dcc_data_5</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_5.s1</name>
+    <name>dcc_data_5.s1</name>
     <baseAddress>432</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_6</moduleName>
+    <moduleName>dcc_data_6</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_6.s1</name>
+    <name>dcc_data_6.s1</name>
     <baseAddress>416</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_7</moduleName>
+    <moduleName>dcc_data_7</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_7.s1</name>
+    <name>dcc_data_7.s1</name>
     <baseAddress>400</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_8</moduleName>
+    <moduleName>dcc_data_8</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_8.s1</name>
+    <name>dcc_data_8.s1</name>
     <baseAddress>384</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_9</moduleName>
+    <moduleName>dcc_data_9</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_9.s1</name>
+    <name>dcc_data_9.s1</name>
     <baseAddress>368</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_10</moduleName>
+    <moduleName>dcc_data_10</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_10.s1</name>
+    <name>dcc_data_10.s1</name>
     <baseAddress>352</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_11</moduleName>
+    <moduleName>dcc_data_11</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_11.s1</name>
+    <name>dcc_data_11.s1</name>
     <baseAddress>336</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_12</moduleName>
+    <moduleName>dcc_data_12</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_12.s1</name>
+    <name>dcc_data_12.s1</name>
     <baseAddress>320</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_13</moduleName>
+    <moduleName>dcc_data_13</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_13.s1</name>
+    <name>dcc_data_13.s1</name>
     <baseAddress>304</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_14</moduleName>
+    <moduleName>dcc_data_14</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_14.s1</name>
+    <name>dcc_data_14.s1</name>
     <baseAddress>288</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_15</moduleName>
+    <moduleName>dcc_data_15</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_15.s1</name>
+    <name>dcc_data_15.s1</name>
     <baseAddress>272</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_16</moduleName>
+    <moduleName>dcc_data_16</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_16.s1</name>
+    <name>dcc_data_16.s1</name>
     <baseAddress>256</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_17</moduleName>
+    <moduleName>dcc_data_17</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_17.s1</name>
+    <name>dcc_data_17.s1</name>
     <baseAddress>240</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_18</moduleName>
+    <moduleName>dcc_data_18</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_18.s1</name>
+    <name>dcc_data_18.s1</name>
     <baseAddress>224</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_19</moduleName>
+    <moduleName>dcc_data_19</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_19.s1</name>
+    <name>dcc_data_19.s1</name>
     <baseAddress>208</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_20</moduleName>
+    <moduleName>dcc_data_20</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_20.s1</name>
+    <name>dcc_data_20.s1</name>
     <baseAddress>192</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_21</moduleName>
+    <moduleName>dcc_data_21</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_21.s1</name>
+    <name>dcc_data_21.s1</name>
     <baseAddress>176</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_22</moduleName>
+    <moduleName>dcc_data_22</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_22.s1</name>
+    <name>dcc_data_22.s1</name>
     <baseAddress>160</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_23</moduleName>
+    <moduleName>dcc_data_23</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_23.s1</name>
+    <name>dcc_data_23.s1</name>
     <baseAddress>144</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_24</moduleName>
+    <moduleName>dcc_data_24</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_24.s1</name>
+    <name>dcc_data_24.s1</name>
     <baseAddress>128</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_25</moduleName>
+    <moduleName>dcc_data_25</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_25.s1</name>
+    <name>dcc_data_25.s1</name>
     <baseAddress>112</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_26</moduleName>
+    <moduleName>dcc_data_26</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_26.s1</name>
+    <name>dcc_data_26.s1</name>
     <baseAddress>96</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_27</moduleName>
+    <moduleName>dcc_data_27</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_27.s1</name>
+    <name>dcc_data_27.s1</name>
     <baseAddress>80</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_28</moduleName>
+    <moduleName>dcc_data_28</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_28.s1</name>
+    <name>dcc_data_28.s1</name>
     <baseAddress>64</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_29</moduleName>
+    <moduleName>dcc_data_29</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_29.s1</name>
+    <name>dcc_data_29.s1</name>
     <baseAddress>48</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_30</moduleName>
+    <moduleName>dcc_data_30</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_30.s1</name>
+    <name>dcc_data_30.s1</name>
     <baseAddress>32</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_31</moduleName>
+    <moduleName>dcc_data_31</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_31.s1</name>
+    <name>dcc_data_31.s1</name>
     <baseAddress>16</baseAddress>
     <span>16</span>
    </memoryBlock>
@@ -47155,114 +47155,114 @@ parameters are a RESULT of the module parameters. -->
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_1</moduleName>
+    <moduleName>dcc_data_1</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_1.irq</name>
+    <name>dcc_data_1.irq</name>
     <interruptNumber>2</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_time_out</moduleName>
+    <moduleName>dcc_time_out</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_time_out.irq</name>
+    <name>dcc_time_out.irq</name>
     <interruptNumber>3</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_2</moduleName>
+    <moduleName>dcc_data_2</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_2.irq</name>
+    <name>dcc_data_2.irq</name>
     <interruptNumber>4</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_3</moduleName>
+    <moduleName>dcc_data_3</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_3.irq</name>
+    <name>dcc_data_3.irq</name>
     <interruptNumber>5</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_4</moduleName>
+    <moduleName>dcc_data_4</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_4.irq</name>
+    <name>dcc_data_4.irq</name>
     <interruptNumber>6</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_5</moduleName>
+    <moduleName>dcc_data_5</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_5.irq</name>
+    <name>dcc_data_5.irq</name>
     <interruptNumber>7</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_6</moduleName>
+    <moduleName>dcc_data_6</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_6.irq</name>
+    <name>dcc_data_6.irq</name>
     <interruptNumber>8</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_7</moduleName>
+    <moduleName>dcc_data_7</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_7.irq</name>
+    <name>dcc_data_7.irq</name>
     <interruptNumber>9</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_8</moduleName>
+    <moduleName>dcc_data_8</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_8.irq</name>
+    <name>dcc_data_8.irq</name>
     <interruptNumber>10</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_9</moduleName>
+    <moduleName>dcc_data_9</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_9.irq</name>
+    <name>dcc_data_9.irq</name>
     <interruptNumber>11</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_10</moduleName>
+    <moduleName>dcc_data_10</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_10.irq</name>
+    <name>dcc_data_10.irq</name>
     <interruptNumber>12</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_11</moduleName>
+    <moduleName>dcc_data_11</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_11.irq</name>
+    <name>dcc_data_11.irq</name>
     <interruptNumber>13</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_12</moduleName>
+    <moduleName>dcc_data_12</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_12.irq</name>
+    <name>dcc_data_12.irq</name>
     <interruptNumber>14</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_13</moduleName>
+    <moduleName>dcc_data_13</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_13.irq</name>
+    <name>dcc_data_13.irq</name>
     <interruptNumber>15</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_14</moduleName>
+    <moduleName>dcc_data_14</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_14.irq</name>
+    <name>dcc_data_14.irq</name>
     <interruptNumber>16</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_15</moduleName>
+    <moduleName>dcc_data_15</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_15.irq</name>
+    <name>dcc_data_15.irq</name>
     <interruptNumber>17</interruptNumber>
    </interrupt>
    <interrupt>
@@ -47351,114 +47351,114 @@ parameters are a RESULT of the module parameters. -->
    </port>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_17</moduleName>
+    <moduleName>dcc_data_17</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_17.irq</name>
+    <name>dcc_data_17.irq</name>
     <interruptNumber>0</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_18</moduleName>
+    <moduleName>dcc_data_18</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_18.irq</name>
+    <name>dcc_data_18.irq</name>
     <interruptNumber>1</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_19</moduleName>
+    <moduleName>dcc_data_19</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_19.irq</name>
+    <name>dcc_data_19.irq</name>
     <interruptNumber>2</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_20</moduleName>
+    <moduleName>dcc_data_20</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_20.irq</name>
+    <name>dcc_data_20.irq</name>
     <interruptNumber>3</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_21</moduleName>
+    <moduleName>dcc_data_21</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_21.irq</name>
+    <name>dcc_data_21.irq</name>
     <interruptNumber>4</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_22</moduleName>
+    <moduleName>dcc_data_22</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_22.irq</name>
+    <name>dcc_data_22.irq</name>
     <interruptNumber>5</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_23</moduleName>
+    <moduleName>dcc_data_23</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_23.irq</name>
+    <name>dcc_data_23.irq</name>
     <interruptNumber>6</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_24</moduleName>
+    <moduleName>dcc_data_24</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_24.irq</name>
+    <name>dcc_data_24.irq</name>
     <interruptNumber>7</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_25</moduleName>
+    <moduleName>dcc_data_25</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_25.irq</name>
+    <name>dcc_data_25.irq</name>
     <interruptNumber>8</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_26</moduleName>
+    <moduleName>dcc_data_26</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_26.irq</name>
+    <name>dcc_data_26.irq</name>
     <interruptNumber>9</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_27</moduleName>
+    <moduleName>dcc_data_27</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_27.irq</name>
+    <name>dcc_data_27.irq</name>
     <interruptNumber>10</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_28</moduleName>
+    <moduleName>dcc_data_28</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_28.irq</name>
+    <name>dcc_data_28.irq</name>
     <interruptNumber>11</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_29</moduleName>
+    <moduleName>dcc_data_29</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_29.irq</name>
+    <name>dcc_data_29.irq</name>
     <interruptNumber>12</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_30</moduleName>
+    <moduleName>dcc_data_30</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_30.irq</name>
+    <name>dcc_data_30.irq</name>
     <interruptNumber>13</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_31</moduleName>
+    <moduleName>dcc_data_31</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_31.irq</name>
+    <name>dcc_data_31.irq</name>
     <interruptNumber>14</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_16</moduleName>
+    <moduleName>dcc_data_16</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_16.irq</name>
+    <name>dcc_data_16.irq</name>
     <interruptNumber>15</interruptNumber>
    </interrupt>
   </interface>
@@ -74399,257 +74399,257 @@ parameters are a RESULT of the module parameters. -->
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_1</moduleName>
+    <moduleName>dcc_data_1</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_1.s1</name>
+    <name>dcc_data_1.s1</name>
     <baseAddress>24576</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_time_out</moduleName>
+    <moduleName>dcc_time_out</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_time_out.s1</name>
+    <name>dcc_time_out.s1</name>
     <baseAddress>28672</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_2</moduleName>
+    <moduleName>dcc_data_2</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_2.s1</name>
+    <name>dcc_data_2.s1</name>
     <baseAddress>480</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_3</moduleName>
+    <moduleName>dcc_data_3</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_3.s1</name>
+    <name>dcc_data_3.s1</name>
     <baseAddress>464</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_4</moduleName>
+    <moduleName>dcc_data_4</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_4.s1</name>
+    <name>dcc_data_4.s1</name>
     <baseAddress>448</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_5</moduleName>
+    <moduleName>dcc_data_5</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_5.s1</name>
+    <name>dcc_data_5.s1</name>
     <baseAddress>432</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_6</moduleName>
+    <moduleName>dcc_data_6</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_6.s1</name>
+    <name>dcc_data_6.s1</name>
     <baseAddress>416</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_7</moduleName>
+    <moduleName>dcc_data_7</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_7.s1</name>
+    <name>dcc_data_7.s1</name>
     <baseAddress>400</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_8</moduleName>
+    <moduleName>dcc_data_8</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_8.s1</name>
+    <name>dcc_data_8.s1</name>
     <baseAddress>384</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_9</moduleName>
+    <moduleName>dcc_data_9</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_9.s1</name>
+    <name>dcc_data_9.s1</name>
     <baseAddress>368</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_10</moduleName>
+    <moduleName>dcc_data_10</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_10.s1</name>
+    <name>dcc_data_10.s1</name>
     <baseAddress>352</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_11</moduleName>
+    <moduleName>dcc_data_11</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_11.s1</name>
+    <name>dcc_data_11.s1</name>
     <baseAddress>336</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_12</moduleName>
+    <moduleName>dcc_data_12</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_12.s1</name>
+    <name>dcc_data_12.s1</name>
     <baseAddress>320</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_13</moduleName>
+    <moduleName>dcc_data_13</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_13.s1</name>
+    <name>dcc_data_13.s1</name>
     <baseAddress>304</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_14</moduleName>
+    <moduleName>dcc_data_14</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_14.s1</name>
+    <name>dcc_data_14.s1</name>
     <baseAddress>288</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_15</moduleName>
+    <moduleName>dcc_data_15</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_15.s1</name>
+    <name>dcc_data_15.s1</name>
     <baseAddress>272</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_16</moduleName>
+    <moduleName>dcc_data_16</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_16.s1</name>
+    <name>dcc_data_16.s1</name>
     <baseAddress>256</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_17</moduleName>
+    <moduleName>dcc_data_17</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_17.s1</name>
+    <name>dcc_data_17.s1</name>
     <baseAddress>240</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_18</moduleName>
+    <moduleName>dcc_data_18</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_18.s1</name>
+    <name>dcc_data_18.s1</name>
     <baseAddress>224</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_19</moduleName>
+    <moduleName>dcc_data_19</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_19.s1</name>
+    <name>dcc_data_19.s1</name>
     <baseAddress>208</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_20</moduleName>
+    <moduleName>dcc_data_20</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_20.s1</name>
+    <name>dcc_data_20.s1</name>
     <baseAddress>192</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_21</moduleName>
+    <moduleName>dcc_data_21</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_21.s1</name>
+    <name>dcc_data_21.s1</name>
     <baseAddress>176</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_22</moduleName>
+    <moduleName>dcc_data_22</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_22.s1</name>
+    <name>dcc_data_22.s1</name>
     <baseAddress>160</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_23</moduleName>
+    <moduleName>dcc_data_23</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_23.s1</name>
+    <name>dcc_data_23.s1</name>
     <baseAddress>144</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_24</moduleName>
+    <moduleName>dcc_data_24</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_24.s1</name>
+    <name>dcc_data_24.s1</name>
     <baseAddress>128</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_25</moduleName>
+    <moduleName>dcc_data_25</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_25.s1</name>
+    <name>dcc_data_25.s1</name>
     <baseAddress>112</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_26</moduleName>
+    <moduleName>dcc_data_26</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_26.s1</name>
+    <name>dcc_data_26.s1</name>
     <baseAddress>96</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_27</moduleName>
+    <moduleName>dcc_data_27</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_27.s1</name>
+    <name>dcc_data_27.s1</name>
     <baseAddress>80</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_28</moduleName>
+    <moduleName>dcc_data_28</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_28.s1</name>
+    <name>dcc_data_28.s1</name>
     <baseAddress>64</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_29</moduleName>
+    <moduleName>dcc_data_29</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_29.s1</name>
+    <name>dcc_data_29.s1</name>
     <baseAddress>48</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_30</moduleName>
+    <moduleName>dcc_data_30</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_30.s1</name>
+    <name>dcc_data_30.s1</name>
     <baseAddress>32</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_31</moduleName>
+    <moduleName>dcc_data_31</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_31.s1</name>
+    <name>dcc_data_31.s1</name>
     <baseAddress>16</baseAddress>
     <span>16</span>
    </memoryBlock>
@@ -76688,257 +76688,257 @@ parameters are a RESULT of the module parameters. -->
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_1</moduleName>
+    <moduleName>dcc_data_1</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_1.s1</name>
+    <name>dcc_data_1.s1</name>
     <baseAddress>4280311808</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_time_out</moduleName>
+    <moduleName>dcc_time_out</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_time_out.s1</name>
+    <name>dcc_time_out.s1</name>
     <baseAddress>4280315904</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_2</moduleName>
+    <moduleName>dcc_data_2</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_2.s1</name>
+    <name>dcc_data_2.s1</name>
     <baseAddress>4280287712</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_3</moduleName>
+    <moduleName>dcc_data_3</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_3.s1</name>
+    <name>dcc_data_3.s1</name>
     <baseAddress>4280287696</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_4</moduleName>
+    <moduleName>dcc_data_4</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_4.s1</name>
+    <name>dcc_data_4.s1</name>
     <baseAddress>4280287680</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_5</moduleName>
+    <moduleName>dcc_data_5</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_5.s1</name>
+    <name>dcc_data_5.s1</name>
     <baseAddress>4280287664</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_6</moduleName>
+    <moduleName>dcc_data_6</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_6.s1</name>
+    <name>dcc_data_6.s1</name>
     <baseAddress>4280287648</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_7</moduleName>
+    <moduleName>dcc_data_7</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_7.s1</name>
+    <name>dcc_data_7.s1</name>
     <baseAddress>4280287632</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_8</moduleName>
+    <moduleName>dcc_data_8</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_8.s1</name>
+    <name>dcc_data_8.s1</name>
     <baseAddress>4280287616</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_9</moduleName>
+    <moduleName>dcc_data_9</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_9.s1</name>
+    <name>dcc_data_9.s1</name>
     <baseAddress>4280287600</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_10</moduleName>
+    <moduleName>dcc_data_10</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_10.s1</name>
+    <name>dcc_data_10.s1</name>
     <baseAddress>4280287584</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_11</moduleName>
+    <moduleName>dcc_data_11</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_11.s1</name>
+    <name>dcc_data_11.s1</name>
     <baseAddress>4280287568</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_12</moduleName>
+    <moduleName>dcc_data_12</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_12.s1</name>
+    <name>dcc_data_12.s1</name>
     <baseAddress>4280287552</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_13</moduleName>
+    <moduleName>dcc_data_13</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_13.s1</name>
+    <name>dcc_data_13.s1</name>
     <baseAddress>4280287536</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_14</moduleName>
+    <moduleName>dcc_data_14</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_14.s1</name>
+    <name>dcc_data_14.s1</name>
     <baseAddress>4280287520</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_15</moduleName>
+    <moduleName>dcc_data_15</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_15.s1</name>
+    <name>dcc_data_15.s1</name>
     <baseAddress>4280287504</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_16</moduleName>
+    <moduleName>dcc_data_16</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_16.s1</name>
+    <name>dcc_data_16.s1</name>
     <baseAddress>4280287488</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_17</moduleName>
+    <moduleName>dcc_data_17</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_17.s1</name>
+    <name>dcc_data_17.s1</name>
     <baseAddress>4280287472</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_18</moduleName>
+    <moduleName>dcc_data_18</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_18.s1</name>
+    <name>dcc_data_18.s1</name>
     <baseAddress>4280287456</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_19</moduleName>
+    <moduleName>dcc_data_19</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_19.s1</name>
+    <name>dcc_data_19.s1</name>
     <baseAddress>4280287440</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_20</moduleName>
+    <moduleName>dcc_data_20</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_20.s1</name>
+    <name>dcc_data_20.s1</name>
     <baseAddress>4280287424</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_21</moduleName>
+    <moduleName>dcc_data_21</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_21.s1</name>
+    <name>dcc_data_21.s1</name>
     <baseAddress>4280287408</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_22</moduleName>
+    <moduleName>dcc_data_22</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_22.s1</name>
+    <name>dcc_data_22.s1</name>
     <baseAddress>4280287392</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_23</moduleName>
+    <moduleName>dcc_data_23</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_23.s1</name>
+    <name>dcc_data_23.s1</name>
     <baseAddress>4280287376</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_24</moduleName>
+    <moduleName>dcc_data_24</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_24.s1</name>
+    <name>dcc_data_24.s1</name>
     <baseAddress>4280287360</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_25</moduleName>
+    <moduleName>dcc_data_25</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_25.s1</name>
+    <name>dcc_data_25.s1</name>
     <baseAddress>4280287344</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_26</moduleName>
+    <moduleName>dcc_data_26</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_26.s1</name>
+    <name>dcc_data_26.s1</name>
     <baseAddress>4280287328</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_27</moduleName>
+    <moduleName>dcc_data_27</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_27.s1</name>
+    <name>dcc_data_27.s1</name>
     <baseAddress>4280287312</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_28</moduleName>
+    <moduleName>dcc_data_28</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_28.s1</name>
+    <name>dcc_data_28.s1</name>
     <baseAddress>4280287296</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_29</moduleName>
+    <moduleName>dcc_data_29</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_29.s1</name>
+    <name>dcc_data_29.s1</name>
     <baseAddress>4280287280</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_30</moduleName>
+    <moduleName>dcc_data_30</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_30.s1</name>
+    <name>dcc_data_30.s1</name>
     <baseAddress>4280287264</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_31</moduleName>
+    <moduleName>dcc_data_31</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_31.s1</name>
+    <name>dcc_data_31.s1</name>
     <baseAddress>4280287248</baseAddress>
     <span>16</span>
    </memoryBlock>
@@ -77831,257 +77831,257 @@ parameters are a RESULT of the module parameters. -->
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_1</moduleName>
+    <moduleName>dcc_data_1</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_1.s1</name>
+    <name>dcc_data_1.s1</name>
     <baseAddress>4280311808</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_time_out</moduleName>
+    <moduleName>dcc_time_out</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_time_out.s1</name>
+    <name>dcc_time_out.s1</name>
     <baseAddress>4280315904</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_2</moduleName>
+    <moduleName>dcc_data_2</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_2.s1</name>
+    <name>dcc_data_2.s1</name>
     <baseAddress>4280287712</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_3</moduleName>
+    <moduleName>dcc_data_3</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_3.s1</name>
+    <name>dcc_data_3.s1</name>
     <baseAddress>4280287696</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_4</moduleName>
+    <moduleName>dcc_data_4</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_4.s1</name>
+    <name>dcc_data_4.s1</name>
     <baseAddress>4280287680</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_5</moduleName>
+    <moduleName>dcc_data_5</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_5.s1</name>
+    <name>dcc_data_5.s1</name>
     <baseAddress>4280287664</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_6</moduleName>
+    <moduleName>dcc_data_6</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_6.s1</name>
+    <name>dcc_data_6.s1</name>
     <baseAddress>4280287648</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_7</moduleName>
+    <moduleName>dcc_data_7</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_7.s1</name>
+    <name>dcc_data_7.s1</name>
     <baseAddress>4280287632</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_8</moduleName>
+    <moduleName>dcc_data_8</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_8.s1</name>
+    <name>dcc_data_8.s1</name>
     <baseAddress>4280287616</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_9</moduleName>
+    <moduleName>dcc_data_9</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_9.s1</name>
+    <name>dcc_data_9.s1</name>
     <baseAddress>4280287600</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_10</moduleName>
+    <moduleName>dcc_data_10</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_10.s1</name>
+    <name>dcc_data_10.s1</name>
     <baseAddress>4280287584</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_11</moduleName>
+    <moduleName>dcc_data_11</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_11.s1</name>
+    <name>dcc_data_11.s1</name>
     <baseAddress>4280287568</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_12</moduleName>
+    <moduleName>dcc_data_12</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_12.s1</name>
+    <name>dcc_data_12.s1</name>
     <baseAddress>4280287552</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_13</moduleName>
+    <moduleName>dcc_data_13</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_13.s1</name>
+    <name>dcc_data_13.s1</name>
     <baseAddress>4280287536</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_14</moduleName>
+    <moduleName>dcc_data_14</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_14.s1</name>
+    <name>dcc_data_14.s1</name>
     <baseAddress>4280287520</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_15</moduleName>
+    <moduleName>dcc_data_15</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_15.s1</name>
+    <name>dcc_data_15.s1</name>
     <baseAddress>4280287504</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_16</moduleName>
+    <moduleName>dcc_data_16</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_16.s1</name>
+    <name>dcc_data_16.s1</name>
     <baseAddress>4280287488</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_17</moduleName>
+    <moduleName>dcc_data_17</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_17.s1</name>
+    <name>dcc_data_17.s1</name>
     <baseAddress>4280287472</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_18</moduleName>
+    <moduleName>dcc_data_18</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_18.s1</name>
+    <name>dcc_data_18.s1</name>
     <baseAddress>4280287456</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_19</moduleName>
+    <moduleName>dcc_data_19</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_19.s1</name>
+    <name>dcc_data_19.s1</name>
     <baseAddress>4280287440</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_20</moduleName>
+    <moduleName>dcc_data_20</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_20.s1</name>
+    <name>dcc_data_20.s1</name>
     <baseAddress>4280287424</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_21</moduleName>
+    <moduleName>dcc_data_21</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_21.s1</name>
+    <name>dcc_data_21.s1</name>
     <baseAddress>4280287408</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_22</moduleName>
+    <moduleName>dcc_data_22</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_22.s1</name>
+    <name>dcc_data_22.s1</name>
     <baseAddress>4280287392</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_23</moduleName>
+    <moduleName>dcc_data_23</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_23.s1</name>
+    <name>dcc_data_23.s1</name>
     <baseAddress>4280287376</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_24</moduleName>
+    <moduleName>dcc_data_24</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_24.s1</name>
+    <name>dcc_data_24.s1</name>
     <baseAddress>4280287360</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_25</moduleName>
+    <moduleName>dcc_data_25</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_25.s1</name>
+    <name>dcc_data_25.s1</name>
     <baseAddress>4280287344</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_26</moduleName>
+    <moduleName>dcc_data_26</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_26.s1</name>
+    <name>dcc_data_26.s1</name>
     <baseAddress>4280287328</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_27</moduleName>
+    <moduleName>dcc_data_27</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_27.s1</name>
+    <name>dcc_data_27.s1</name>
     <baseAddress>4280287312</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_28</moduleName>
+    <moduleName>dcc_data_28</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_28.s1</name>
+    <name>dcc_data_28.s1</name>
     <baseAddress>4280287296</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_29</moduleName>
+    <moduleName>dcc_data_29</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_29.s1</name>
+    <name>dcc_data_29.s1</name>
     <baseAddress>4280287280</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_30</moduleName>
+    <moduleName>dcc_data_30</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_30.s1</name>
+    <name>dcc_data_30.s1</name>
     <baseAddress>4280287264</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_31</moduleName>
+    <moduleName>dcc_data_31</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_31.s1</name>
+    <name>dcc_data_31.s1</name>
     <baseAddress>4280287248</baseAddress>
     <span>16</span>
    </memoryBlock>
@@ -79078,114 +79078,114 @@ parameters are a RESULT of the module parameters. -->
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_1</moduleName>
+    <moduleName>dcc_data_1</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_1.irq</name>
+    <name>dcc_data_1.irq</name>
     <interruptNumber>2</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_time_out</moduleName>
+    <moduleName>dcc_time_out</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_time_out.irq</name>
+    <name>dcc_time_out.irq</name>
     <interruptNumber>3</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_2</moduleName>
+    <moduleName>dcc_data_2</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_2.irq</name>
+    <name>dcc_data_2.irq</name>
     <interruptNumber>4</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_3</moduleName>
+    <moduleName>dcc_data_3</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_3.irq</name>
+    <name>dcc_data_3.irq</name>
     <interruptNumber>5</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_4</moduleName>
+    <moduleName>dcc_data_4</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_4.irq</name>
+    <name>dcc_data_4.irq</name>
     <interruptNumber>6</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_5</moduleName>
+    <moduleName>dcc_data_5</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_5.irq</name>
+    <name>dcc_data_5.irq</name>
     <interruptNumber>7</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_6</moduleName>
+    <moduleName>dcc_data_6</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_6.irq</name>
+    <name>dcc_data_6.irq</name>
     <interruptNumber>8</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_7</moduleName>
+    <moduleName>dcc_data_7</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_7.irq</name>
+    <name>dcc_data_7.irq</name>
     <interruptNumber>9</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_8</moduleName>
+    <moduleName>dcc_data_8</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_8.irq</name>
+    <name>dcc_data_8.irq</name>
     <interruptNumber>10</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_9</moduleName>
+    <moduleName>dcc_data_9</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_9.irq</name>
+    <name>dcc_data_9.irq</name>
     <interruptNumber>11</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_10</moduleName>
+    <moduleName>dcc_data_10</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_10.irq</name>
+    <name>dcc_data_10.irq</name>
     <interruptNumber>12</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_11</moduleName>
+    <moduleName>dcc_data_11</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_11.irq</name>
+    <name>dcc_data_11.irq</name>
     <interruptNumber>13</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_12</moduleName>
+    <moduleName>dcc_data_12</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_12.irq</name>
+    <name>dcc_data_12.irq</name>
     <interruptNumber>14</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_13</moduleName>
+    <moduleName>dcc_data_13</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_13.irq</name>
+    <name>dcc_data_13.irq</name>
     <interruptNumber>15</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_14</moduleName>
+    <moduleName>dcc_data_14</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_14.irq</name>
+    <name>dcc_data_14.irq</name>
     <interruptNumber>16</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_15</moduleName>
+    <moduleName>dcc_data_15</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_15.irq</name>
+    <name>dcc_data_15.irq</name>
     <interruptNumber>17</interruptNumber>
    </interrupt>
    <interrupt>
@@ -79277,114 +79277,114 @@ parameters are a RESULT of the module parameters. -->
    </port>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_17</moduleName>
+    <moduleName>dcc_data_17</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_17.irq</name>
+    <name>dcc_data_17.irq</name>
     <interruptNumber>0</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_18</moduleName>
+    <moduleName>dcc_data_18</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_18.irq</name>
+    <name>dcc_data_18.irq</name>
     <interruptNumber>1</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_19</moduleName>
+    <moduleName>dcc_data_19</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_19.irq</name>
+    <name>dcc_data_19.irq</name>
     <interruptNumber>2</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_20</moduleName>
+    <moduleName>dcc_data_20</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_20.irq</name>
+    <name>dcc_data_20.irq</name>
     <interruptNumber>3</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_21</moduleName>
+    <moduleName>dcc_data_21</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_21.irq</name>
+    <name>dcc_data_21.irq</name>
     <interruptNumber>4</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_22</moduleName>
+    <moduleName>dcc_data_22</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_22.irq</name>
+    <name>dcc_data_22.irq</name>
     <interruptNumber>5</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_23</moduleName>
+    <moduleName>dcc_data_23</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_23.irq</name>
+    <name>dcc_data_23.irq</name>
     <interruptNumber>6</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_24</moduleName>
+    <moduleName>dcc_data_24</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_24.irq</name>
+    <name>dcc_data_24.irq</name>
     <interruptNumber>7</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_25</moduleName>
+    <moduleName>dcc_data_25</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_25.irq</name>
+    <name>dcc_data_25.irq</name>
     <interruptNumber>8</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_26</moduleName>
+    <moduleName>dcc_data_26</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_26.irq</name>
+    <name>dcc_data_26.irq</name>
     <interruptNumber>9</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_27</moduleName>
+    <moduleName>dcc_data_27</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_27.irq</name>
+    <name>dcc_data_27.irq</name>
     <interruptNumber>10</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_28</moduleName>
+    <moduleName>dcc_data_28</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_28.irq</name>
+    <name>dcc_data_28.irq</name>
     <interruptNumber>11</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_29</moduleName>
+    <moduleName>dcc_data_29</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_29.irq</name>
+    <name>dcc_data_29.irq</name>
     <interruptNumber>12</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_30</moduleName>
+    <moduleName>dcc_data_30</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_30.irq</name>
+    <name>dcc_data_30.irq</name>
     <interruptNumber>13</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_31</moduleName>
+    <moduleName>dcc_data_31</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_31.irq</name>
+    <name>dcc_data_31.irq</name>
     <interruptNumber>14</interruptNumber>
    </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_16</moduleName>
+    <moduleName>dcc_data_16</moduleName>
     <slaveName>irq</slaveName>
-    <name>ddc_data_16.irq</name>
+    <name>dcc_data_16.irq</name>
     <interruptNumber>15</interruptNumber>
    </interrupt>
   </interface>
@@ -109230,257 +109230,257 @@ parameters are a RESULT of the module parameters. -->
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_1</moduleName>
+    <moduleName>dcc_data_1</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_1.s1</name>
+    <name>dcc_data_1.s1</name>
     <baseAddress>24576</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_time_out</moduleName>
+    <moduleName>dcc_time_out</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_time_out.s1</name>
+    <name>dcc_time_out.s1</name>
     <baseAddress>28672</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_2</moduleName>
+    <moduleName>dcc_data_2</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_2.s1</name>
+    <name>dcc_data_2.s1</name>
     <baseAddress>480</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_3</moduleName>
+    <moduleName>dcc_data_3</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_3.s1</name>
+    <name>dcc_data_3.s1</name>
     <baseAddress>464</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_4</moduleName>
+    <moduleName>dcc_data_4</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_4.s1</name>
+    <name>dcc_data_4.s1</name>
     <baseAddress>448</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_5</moduleName>
+    <moduleName>dcc_data_5</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_5.s1</name>
+    <name>dcc_data_5.s1</name>
     <baseAddress>432</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_6</moduleName>
+    <moduleName>dcc_data_6</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_6.s1</name>
+    <name>dcc_data_6.s1</name>
     <baseAddress>416</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_7</moduleName>
+    <moduleName>dcc_data_7</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_7.s1</name>
+    <name>dcc_data_7.s1</name>
     <baseAddress>400</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_8</moduleName>
+    <moduleName>dcc_data_8</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_8.s1</name>
+    <name>dcc_data_8.s1</name>
     <baseAddress>384</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_9</moduleName>
+    <moduleName>dcc_data_9</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_9.s1</name>
+    <name>dcc_data_9.s1</name>
     <baseAddress>368</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_10</moduleName>
+    <moduleName>dcc_data_10</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_10.s1</name>
+    <name>dcc_data_10.s1</name>
     <baseAddress>352</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_11</moduleName>
+    <moduleName>dcc_data_11</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_11.s1</name>
+    <name>dcc_data_11.s1</name>
     <baseAddress>336</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_12</moduleName>
+    <moduleName>dcc_data_12</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_12.s1</name>
+    <name>dcc_data_12.s1</name>
     <baseAddress>320</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_13</moduleName>
+    <moduleName>dcc_data_13</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_13.s1</name>
+    <name>dcc_data_13.s1</name>
     <baseAddress>304</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_14</moduleName>
+    <moduleName>dcc_data_14</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_14.s1</name>
+    <name>dcc_data_14.s1</name>
     <baseAddress>288</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_15</moduleName>
+    <moduleName>dcc_data_15</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_15.s1</name>
+    <name>dcc_data_15.s1</name>
     <baseAddress>272</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_16</moduleName>
+    <moduleName>dcc_data_16</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_16.s1</name>
+    <name>dcc_data_16.s1</name>
     <baseAddress>256</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_17</moduleName>
+    <moduleName>dcc_data_17</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_17.s1</name>
+    <name>dcc_data_17.s1</name>
     <baseAddress>240</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_18</moduleName>
+    <moduleName>dcc_data_18</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_18.s1</name>
+    <name>dcc_data_18.s1</name>
     <baseAddress>224</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_19</moduleName>
+    <moduleName>dcc_data_19</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_19.s1</name>
+    <name>dcc_data_19.s1</name>
     <baseAddress>208</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_20</moduleName>
+    <moduleName>dcc_data_20</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_20.s1</name>
+    <name>dcc_data_20.s1</name>
     <baseAddress>192</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_21</moduleName>
+    <moduleName>dcc_data_21</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_21.s1</name>
+    <name>dcc_data_21.s1</name>
     <baseAddress>176</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_22</moduleName>
+    <moduleName>dcc_data_22</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_22.s1</name>
+    <name>dcc_data_22.s1</name>
     <baseAddress>160</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_23</moduleName>
+    <moduleName>dcc_data_23</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_23.s1</name>
+    <name>dcc_data_23.s1</name>
     <baseAddress>144</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_24</moduleName>
+    <moduleName>dcc_data_24</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_24.s1</name>
+    <name>dcc_data_24.s1</name>
     <baseAddress>128</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_25</moduleName>
+    <moduleName>dcc_data_25</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_25.s1</name>
+    <name>dcc_data_25.s1</name>
     <baseAddress>112</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_26</moduleName>
+    <moduleName>dcc_data_26</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_26.s1</name>
+    <name>dcc_data_26.s1</name>
     <baseAddress>96</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_27</moduleName>
+    <moduleName>dcc_data_27</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_27.s1</name>
+    <name>dcc_data_27.s1</name>
     <baseAddress>80</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_28</moduleName>
+    <moduleName>dcc_data_28</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_28.s1</name>
+    <name>dcc_data_28.s1</name>
     <baseAddress>64</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_29</moduleName>
+    <moduleName>dcc_data_29</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_29.s1</name>
+    <name>dcc_data_29.s1</name>
     <baseAddress>48</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_30</moduleName>
+    <moduleName>dcc_data_30</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_30.s1</name>
+    <name>dcc_data_30.s1</name>
     <baseAddress>32</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
-    <moduleName>ddc_data_31</moduleName>
+    <moduleName>dcc_data_31</moduleName>
     <slaveName>s1</slaveName>
-    <name>ddc_data_31.s1</name>
+    <name>dcc_data_31.s1</name>
     <baseAddress>16</baseAddress>
     <span>16</span>
    </memoryBlock>
@@ -115362,7 +115362,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.TIMESTAMP</name>
-   <value>1578541174</value>
+   <value>1578617602</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.compatible</name>
@@ -115382,7 +115382,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.timestamp</name>
-   <value>1578541174</value>
+   <value>1578617602</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.vendor</name>
@@ -115398,7 +115398,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="timestamp">
    <type>int</type>
-   <value>1578541174</value>
+   <value>1578617602</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -127525,11 +127525,11 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_1.s1"
+   name="mm_bridge_0.m0/dcc_data_1.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_1.s1">
+   end="dcc_data_1.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -127572,15 +127572,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_1</endModule>
+  <endModule>dcc_data_1</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_time_out.s1"
+   name="mm_bridge_0.m0/dcc_time_out.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_time_out.s1">
+   end="dcc_time_out.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -127623,15 +127623,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_time_out</endModule>
+  <endModule>dcc_time_out</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_2.s1"
+   name="mm_bridge_0.m0/dcc_data_2.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_2.s1">
+   end="dcc_data_2.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -127674,15 +127674,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_2</endModule>
+  <endModule>dcc_data_2</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_3.s1"
+   name="mm_bridge_0.m0/dcc_data_3.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_3.s1">
+   end="dcc_data_3.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -127725,15 +127725,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_3</endModule>
+  <endModule>dcc_data_3</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_4.s1"
+   name="mm_bridge_0.m0/dcc_data_4.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_4.s1">
+   end="dcc_data_4.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -127776,15 +127776,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_4</endModule>
+  <endModule>dcc_data_4</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_5.s1"
+   name="mm_bridge_0.m0/dcc_data_5.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_5.s1">
+   end="dcc_data_5.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -127827,15 +127827,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_5</endModule>
+  <endModule>dcc_data_5</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_6.s1"
+   name="mm_bridge_0.m0/dcc_data_6.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_6.s1">
+   end="dcc_data_6.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -127878,15 +127878,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_6</endModule>
+  <endModule>dcc_data_6</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_7.s1"
+   name="mm_bridge_0.m0/dcc_data_7.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_7.s1">
+   end="dcc_data_7.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -127929,15 +127929,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_7</endModule>
+  <endModule>dcc_data_7</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_8.s1"
+   name="mm_bridge_0.m0/dcc_data_8.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_8.s1">
+   end="dcc_data_8.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -127980,15 +127980,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_8</endModule>
+  <endModule>dcc_data_8</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_9.s1"
+   name="mm_bridge_0.m0/dcc_data_9.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_9.s1">
+   end="dcc_data_9.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -128031,15 +128031,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_9</endModule>
+  <endModule>dcc_data_9</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_10.s1"
+   name="mm_bridge_0.m0/dcc_data_10.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_10.s1">
+   end="dcc_data_10.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -128082,15 +128082,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_10</endModule>
+  <endModule>dcc_data_10</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_11.s1"
+   name="mm_bridge_0.m0/dcc_data_11.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_11.s1">
+   end="dcc_data_11.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -128133,15 +128133,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_11</endModule>
+  <endModule>dcc_data_11</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_12.s1"
+   name="mm_bridge_0.m0/dcc_data_12.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_12.s1">
+   end="dcc_data_12.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -128184,15 +128184,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_12</endModule>
+  <endModule>dcc_data_12</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_13.s1"
+   name="mm_bridge_0.m0/dcc_data_13.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_13.s1">
+   end="dcc_data_13.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -128235,15 +128235,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_13</endModule>
+  <endModule>dcc_data_13</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_14.s1"
+   name="mm_bridge_0.m0/dcc_data_14.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_14.s1">
+   end="dcc_data_14.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -128286,15 +128286,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_14</endModule>
+  <endModule>dcc_data_14</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_15.s1"
+   name="mm_bridge_0.m0/dcc_data_15.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_15.s1">
+   end="dcc_data_15.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -128337,15 +128337,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_15</endModule>
+  <endModule>dcc_data_15</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_16.s1"
+   name="mm_bridge_0.m0/dcc_data_16.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_16.s1">
+   end="dcc_data_16.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -128388,15 +128388,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_16</endModule>
+  <endModule>dcc_data_16</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_17.s1"
+   name="mm_bridge_0.m0/dcc_data_17.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_17.s1">
+   end="dcc_data_17.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -128439,15 +128439,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_17</endModule>
+  <endModule>dcc_data_17</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_18.s1"
+   name="mm_bridge_0.m0/dcc_data_18.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_18.s1">
+   end="dcc_data_18.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -128490,15 +128490,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_18</endModule>
+  <endModule>dcc_data_18</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_19.s1"
+   name="mm_bridge_0.m0/dcc_data_19.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_19.s1">
+   end="dcc_data_19.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -128541,15 +128541,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_19</endModule>
+  <endModule>dcc_data_19</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_20.s1"
+   name="mm_bridge_0.m0/dcc_data_20.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_20.s1">
+   end="dcc_data_20.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -128592,15 +128592,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_20</endModule>
+  <endModule>dcc_data_20</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_21.s1"
+   name="mm_bridge_0.m0/dcc_data_21.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_21.s1">
+   end="dcc_data_21.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -128643,15 +128643,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_21</endModule>
+  <endModule>dcc_data_21</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_22.s1"
+   name="mm_bridge_0.m0/dcc_data_22.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_22.s1">
+   end="dcc_data_22.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -128694,15 +128694,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_22</endModule>
+  <endModule>dcc_data_22</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_23.s1"
+   name="mm_bridge_0.m0/dcc_data_23.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_23.s1">
+   end="dcc_data_23.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -128745,15 +128745,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_23</endModule>
+  <endModule>dcc_data_23</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_24.s1"
+   name="mm_bridge_0.m0/dcc_data_24.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_24.s1">
+   end="dcc_data_24.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -128796,15 +128796,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_24</endModule>
+  <endModule>dcc_data_24</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_25.s1"
+   name="mm_bridge_0.m0/dcc_data_25.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_25.s1">
+   end="dcc_data_25.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -128847,15 +128847,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_25</endModule>
+  <endModule>dcc_data_25</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_26.s1"
+   name="mm_bridge_0.m0/dcc_data_26.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_26.s1">
+   end="dcc_data_26.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -128898,15 +128898,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_26</endModule>
+  <endModule>dcc_data_26</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_27.s1"
+   name="mm_bridge_0.m0/dcc_data_27.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_27.s1">
+   end="dcc_data_27.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -128949,15 +128949,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_27</endModule>
+  <endModule>dcc_data_27</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_28.s1"
+   name="mm_bridge_0.m0/dcc_data_28.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_28.s1">
+   end="dcc_data_28.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -129000,15 +129000,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_28</endModule>
+  <endModule>dcc_data_28</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_29.s1"
+   name="mm_bridge_0.m0/dcc_data_29.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_29.s1">
+   end="dcc_data_29.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -129051,15 +129051,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_29</endModule>
+  <endModule>dcc_data_29</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_30.s1"
+   name="mm_bridge_0.m0/dcc_data_30.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_30.s1">
+   end="dcc_data_30.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -129102,15 +129102,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_30</endModule>
+  <endModule>dcc_data_30</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_bridge_0.m0/ddc_data_31.s1"
+   name="mm_bridge_0.m0/dcc_data_31.s1"
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_31.s1">
+   end="dcc_data_31.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -129153,7 +129153,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>mm_bridge_0</startModule>
   <startConnectionPoint>m0</startConnectionPoint>
-  <endModule>ddc_data_31</endModule>
+  <endModule>dcc_data_31</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
@@ -129451,11 +129451,11 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_1.clk"
+   name="clk_50.clk/dcc_data_1.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_1.clk">
+   end="dcc_data_1.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -129474,15 +129474,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_1</endModule>
+  <endModule>dcc_data_1</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_time_out.clk"
+   name="clk_50.clk/dcc_time_out.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_time_out.clk">
+   end="dcc_time_out.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -129501,15 +129501,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_time_out</endModule>
+  <endModule>dcc_time_out</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_2.clk"
+   name="clk_50.clk/dcc_data_2.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_2.clk">
+   end="dcc_data_2.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -129528,15 +129528,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_2</endModule>
+  <endModule>dcc_data_2</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_4.clk"
+   name="clk_50.clk/dcc_data_4.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_4.clk">
+   end="dcc_data_4.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -129555,15 +129555,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_4</endModule>
+  <endModule>dcc_data_4</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_3.clk"
+   name="clk_50.clk/dcc_data_3.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_3.clk">
+   end="dcc_data_3.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -129582,15 +129582,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_3</endModule>
+  <endModule>dcc_data_3</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_5.clk"
+   name="clk_50.clk/dcc_data_5.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_5.clk">
+   end="dcc_data_5.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -129609,15 +129609,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_5</endModule>
+  <endModule>dcc_data_5</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_6.clk"
+   name="clk_50.clk/dcc_data_6.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_6.clk">
+   end="dcc_data_6.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -129636,15 +129636,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_6</endModule>
+  <endModule>dcc_data_6</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_7.clk"
+   name="clk_50.clk/dcc_data_7.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_7.clk">
+   end="dcc_data_7.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -129663,15 +129663,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_7</endModule>
+  <endModule>dcc_data_7</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_8.clk"
+   name="clk_50.clk/dcc_data_8.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_8.clk">
+   end="dcc_data_8.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -129690,15 +129690,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_8</endModule>
+  <endModule>dcc_data_8</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_9.clk"
+   name="clk_50.clk/dcc_data_9.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_9.clk">
+   end="dcc_data_9.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -129717,15 +129717,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_9</endModule>
+  <endModule>dcc_data_9</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_10.clk"
+   name="clk_50.clk/dcc_data_10.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_10.clk">
+   end="dcc_data_10.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -129744,15 +129744,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_10</endModule>
+  <endModule>dcc_data_10</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_11.clk"
+   name="clk_50.clk/dcc_data_11.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_11.clk">
+   end="dcc_data_11.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -129771,15 +129771,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_11</endModule>
+  <endModule>dcc_data_11</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_12.clk"
+   name="clk_50.clk/dcc_data_12.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_12.clk">
+   end="dcc_data_12.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -129798,15 +129798,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_12</endModule>
+  <endModule>dcc_data_12</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_13.clk"
+   name="clk_50.clk/dcc_data_13.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_13.clk">
+   end="dcc_data_13.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -129825,15 +129825,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_13</endModule>
+  <endModule>dcc_data_13</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_14.clk"
+   name="clk_50.clk/dcc_data_14.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_14.clk">
+   end="dcc_data_14.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -129852,15 +129852,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_14</endModule>
+  <endModule>dcc_data_14</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_15.clk"
+   name="clk_50.clk/dcc_data_15.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_15.clk">
+   end="dcc_data_15.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -129879,15 +129879,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_15</endModule>
+  <endModule>dcc_data_15</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_16.clk"
+   name="clk_50.clk/dcc_data_16.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_16.clk">
+   end="dcc_data_16.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -129906,15 +129906,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_16</endModule>
+  <endModule>dcc_data_16</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_17.clk"
+   name="clk_50.clk/dcc_data_17.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_17.clk">
+   end="dcc_data_17.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -129933,15 +129933,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_17</endModule>
+  <endModule>dcc_data_17</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_18.clk"
+   name="clk_50.clk/dcc_data_18.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_18.clk">
+   end="dcc_data_18.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -129960,15 +129960,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_18</endModule>
+  <endModule>dcc_data_18</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_19.clk"
+   name="clk_50.clk/dcc_data_19.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_19.clk">
+   end="dcc_data_19.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -129987,15 +129987,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_19</endModule>
+  <endModule>dcc_data_19</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_20.clk"
+   name="clk_50.clk/dcc_data_20.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_20.clk">
+   end="dcc_data_20.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -130014,15 +130014,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_20</endModule>
+  <endModule>dcc_data_20</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_21.clk"
+   name="clk_50.clk/dcc_data_21.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_21.clk">
+   end="dcc_data_21.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -130041,15 +130041,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_21</endModule>
+  <endModule>dcc_data_21</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_22.clk"
+   name="clk_50.clk/dcc_data_22.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_22.clk">
+   end="dcc_data_22.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -130068,15 +130068,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_22</endModule>
+  <endModule>dcc_data_22</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_23.clk"
+   name="clk_50.clk/dcc_data_23.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_23.clk">
+   end="dcc_data_23.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -130095,15 +130095,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_23</endModule>
+  <endModule>dcc_data_23</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_24.clk"
+   name="clk_50.clk/dcc_data_24.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_24.clk">
+   end="dcc_data_24.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -130122,15 +130122,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_24</endModule>
+  <endModule>dcc_data_24</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_25.clk"
+   name="clk_50.clk/dcc_data_25.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_25.clk">
+   end="dcc_data_25.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -130149,15 +130149,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_25</endModule>
+  <endModule>dcc_data_25</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_26.clk"
+   name="clk_50.clk/dcc_data_26.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_26.clk">
+   end="dcc_data_26.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -130176,15 +130176,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_26</endModule>
+  <endModule>dcc_data_26</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_27.clk"
+   name="clk_50.clk/dcc_data_27.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_27.clk">
+   end="dcc_data_27.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -130203,15 +130203,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_27</endModule>
+  <endModule>dcc_data_27</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_28.clk"
+   name="clk_50.clk/dcc_data_28.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_28.clk">
+   end="dcc_data_28.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -130230,15 +130230,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_28</endModule>
+  <endModule>dcc_data_28</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_29.clk"
+   name="clk_50.clk/dcc_data_29.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_29.clk">
+   end="dcc_data_29.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -130257,15 +130257,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_29</endModule>
+  <endModule>dcc_data_29</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_30.clk"
+   name="clk_50.clk/dcc_data_30.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_30.clk">
+   end="dcc_data_30.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -130284,15 +130284,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_30</endModule>
+  <endModule>dcc_data_30</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk/ddc_data_31.clk"
+   name="clk_50.clk/dcc_data_31.clk"
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="ddc_data_31.clk">
+   end="dcc_data_31.clk">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -130311,7 +130311,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>ddc_data_31</endModule>
+  <endModule>dcc_data_31</endModule>
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <connection
@@ -130547,11 +130547,11 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/ddc_data_1.irq"
+   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/dcc_data_1.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40"
-   end="ddc_data_1.irq">
+   end="dcc_data_1.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>2</value>
@@ -130578,15 +130578,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_0_irq_rx_offset_40</startConnectionPoint>
-  <endModule>ddc_data_1</endModule>
+  <endModule>dcc_data_1</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/ddc_time_out.irq"
+   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/dcc_time_out.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40"
-   end="ddc_time_out.irq">
+   end="dcc_time_out.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>3</value>
@@ -130613,15 +130613,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_0_irq_rx_offset_40</startConnectionPoint>
-  <endModule>ddc_time_out</endModule>
+  <endModule>dcc_time_out</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/ddc_data_2.irq"
+   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/dcc_data_2.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40"
-   end="ddc_data_2.irq">
+   end="dcc_data_2.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>4</value>
@@ -130648,15 +130648,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_0_irq_rx_offset_40</startConnectionPoint>
-  <endModule>ddc_data_2</endModule>
+  <endModule>dcc_data_2</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/ddc_data_3.irq"
+   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/dcc_data_3.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40"
-   end="ddc_data_3.irq">
+   end="dcc_data_3.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>5</value>
@@ -130683,15 +130683,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_0_irq_rx_offset_40</startConnectionPoint>
-  <endModule>ddc_data_3</endModule>
+  <endModule>dcc_data_3</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/ddc_data_4.irq"
+   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/dcc_data_4.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40"
-   end="ddc_data_4.irq">
+   end="dcc_data_4.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>6</value>
@@ -130718,15 +130718,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_0_irq_rx_offset_40</startConnectionPoint>
-  <endModule>ddc_data_4</endModule>
+  <endModule>dcc_data_4</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/ddc_data_5.irq"
+   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/dcc_data_5.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40"
-   end="ddc_data_5.irq">
+   end="dcc_data_5.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>7</value>
@@ -130753,15 +130753,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_0_irq_rx_offset_40</startConnectionPoint>
-  <endModule>ddc_data_5</endModule>
+  <endModule>dcc_data_5</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/ddc_data_6.irq"
+   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/dcc_data_6.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40"
-   end="ddc_data_6.irq">
+   end="dcc_data_6.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>8</value>
@@ -130788,15 +130788,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_0_irq_rx_offset_40</startConnectionPoint>
-  <endModule>ddc_data_6</endModule>
+  <endModule>dcc_data_6</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/ddc_data_7.irq"
+   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/dcc_data_7.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40"
-   end="ddc_data_7.irq">
+   end="dcc_data_7.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>9</value>
@@ -130823,15 +130823,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_0_irq_rx_offset_40</startConnectionPoint>
-  <endModule>ddc_data_7</endModule>
+  <endModule>dcc_data_7</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/ddc_data_8.irq"
+   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/dcc_data_8.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40"
-   end="ddc_data_8.irq">
+   end="dcc_data_8.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>10</value>
@@ -130858,15 +130858,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_0_irq_rx_offset_40</startConnectionPoint>
-  <endModule>ddc_data_8</endModule>
+  <endModule>dcc_data_8</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/ddc_data_9.irq"
+   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/dcc_data_9.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40"
-   end="ddc_data_9.irq">
+   end="dcc_data_9.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>11</value>
@@ -130893,15 +130893,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_0_irq_rx_offset_40</startConnectionPoint>
-  <endModule>ddc_data_9</endModule>
+  <endModule>dcc_data_9</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/ddc_data_10.irq"
+   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/dcc_data_10.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40"
-   end="ddc_data_10.irq">
+   end="dcc_data_10.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>12</value>
@@ -130928,15 +130928,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_0_irq_rx_offset_40</startConnectionPoint>
-  <endModule>ddc_data_10</endModule>
+  <endModule>dcc_data_10</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/ddc_data_11.irq"
+   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/dcc_data_11.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40"
-   end="ddc_data_11.irq">
+   end="dcc_data_11.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>13</value>
@@ -130963,15 +130963,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_0_irq_rx_offset_40</startConnectionPoint>
-  <endModule>ddc_data_11</endModule>
+  <endModule>dcc_data_11</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/ddc_data_12.irq"
+   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/dcc_data_12.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40"
-   end="ddc_data_12.irq">
+   end="dcc_data_12.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>14</value>
@@ -130998,15 +130998,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_0_irq_rx_offset_40</startConnectionPoint>
-  <endModule>ddc_data_12</endModule>
+  <endModule>dcc_data_12</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/ddc_data_13.irq"
+   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/dcc_data_13.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40"
-   end="ddc_data_13.irq">
+   end="dcc_data_13.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>15</value>
@@ -131033,15 +131033,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_0_irq_rx_offset_40</startConnectionPoint>
-  <endModule>ddc_data_13</endModule>
+  <endModule>dcc_data_13</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/ddc_data_14.irq"
+   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/dcc_data_14.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40"
-   end="ddc_data_14.irq">
+   end="dcc_data_14.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>16</value>
@@ -131068,15 +131068,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_0_irq_rx_offset_40</startConnectionPoint>
-  <endModule>ddc_data_14</endModule>
+  <endModule>dcc_data_14</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/ddc_data_15.irq"
+   name="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40/dcc_data_15.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_0_irq_rx_offset_40"
-   end="ddc_data_15.irq">
+   end="dcc_data_15.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>17</value>
@@ -131103,7 +131103,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_0_irq_rx_offset_40</startConnectionPoint>
-  <endModule>ddc_data_15</endModule>
+  <endModule>dcc_data_15</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
@@ -131142,11 +131142,11 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/ddc_data_17.irq"
+   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/dcc_data_17.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72"
-   end="ddc_data_17.irq">
+   end="dcc_data_17.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>0</value>
@@ -131173,15 +131173,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_32_irq_rx_offset_72</startConnectionPoint>
-  <endModule>ddc_data_17</endModule>
+  <endModule>dcc_data_17</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/ddc_data_18.irq"
+   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/dcc_data_18.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72"
-   end="ddc_data_18.irq">
+   end="dcc_data_18.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>1</value>
@@ -131208,15 +131208,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_32_irq_rx_offset_72</startConnectionPoint>
-  <endModule>ddc_data_18</endModule>
+  <endModule>dcc_data_18</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/ddc_data_19.irq"
+   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/dcc_data_19.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72"
-   end="ddc_data_19.irq">
+   end="dcc_data_19.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>2</value>
@@ -131243,15 +131243,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_32_irq_rx_offset_72</startConnectionPoint>
-  <endModule>ddc_data_19</endModule>
+  <endModule>dcc_data_19</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/ddc_data_20.irq"
+   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/dcc_data_20.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72"
-   end="ddc_data_20.irq">
+   end="dcc_data_20.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>3</value>
@@ -131278,15 +131278,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_32_irq_rx_offset_72</startConnectionPoint>
-  <endModule>ddc_data_20</endModule>
+  <endModule>dcc_data_20</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/ddc_data_21.irq"
+   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/dcc_data_21.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72"
-   end="ddc_data_21.irq">
+   end="dcc_data_21.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>4</value>
@@ -131313,15 +131313,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_32_irq_rx_offset_72</startConnectionPoint>
-  <endModule>ddc_data_21</endModule>
+  <endModule>dcc_data_21</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/ddc_data_22.irq"
+   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/dcc_data_22.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72"
-   end="ddc_data_22.irq">
+   end="dcc_data_22.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>5</value>
@@ -131348,15 +131348,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_32_irq_rx_offset_72</startConnectionPoint>
-  <endModule>ddc_data_22</endModule>
+  <endModule>dcc_data_22</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/ddc_data_23.irq"
+   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/dcc_data_23.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72"
-   end="ddc_data_23.irq">
+   end="dcc_data_23.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>6</value>
@@ -131383,15 +131383,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_32_irq_rx_offset_72</startConnectionPoint>
-  <endModule>ddc_data_23</endModule>
+  <endModule>dcc_data_23</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/ddc_data_24.irq"
+   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/dcc_data_24.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72"
-   end="ddc_data_24.irq">
+   end="dcc_data_24.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>7</value>
@@ -131418,15 +131418,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_32_irq_rx_offset_72</startConnectionPoint>
-  <endModule>ddc_data_24</endModule>
+  <endModule>dcc_data_24</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/ddc_data_25.irq"
+   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/dcc_data_25.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72"
-   end="ddc_data_25.irq">
+   end="dcc_data_25.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>8</value>
@@ -131453,15 +131453,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_32_irq_rx_offset_72</startConnectionPoint>
-  <endModule>ddc_data_25</endModule>
+  <endModule>dcc_data_25</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/ddc_data_26.irq"
+   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/dcc_data_26.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72"
-   end="ddc_data_26.irq">
+   end="dcc_data_26.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>9</value>
@@ -131488,15 +131488,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_32_irq_rx_offset_72</startConnectionPoint>
-  <endModule>ddc_data_26</endModule>
+  <endModule>dcc_data_26</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/ddc_data_27.irq"
+   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/dcc_data_27.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72"
-   end="ddc_data_27.irq">
+   end="dcc_data_27.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>10</value>
@@ -131523,15 +131523,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_32_irq_rx_offset_72</startConnectionPoint>
-  <endModule>ddc_data_27</endModule>
+  <endModule>dcc_data_27</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/ddc_data_28.irq"
+   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/dcc_data_28.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72"
-   end="ddc_data_28.irq">
+   end="dcc_data_28.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>11</value>
@@ -131558,15 +131558,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_32_irq_rx_offset_72</startConnectionPoint>
-  <endModule>ddc_data_28</endModule>
+  <endModule>dcc_data_28</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/ddc_data_29.irq"
+   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/dcc_data_29.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72"
-   end="ddc_data_29.irq">
+   end="dcc_data_29.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>12</value>
@@ -131593,15 +131593,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_32_irq_rx_offset_72</startConnectionPoint>
-  <endModule>ddc_data_29</endModule>
+  <endModule>dcc_data_29</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/ddc_data_30.irq"
+   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/dcc_data_30.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72"
-   end="ddc_data_30.irq">
+   end="dcc_data_30.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>13</value>
@@ -131628,15 +131628,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_32_irq_rx_offset_72</startConnectionPoint>
-  <endModule>ddc_data_30</endModule>
+  <endModule>dcc_data_30</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/ddc_data_31.irq"
+   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/dcc_data_31.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72"
-   end="ddc_data_31.irq">
+   end="dcc_data_31.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>14</value>
@@ -131663,15 +131663,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_32_irq_rx_offset_72</startConnectionPoint>
-  <endModule>ddc_data_31</endModule>
+  <endModule>dcc_data_31</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/ddc_data_16.irq"
+   name="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72/dcc_data_16.irq"
    kind="interrupt"
    version="18.1"
    start="hps_0_arm_gic_0.f2h_irq_32_irq_rx_offset_72"
-   end="ddc_data_16.irq">
+   end="dcc_data_16.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>15</value>
@@ -131698,7 +131698,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>hps_0_arm_gic_0</startModule>
   <startConnectionPoint>f2h_irq_32_irq_rx_offset_72</startConnectionPoint>
-  <endModule>ddc_data_16</endModule>
+  <endModule>dcc_data_16</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
@@ -131988,11 +131988,11 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_1.reset"
+   name="clk_50.clk_reset/dcc_data_1.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_1.reset">
+   end="dcc_data_1.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132011,15 +132011,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_1</endModule>
+  <endModule>dcc_data_1</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_time_out.reset"
+   name="clk_50.clk_reset/dcc_time_out.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_time_out.reset">
+   end="dcc_time_out.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132038,15 +132038,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_time_out</endModule>
+  <endModule>dcc_time_out</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_3.reset"
+   name="clk_50.clk_reset/dcc_data_3.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_3.reset">
+   end="dcc_data_3.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132065,15 +132065,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_3</endModule>
+  <endModule>dcc_data_3</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_2.reset"
+   name="clk_50.clk_reset/dcc_data_2.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_2.reset">
+   end="dcc_data_2.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132092,15 +132092,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_2</endModule>
+  <endModule>dcc_data_2</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_4.reset"
+   name="clk_50.clk_reset/dcc_data_4.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_4.reset">
+   end="dcc_data_4.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132119,15 +132119,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_4</endModule>
+  <endModule>dcc_data_4</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_5.reset"
+   name="clk_50.clk_reset/dcc_data_5.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_5.reset">
+   end="dcc_data_5.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132146,15 +132146,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_5</endModule>
+  <endModule>dcc_data_5</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_6.reset"
+   name="clk_50.clk_reset/dcc_data_6.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_6.reset">
+   end="dcc_data_6.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132173,15 +132173,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_6</endModule>
+  <endModule>dcc_data_6</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_7.reset"
+   name="clk_50.clk_reset/dcc_data_7.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_7.reset">
+   end="dcc_data_7.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132200,15 +132200,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_7</endModule>
+  <endModule>dcc_data_7</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_8.reset"
+   name="clk_50.clk_reset/dcc_data_8.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_8.reset">
+   end="dcc_data_8.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132227,15 +132227,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_8</endModule>
+  <endModule>dcc_data_8</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_9.reset"
+   name="clk_50.clk_reset/dcc_data_9.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_9.reset">
+   end="dcc_data_9.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132254,15 +132254,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_9</endModule>
+  <endModule>dcc_data_9</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_10.reset"
+   name="clk_50.clk_reset/dcc_data_10.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_10.reset">
+   end="dcc_data_10.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132281,15 +132281,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_10</endModule>
+  <endModule>dcc_data_10</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_11.reset"
+   name="clk_50.clk_reset/dcc_data_11.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_11.reset">
+   end="dcc_data_11.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132308,15 +132308,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_11</endModule>
+  <endModule>dcc_data_11</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_12.reset"
+   name="clk_50.clk_reset/dcc_data_12.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_12.reset">
+   end="dcc_data_12.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132335,15 +132335,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_12</endModule>
+  <endModule>dcc_data_12</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_13.reset"
+   name="clk_50.clk_reset/dcc_data_13.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_13.reset">
+   end="dcc_data_13.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132362,15 +132362,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_13</endModule>
+  <endModule>dcc_data_13</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_14.reset"
+   name="clk_50.clk_reset/dcc_data_14.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_14.reset">
+   end="dcc_data_14.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132389,15 +132389,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_14</endModule>
+  <endModule>dcc_data_14</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_15.reset"
+   name="clk_50.clk_reset/dcc_data_15.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_15.reset">
+   end="dcc_data_15.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132416,15 +132416,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_15</endModule>
+  <endModule>dcc_data_15</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_16.reset"
+   name="clk_50.clk_reset/dcc_data_16.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_16.reset">
+   end="dcc_data_16.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132443,15 +132443,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_16</endModule>
+  <endModule>dcc_data_16</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_17.reset"
+   name="clk_50.clk_reset/dcc_data_17.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_17.reset">
+   end="dcc_data_17.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132470,15 +132470,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_17</endModule>
+  <endModule>dcc_data_17</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_18.reset"
+   name="clk_50.clk_reset/dcc_data_18.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_18.reset">
+   end="dcc_data_18.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132497,15 +132497,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_18</endModule>
+  <endModule>dcc_data_18</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_19.reset"
+   name="clk_50.clk_reset/dcc_data_19.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_19.reset">
+   end="dcc_data_19.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132524,15 +132524,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_19</endModule>
+  <endModule>dcc_data_19</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_20.reset"
+   name="clk_50.clk_reset/dcc_data_20.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_20.reset">
+   end="dcc_data_20.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132551,15 +132551,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_20</endModule>
+  <endModule>dcc_data_20</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_21.reset"
+   name="clk_50.clk_reset/dcc_data_21.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_21.reset">
+   end="dcc_data_21.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132578,15 +132578,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_21</endModule>
+  <endModule>dcc_data_21</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_22.reset"
+   name="clk_50.clk_reset/dcc_data_22.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_22.reset">
+   end="dcc_data_22.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132605,15 +132605,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_22</endModule>
+  <endModule>dcc_data_22</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_23.reset"
+   name="clk_50.clk_reset/dcc_data_23.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_23.reset">
+   end="dcc_data_23.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132632,15 +132632,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_23</endModule>
+  <endModule>dcc_data_23</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_24.reset"
+   name="clk_50.clk_reset/dcc_data_24.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_24.reset">
+   end="dcc_data_24.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132659,15 +132659,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_24</endModule>
+  <endModule>dcc_data_24</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_25.reset"
+   name="clk_50.clk_reset/dcc_data_25.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_25.reset">
+   end="dcc_data_25.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132686,15 +132686,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_25</endModule>
+  <endModule>dcc_data_25</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_26.reset"
+   name="clk_50.clk_reset/dcc_data_26.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_26.reset">
+   end="dcc_data_26.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132713,15 +132713,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_26</endModule>
+  <endModule>dcc_data_26</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_27.reset"
+   name="clk_50.clk_reset/dcc_data_27.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_27.reset">
+   end="dcc_data_27.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132740,15 +132740,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_27</endModule>
+  <endModule>dcc_data_27</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_28.reset"
+   name="clk_50.clk_reset/dcc_data_28.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_28.reset">
+   end="dcc_data_28.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132767,15 +132767,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_28</endModule>
+  <endModule>dcc_data_28</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_29.reset"
+   name="clk_50.clk_reset/dcc_data_29.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_29.reset">
+   end="dcc_data_29.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132794,15 +132794,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_29</endModule>
+  <endModule>dcc_data_29</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_30.reset"
+   name="clk_50.clk_reset/dcc_data_30.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_30.reset">
+   end="dcc_data_30.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132821,15 +132821,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_30</endModule>
+  <endModule>dcc_data_30</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection
-   name="clk_50.clk_reset/ddc_data_31.reset"
+   name="clk_50.clk_reset/dcc_data_31.reset"
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_31.reset">
+   end="dcc_data_31.reset">
   <parameter name="deviceFamily">
    <type>java.lang.String</type>
    <value>UNKNOWN</value>
@@ -132848,7 +132848,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>clk_50</startModule>
   <startConnectionPoint>clk_reset</startConnectionPoint>
-  <endModule>ddc_data_31</endModule>
+  <endModule>dcc_data_31</endModule>
   <endConnectionPoint>reset</endConnectionPoint>
  </connection>
  <connection

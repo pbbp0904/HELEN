@@ -69,7 +69,7 @@
          type = "String";
       }
    }
-   element ddc_data_1
+   element dcc_data_1
    {
       datum _sortIndex
       {
@@ -77,7 +77,7 @@
          type = "int";
       }
    }
-   element ddc_data_1.s1
+   element dcc_data_1.s1
    {
       datum _lockedAddress
       {
@@ -90,7 +90,7 @@
          type = "String";
       }
    }
-   element ddc_data_10
+   element dcc_data_10
    {
       datum _sortIndex
       {
@@ -98,7 +98,7 @@
          type = "int";
       }
    }
-   element ddc_data_10.s1
+   element dcc_data_10.s1
    {
       datum _lockedAddress
       {
@@ -111,7 +111,7 @@
          type = "String";
       }
    }
-   element ddc_data_11
+   element dcc_data_11
    {
       datum _sortIndex
       {
@@ -119,7 +119,7 @@
          type = "int";
       }
    }
-   element ddc_data_11.s1
+   element dcc_data_11.s1
    {
       datum _lockedAddress
       {
@@ -132,7 +132,7 @@
          type = "String";
       }
    }
-   element ddc_data_12
+   element dcc_data_12
    {
       datum _sortIndex
       {
@@ -140,7 +140,7 @@
          type = "int";
       }
    }
-   element ddc_data_12.s1
+   element dcc_data_12.s1
    {
       datum _lockedAddress
       {
@@ -153,7 +153,7 @@
          type = "String";
       }
    }
-   element ddc_data_13
+   element dcc_data_13
    {
       datum _sortIndex
       {
@@ -161,7 +161,7 @@
          type = "int";
       }
    }
-   element ddc_data_13.s1
+   element dcc_data_13.s1
    {
       datum _lockedAddress
       {
@@ -174,7 +174,7 @@
          type = "String";
       }
    }
-   element ddc_data_14
+   element dcc_data_14
    {
       datum _sortIndex
       {
@@ -182,7 +182,7 @@
          type = "int";
       }
    }
-   element ddc_data_14.s1
+   element dcc_data_14.s1
    {
       datum _lockedAddress
       {
@@ -195,7 +195,7 @@
          type = "String";
       }
    }
-   element ddc_data_15
+   element dcc_data_15
    {
       datum _sortIndex
       {
@@ -203,7 +203,7 @@
          type = "int";
       }
    }
-   element ddc_data_15.s1
+   element dcc_data_15.s1
    {
       datum _lockedAddress
       {
@@ -216,7 +216,7 @@
          type = "String";
       }
    }
-   element ddc_data_16
+   element dcc_data_16
    {
       datum _sortIndex
       {
@@ -224,7 +224,7 @@
          type = "int";
       }
    }
-   element ddc_data_16.s1
+   element dcc_data_16.s1
    {
       datum _lockedAddress
       {
@@ -237,7 +237,7 @@
          type = "String";
       }
    }
-   element ddc_data_17
+   element dcc_data_17
    {
       datum _sortIndex
       {
@@ -245,7 +245,7 @@
          type = "int";
       }
    }
-   element ddc_data_17.s1
+   element dcc_data_17.s1
    {
       datum _lockedAddress
       {
@@ -258,7 +258,7 @@
          type = "String";
       }
    }
-   element ddc_data_18
+   element dcc_data_18
    {
       datum _sortIndex
       {
@@ -266,7 +266,7 @@
          type = "int";
       }
    }
-   element ddc_data_18.s1
+   element dcc_data_18.s1
    {
       datum _lockedAddress
       {
@@ -279,7 +279,7 @@
          type = "String";
       }
    }
-   element ddc_data_19
+   element dcc_data_19
    {
       datum _sortIndex
       {
@@ -287,7 +287,7 @@
          type = "int";
       }
    }
-   element ddc_data_19.s1
+   element dcc_data_19.s1
    {
       datum _lockedAddress
       {
@@ -300,7 +300,7 @@
          type = "String";
       }
    }
-   element ddc_data_2
+   element dcc_data_2
    {
       datum _sortIndex
       {
@@ -308,7 +308,7 @@
          type = "int";
       }
    }
-   element ddc_data_2.s1
+   element dcc_data_2.s1
    {
       datum _lockedAddress
       {
@@ -321,7 +321,7 @@
          type = "String";
       }
    }
-   element ddc_data_20
+   element dcc_data_20
    {
       datum _sortIndex
       {
@@ -329,7 +329,7 @@
          type = "int";
       }
    }
-   element ddc_data_20.s1
+   element dcc_data_20.s1
    {
       datum _lockedAddress
       {
@@ -342,7 +342,7 @@
          type = "String";
       }
    }
-   element ddc_data_21
+   element dcc_data_21
    {
       datum _sortIndex
       {
@@ -350,7 +350,7 @@
          type = "int";
       }
    }
-   element ddc_data_21.s1
+   element dcc_data_21.s1
    {
       datum _lockedAddress
       {
@@ -363,7 +363,7 @@
          type = "String";
       }
    }
-   element ddc_data_22
+   element dcc_data_22
    {
       datum _sortIndex
       {
@@ -371,7 +371,7 @@
          type = "int";
       }
    }
-   element ddc_data_22.s1
+   element dcc_data_22.s1
    {
       datum _lockedAddress
       {
@@ -384,7 +384,7 @@
          type = "String";
       }
    }
-   element ddc_data_23
+   element dcc_data_23
    {
       datum _sortIndex
       {
@@ -392,7 +392,7 @@
          type = "int";
       }
    }
-   element ddc_data_23.s1
+   element dcc_data_23.s1
    {
       datum _lockedAddress
       {
@@ -405,7 +405,7 @@
          type = "String";
       }
    }
-   element ddc_data_24
+   element dcc_data_24
    {
       datum _sortIndex
       {
@@ -413,7 +413,7 @@
          type = "int";
       }
    }
-   element ddc_data_24.s1
+   element dcc_data_24.s1
    {
       datum _lockedAddress
       {
@@ -426,7 +426,7 @@
          type = "String";
       }
    }
-   element ddc_data_25
+   element dcc_data_25
    {
       datum _sortIndex
       {
@@ -434,7 +434,7 @@
          type = "int";
       }
    }
-   element ddc_data_25.s1
+   element dcc_data_25.s1
    {
       datum _lockedAddress
       {
@@ -447,7 +447,7 @@
          type = "String";
       }
    }
-   element ddc_data_26
+   element dcc_data_26
    {
       datum _sortIndex
       {
@@ -455,7 +455,7 @@
          type = "int";
       }
    }
-   element ddc_data_26.s1
+   element dcc_data_26.s1
    {
       datum _lockedAddress
       {
@@ -468,7 +468,7 @@
          type = "String";
       }
    }
-   element ddc_data_27
+   element dcc_data_27
    {
       datum _sortIndex
       {
@@ -476,7 +476,7 @@
          type = "int";
       }
    }
-   element ddc_data_27.s1
+   element dcc_data_27.s1
    {
       datum _lockedAddress
       {
@@ -489,7 +489,7 @@
          type = "String";
       }
    }
-   element ddc_data_28
+   element dcc_data_28
    {
       datum _sortIndex
       {
@@ -497,7 +497,7 @@
          type = "int";
       }
    }
-   element ddc_data_28.s1
+   element dcc_data_28.s1
    {
       datum _lockedAddress
       {
@@ -510,7 +510,7 @@
          type = "String";
       }
    }
-   element ddc_data_29
+   element dcc_data_29
    {
       datum _sortIndex
       {
@@ -518,7 +518,7 @@
          type = "int";
       }
    }
-   element ddc_data_29.s1
+   element dcc_data_29.s1
    {
       datum _lockedAddress
       {
@@ -531,7 +531,7 @@
          type = "String";
       }
    }
-   element ddc_data_3
+   element dcc_data_3
    {
       datum _sortIndex
       {
@@ -539,7 +539,7 @@
          type = "int";
       }
    }
-   element ddc_data_3.s1
+   element dcc_data_3.s1
    {
       datum _lockedAddress
       {
@@ -552,7 +552,7 @@
          type = "String";
       }
    }
-   element ddc_data_30
+   element dcc_data_30
    {
       datum _sortIndex
       {
@@ -560,7 +560,7 @@
          type = "int";
       }
    }
-   element ddc_data_30.s1
+   element dcc_data_30.s1
    {
       datum _lockedAddress
       {
@@ -573,7 +573,7 @@
          type = "String";
       }
    }
-   element ddc_data_31
+   element dcc_data_31
    {
       datum _sortIndex
       {
@@ -581,7 +581,7 @@
          type = "int";
       }
    }
-   element ddc_data_31.s1
+   element dcc_data_31.s1
    {
       datum _lockedAddress
       {
@@ -594,7 +594,7 @@
          type = "String";
       }
    }
-   element ddc_data_4
+   element dcc_data_4
    {
       datum _sortIndex
       {
@@ -602,7 +602,7 @@
          type = "int";
       }
    }
-   element ddc_data_4.s1
+   element dcc_data_4.s1
    {
       datum _lockedAddress
       {
@@ -615,7 +615,7 @@
          type = "String";
       }
    }
-   element ddc_data_5
+   element dcc_data_5
    {
       datum _sortIndex
       {
@@ -623,7 +623,7 @@
          type = "int";
       }
    }
-   element ddc_data_5.s1
+   element dcc_data_5.s1
    {
       datum _lockedAddress
       {
@@ -636,7 +636,7 @@
          type = "String";
       }
    }
-   element ddc_data_6
+   element dcc_data_6
    {
       datum _sortIndex
       {
@@ -644,7 +644,7 @@
          type = "int";
       }
    }
-   element ddc_data_6.s1
+   element dcc_data_6.s1
    {
       datum _lockedAddress
       {
@@ -657,7 +657,7 @@
          type = "String";
       }
    }
-   element ddc_data_7
+   element dcc_data_7
    {
       datum _sortIndex
       {
@@ -665,7 +665,7 @@
          type = "int";
       }
    }
-   element ddc_data_7.s1
+   element dcc_data_7.s1
    {
       datum _lockedAddress
       {
@@ -678,7 +678,7 @@
          type = "String";
       }
    }
-   element ddc_data_8
+   element dcc_data_8
    {
       datum _sortIndex
       {
@@ -686,7 +686,7 @@
          type = "int";
       }
    }
-   element ddc_data_8.s1
+   element dcc_data_8.s1
    {
       datum _lockedAddress
       {
@@ -699,7 +699,7 @@
          type = "String";
       }
    }
-   element ddc_data_9
+   element dcc_data_9
    {
       datum _sortIndex
       {
@@ -707,7 +707,7 @@
          type = "int";
       }
    }
-   element ddc_data_9.s1
+   element dcc_data_9.s1
    {
       datum _lockedAddress
       {
@@ -720,7 +720,7 @@
          type = "String";
       }
    }
-   element ddc_time_out
+   element dcc_time_out
    {
       datum _sortIndex
       {
@@ -728,7 +728,7 @@
          type = "int";
       }
    }
-   element ddc_time_out.s1
+   element dcc_time_out.s1
    {
       datum _lockedAddress
       {
@@ -1052,163 +1052,163 @@
    type="conduit"
    dir="end" />
  <interface
+   name="dcc_data_10_external_connection"
+   internal="dcc_data_10.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="dcc_data_11_external_connection"
+   internal="dcc_data_11.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="dcc_data_12_external_connection"
+   internal="dcc_data_12.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="dcc_data_13_external_connection"
+   internal="dcc_data_13.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="dcc_data_14_external_connection"
+   internal="dcc_data_14.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="dcc_data_15_external_connection"
+   internal="dcc_data_15.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="dcc_data_16_external_connection"
+   internal="dcc_data_16.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="dcc_data_17_external_connection"
+   internal="dcc_data_17.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="dcc_data_18_external_connection"
+   internal="dcc_data_18.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="dcc_data_19_external_connection"
+   internal="dcc_data_19.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
    name="dcc_data_1_external_connection"
-   internal="ddc_data_1.external_connection"
+   internal="dcc_data_1.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_10_external_connection"
-   internal="ddc_data_10.external_connection"
+   name="dcc_data_20_external_connection"
+   internal="dcc_data_20.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_11_external_connection"
-   internal="ddc_data_11.external_connection"
+   name="dcc_data_21_external_connection"
+   internal="dcc_data_21.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_12_external_connection"
-   internal="ddc_data_12.external_connection"
+   name="dcc_data_22_external_connection"
+   internal="dcc_data_22.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_13_external_connection"
-   internal="ddc_data_13.external_connection"
+   name="dcc_data_23_external_connection"
+   internal="dcc_data_23.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_14_external_connection"
-   internal="ddc_data_14.external_connection"
+   name="dcc_data_24_external_connection"
+   internal="dcc_data_24.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_15_external_connection"
-   internal="ddc_data_15.external_connection"
+   name="dcc_data_25_external_connection"
+   internal="dcc_data_25.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_16_external_connection"
-   internal="ddc_data_16.external_connection"
+   name="dcc_data_26_external_connection"
+   internal="dcc_data_26.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_17_external_connection"
-   internal="ddc_data_17.external_connection"
+   name="dcc_data_27_external_connection"
+   internal="dcc_data_27.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_18_external_connection"
-   internal="ddc_data_18.external_connection"
+   name="dcc_data_28_external_connection"
+   internal="dcc_data_28.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_19_external_connection"
-   internal="ddc_data_19.external_connection"
+   name="dcc_data_29_external_connection"
+   internal="dcc_data_29.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_20_external_connection"
-   internal="ddc_data_20.external_connection"
+   name="dcc_data_2_external_connection"
+   internal="dcc_data_2.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_21_external_connection"
-   internal="ddc_data_21.external_connection"
+   name="dcc_data_30_external_connection"
+   internal="dcc_data_30.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_22_external_connection"
-   internal="ddc_data_22.external_connection"
+   name="dcc_data_31_external_connection"
+   internal="dcc_data_31.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_23_external_connection"
-   internal="ddc_data_23.external_connection"
+   name="dcc_data_3_external_connection"
+   internal="dcc_data_3.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_24_external_connection"
-   internal="ddc_data_24.external_connection"
+   name="dcc_data_4_external_connection"
+   internal="dcc_data_4.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_25_external_connection"
-   internal="ddc_data_25.external_connection"
+   name="dcc_data_5_external_connection"
+   internal="dcc_data_5.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_26_external_connection"
-   internal="ddc_data_26.external_connection"
+   name="dcc_data_6_external_connection"
+   internal="dcc_data_6.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_27_external_connection"
-   internal="ddc_data_27.external_connection"
+   name="dcc_data_7_external_connection"
+   internal="dcc_data_7.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_28_external_connection"
-   internal="ddc_data_28.external_connection"
+   name="dcc_data_8_external_connection"
+   internal="dcc_data_8.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_29_external_connection"
-   internal="ddc_data_29.external_connection"
+   name="dcc_data_9_external_connection"
+   internal="dcc_data_9.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="ddc_data_2_external_connection"
-   internal="ddc_data_2.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
-   name="ddc_data_30_external_connection"
-   internal="ddc_data_30.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
-   name="ddc_data_31_external_connection"
-   internal="ddc_data_31.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
-   name="ddc_data_3_external_connection"
-   internal="ddc_data_3.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
-   name="ddc_data_4_external_connection"
-   internal="ddc_data_4.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
-   name="ddc_data_5_external_connection"
-   internal="ddc_data_5.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
-   name="ddc_data_6_external_connection"
-   internal="ddc_data_6.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
-   name="ddc_data_7_external_connection"
-   internal="ddc_data_7.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
-   name="ddc_data_8_external_connection"
-   internal="ddc_data_8.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
-   name="ddc_data_9_external_connection"
-   internal="ddc_data_9.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
-   name="ddc_time_out_external_connection"
-   internal="ddc_time_out.external_connection"
+   name="dcc_time_out_external_connection"
+   internal="dcc_time_out.external_connection"
    type="conduit"
    dir="end" />
  <interface
@@ -1302,7 +1302,7 @@
   <parameter name="simDrivenValue" value="0" />
   <parameter name="width" value="32" />
  </module>
- <module name="ddc_data_1" kind="altera_avalon_pio" version="18.1" enabled="1">
+ <module name="dcc_data_1" kind="altera_avalon_pio" version="18.1" enabled="1">
   <parameter name="bitClearingEdgeCapReg" value="false" />
   <parameter name="bitModifyingOutReg" value="false" />
   <parameter name="captureEdge" value="true" />
@@ -1317,7 +1317,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_data_10"
+   name="dcc_data_10"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1335,7 +1335,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_data_11"
+   name="dcc_data_11"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1353,7 +1353,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_data_12"
+   name="dcc_data_12"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1371,7 +1371,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_data_13"
+   name="dcc_data_13"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1389,7 +1389,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_data_14"
+   name="dcc_data_14"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1407,7 +1407,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_data_15"
+   name="dcc_data_15"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1425,7 +1425,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_data_16"
+   name="dcc_data_16"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1443,7 +1443,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_data_17"
+   name="dcc_data_17"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1461,7 +1461,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_data_18"
+   name="dcc_data_18"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1479,7 +1479,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_data_19"
+   name="dcc_data_19"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1496,7 +1496,7 @@
   <parameter name="simDrivenValue" value="0" />
   <parameter name="width" value="32" />
  </module>
- <module name="ddc_data_2" kind="altera_avalon_pio" version="18.1" enabled="1">
+ <module name="dcc_data_2" kind="altera_avalon_pio" version="18.1" enabled="1">
   <parameter name="bitClearingEdgeCapReg" value="false" />
   <parameter name="bitModifyingOutReg" value="false" />
   <parameter name="captureEdge" value="true" />
@@ -1511,25 +1511,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_data_20"
-   kind="altera_avalon_pio"
-   version="18.1"
-   enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="true" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Input" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="true" />
-  <parameter name="irqType" value="EDGE" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="32" />
- </module>
- <module
-   name="ddc_data_21"
+   name="dcc_data_20"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1547,7 +1529,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_data_22"
+   name="dcc_data_21"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1565,7 +1547,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_data_23"
+   name="dcc_data_22"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1583,7 +1565,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_data_24"
+   name="dcc_data_23"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1601,7 +1583,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_data_25"
+   name="dcc_data_24"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1619,7 +1601,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_data_26"
+   name="dcc_data_25"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1637,7 +1619,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_data_27"
+   name="dcc_data_26"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1655,7 +1637,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_data_28"
+   name="dcc_data_27"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1673,39 +1655,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_data_29"
-   kind="altera_avalon_pio"
-   version="18.1"
-   enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="true" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Input" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="true" />
-  <parameter name="irqType" value="EDGE" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="32" />
- </module>
- <module name="ddc_data_3" kind="altera_avalon_pio" version="18.1" enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="true" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Input" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="true" />
-  <parameter name="irqType" value="EDGE" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="32" />
- </module>
- <module
-   name="ddc_data_30"
+   name="dcc_data_28"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1723,7 +1673,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_data_31"
+   name="dcc_data_29"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1740,77 +1690,7 @@
   <parameter name="simDrivenValue" value="0" />
   <parameter name="width" value="32" />
  </module>
- <module name="ddc_data_4" kind="altera_avalon_pio" version="18.1" enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="true" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Input" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="true" />
-  <parameter name="irqType" value="EDGE" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="32" />
- </module>
- <module name="ddc_data_5" kind="altera_avalon_pio" version="18.1" enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="true" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Input" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="true" />
-  <parameter name="irqType" value="EDGE" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="32" />
- </module>
- <module name="ddc_data_6" kind="altera_avalon_pio" version="18.1" enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="true" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Input" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="true" />
-  <parameter name="irqType" value="EDGE" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="32" />
- </module>
- <module name="ddc_data_7" kind="altera_avalon_pio" version="18.1" enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="true" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Input" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="true" />
-  <parameter name="irqType" value="EDGE" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="32" />
- </module>
- <module name="ddc_data_8" kind="altera_avalon_pio" version="18.1" enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="true" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Input" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="true" />
-  <parameter name="irqType" value="EDGE" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="32" />
- </module>
- <module name="ddc_data_9" kind="altera_avalon_pio" version="18.1" enabled="1">
+ <module name="dcc_data_3" kind="altera_avalon_pio" version="18.1" enabled="1">
   <parameter name="bitClearingEdgeCapReg" value="false" />
   <parameter name="bitModifyingOutReg" value="false" />
   <parameter name="captureEdge" value="true" />
@@ -1825,7 +1705,127 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="ddc_time_out"
+   name="dcc_data_30"
+   kind="altera_avalon_pio"
+   version="18.1"
+   enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="true" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Input" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="true" />
+  <parameter name="irqType" value="EDGE" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="32" />
+ </module>
+ <module
+   name="dcc_data_31"
+   kind="altera_avalon_pio"
+   version="18.1"
+   enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="true" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Input" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="true" />
+  <parameter name="irqType" value="EDGE" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="32" />
+ </module>
+ <module name="dcc_data_4" kind="altera_avalon_pio" version="18.1" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="true" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Input" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="true" />
+  <parameter name="irqType" value="EDGE" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="32" />
+ </module>
+ <module name="dcc_data_5" kind="altera_avalon_pio" version="18.1" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="true" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Input" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="true" />
+  <parameter name="irqType" value="EDGE" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="32" />
+ </module>
+ <module name="dcc_data_6" kind="altera_avalon_pio" version="18.1" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="true" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Input" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="true" />
+  <parameter name="irqType" value="EDGE" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="32" />
+ </module>
+ <module name="dcc_data_7" kind="altera_avalon_pio" version="18.1" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="true" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Input" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="true" />
+  <parameter name="irqType" value="EDGE" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="32" />
+ </module>
+ <module name="dcc_data_8" kind="altera_avalon_pio" version="18.1" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="true" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Input" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="true" />
+  <parameter name="irqType" value="EDGE" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="32" />
+ </module>
+ <module name="dcc_data_9" kind="altera_avalon_pio" version="18.1" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="true" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Input" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="true" />
+  <parameter name="irqType" value="EDGE" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="32" />
+ </module>
+ <module
+   name="dcc_time_out"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -2842,7 +2842,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_1.s1">
+   end="dcc_data_1.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x6000" />
   <parameter name="defaultConnection" value="false" />
@@ -2851,7 +2851,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_time_out.s1">
+   end="dcc_time_out.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x7000" />
   <parameter name="defaultConnection" value="false" />
@@ -2860,7 +2860,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_2.s1">
+   end="dcc_data_2.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x01e0" />
   <parameter name="defaultConnection" value="false" />
@@ -2869,7 +2869,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_3.s1">
+   end="dcc_data_3.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x01d0" />
   <parameter name="defaultConnection" value="false" />
@@ -2878,7 +2878,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_4.s1">
+   end="dcc_data_4.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x01c0" />
   <parameter name="defaultConnection" value="false" />
@@ -2887,7 +2887,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_5.s1">
+   end="dcc_data_5.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x01b0" />
   <parameter name="defaultConnection" value="false" />
@@ -2896,7 +2896,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_6.s1">
+   end="dcc_data_6.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x01a0" />
   <parameter name="defaultConnection" value="false" />
@@ -2905,7 +2905,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_7.s1">
+   end="dcc_data_7.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0190" />
   <parameter name="defaultConnection" value="false" />
@@ -2914,7 +2914,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_8.s1">
+   end="dcc_data_8.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0180" />
   <parameter name="defaultConnection" value="false" />
@@ -2923,7 +2923,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_9.s1">
+   end="dcc_data_9.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0170" />
   <parameter name="defaultConnection" value="false" />
@@ -2932,7 +2932,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_10.s1">
+   end="dcc_data_10.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0160" />
   <parameter name="defaultConnection" value="false" />
@@ -2941,7 +2941,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_11.s1">
+   end="dcc_data_11.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0150" />
   <parameter name="defaultConnection" value="false" />
@@ -2950,7 +2950,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_12.s1">
+   end="dcc_data_12.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0140" />
   <parameter name="defaultConnection" value="false" />
@@ -2959,7 +2959,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_13.s1">
+   end="dcc_data_13.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0130" />
   <parameter name="defaultConnection" value="false" />
@@ -2968,7 +2968,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_14.s1">
+   end="dcc_data_14.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0120" />
   <parameter name="defaultConnection" value="false" />
@@ -2977,7 +2977,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_15.s1">
+   end="dcc_data_15.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0110" />
   <parameter name="defaultConnection" value="false" />
@@ -2986,7 +2986,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_16.s1">
+   end="dcc_data_16.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0100" />
   <parameter name="defaultConnection" value="false" />
@@ -2995,7 +2995,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_17.s1">
+   end="dcc_data_17.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x00f0" />
   <parameter name="defaultConnection" value="false" />
@@ -3004,7 +3004,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_18.s1">
+   end="dcc_data_18.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x00e0" />
   <parameter name="defaultConnection" value="false" />
@@ -3013,7 +3013,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_19.s1">
+   end="dcc_data_19.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x00d0" />
   <parameter name="defaultConnection" value="false" />
@@ -3022,7 +3022,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_20.s1">
+   end="dcc_data_20.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x00c0" />
   <parameter name="defaultConnection" value="false" />
@@ -3031,7 +3031,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_21.s1">
+   end="dcc_data_21.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x00b0" />
   <parameter name="defaultConnection" value="false" />
@@ -3040,7 +3040,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_22.s1">
+   end="dcc_data_22.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x00a0" />
   <parameter name="defaultConnection" value="false" />
@@ -3049,7 +3049,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_23.s1">
+   end="dcc_data_23.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0090" />
   <parameter name="defaultConnection" value="false" />
@@ -3058,7 +3058,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_24.s1">
+   end="dcc_data_24.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0080" />
   <parameter name="defaultConnection" value="false" />
@@ -3067,7 +3067,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_25.s1">
+   end="dcc_data_25.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0070" />
   <parameter name="defaultConnection" value="false" />
@@ -3076,7 +3076,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_26.s1">
+   end="dcc_data_26.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0060" />
   <parameter name="defaultConnection" value="false" />
@@ -3085,7 +3085,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_27.s1">
+   end="dcc_data_27.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0050" />
   <parameter name="defaultConnection" value="false" />
@@ -3094,7 +3094,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_28.s1">
+   end="dcc_data_28.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0040" />
   <parameter name="defaultConnection" value="false" />
@@ -3103,7 +3103,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_29.s1">
+   end="dcc_data_29.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0030" />
   <parameter name="defaultConnection" value="false" />
@@ -3112,7 +3112,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_30.s1">
+   end="dcc_data_30.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0020" />
   <parameter name="defaultConnection" value="false" />
@@ -3121,7 +3121,7 @@
    kind="avalon"
    version="18.1"
    start="mm_bridge_0.m0"
-   end="ddc_data_31.s1">
+   end="dcc_data_31.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0010" />
   <parameter name="defaultConnection" value="false" />
@@ -3145,38 +3145,38 @@
  <connection kind="clock" version="18.1" start="clk_50.clk" end="nios2_gen2.clk" />
  <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_0.clk" />
  <connection kind="clock" version="18.1" start="clk_50.clk" end="hps_read_bit.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_1.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_time_out.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_2.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_4.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_3.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_5.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_6.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_7.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_8.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_9.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_10.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_11.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_12.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_13.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_14.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_15.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_16.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_17.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_18.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_19.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_20.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_21.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_22.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_23.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_24.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_25.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_26.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_27.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_28.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_29.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_30.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="ddc_data_31.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_1.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_time_out.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_2.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_4.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_3.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_5.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_6.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_7.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_8.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_9.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_10.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_11.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_12.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_13.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_14.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_15.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_16.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_17.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_18.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_19.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_20.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_21.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_22.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_23.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_24.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_25.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_26.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_27.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_28.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_29.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_30.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="dcc_data_31.clk" />
  <connection
    kind="clock"
    version="18.1"
@@ -3221,112 +3221,112 @@
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq0"
-   end="ddc_data_1.irq">
+   end="dcc_data_1.irq">
   <parameter name="irqNumber" value="2" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq0"
-   end="ddc_time_out.irq">
+   end="dcc_time_out.irq">
   <parameter name="irqNumber" value="3" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq0"
-   end="ddc_data_2.irq">
+   end="dcc_data_2.irq">
   <parameter name="irqNumber" value="4" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq0"
-   end="ddc_data_3.irq">
+   end="dcc_data_3.irq">
   <parameter name="irqNumber" value="5" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq0"
-   end="ddc_data_4.irq">
+   end="dcc_data_4.irq">
   <parameter name="irqNumber" value="6" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq0"
-   end="ddc_data_5.irq">
+   end="dcc_data_5.irq">
   <parameter name="irqNumber" value="7" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq0"
-   end="ddc_data_6.irq">
+   end="dcc_data_6.irq">
   <parameter name="irqNumber" value="8" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq0"
-   end="ddc_data_7.irq">
+   end="dcc_data_7.irq">
   <parameter name="irqNumber" value="9" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq0"
-   end="ddc_data_8.irq">
+   end="dcc_data_8.irq">
   <parameter name="irqNumber" value="10" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq0"
-   end="ddc_data_9.irq">
+   end="dcc_data_9.irq">
   <parameter name="irqNumber" value="11" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq0"
-   end="ddc_data_10.irq">
+   end="dcc_data_10.irq">
   <parameter name="irqNumber" value="12" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq0"
-   end="ddc_data_11.irq">
+   end="dcc_data_11.irq">
   <parameter name="irqNumber" value="13" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq0"
-   end="ddc_data_12.irq">
+   end="dcc_data_12.irq">
   <parameter name="irqNumber" value="14" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq0"
-   end="ddc_data_13.irq">
+   end="dcc_data_13.irq">
   <parameter name="irqNumber" value="15" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq0"
-   end="ddc_data_14.irq">
+   end="dcc_data_14.irq">
   <parameter name="irqNumber" value="16" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq0"
-   end="ddc_data_15.irq">
+   end="dcc_data_15.irq">
   <parameter name="irqNumber" value="17" />
  </connection>
  <connection
@@ -3340,112 +3340,112 @@
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq1"
-   end="ddc_data_17.irq">
+   end="dcc_data_17.irq">
   <parameter name="irqNumber" value="0" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq1"
-   end="ddc_data_18.irq">
+   end="dcc_data_18.irq">
   <parameter name="irqNumber" value="1" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq1"
-   end="ddc_data_19.irq">
+   end="dcc_data_19.irq">
   <parameter name="irqNumber" value="2" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq1"
-   end="ddc_data_20.irq">
+   end="dcc_data_20.irq">
   <parameter name="irqNumber" value="3" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq1"
-   end="ddc_data_21.irq">
+   end="dcc_data_21.irq">
   <parameter name="irqNumber" value="4" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq1"
-   end="ddc_data_22.irq">
+   end="dcc_data_22.irq">
   <parameter name="irqNumber" value="5" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq1"
-   end="ddc_data_23.irq">
+   end="dcc_data_23.irq">
   <parameter name="irqNumber" value="6" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq1"
-   end="ddc_data_24.irq">
+   end="dcc_data_24.irq">
   <parameter name="irqNumber" value="7" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq1"
-   end="ddc_data_25.irq">
+   end="dcc_data_25.irq">
   <parameter name="irqNumber" value="8" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq1"
-   end="ddc_data_26.irq">
+   end="dcc_data_26.irq">
   <parameter name="irqNumber" value="9" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq1"
-   end="ddc_data_27.irq">
+   end="dcc_data_27.irq">
   <parameter name="irqNumber" value="10" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq1"
-   end="ddc_data_28.irq">
+   end="dcc_data_28.irq">
   <parameter name="irqNumber" value="11" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq1"
-   end="ddc_data_29.irq">
+   end="dcc_data_29.irq">
   <parameter name="irqNumber" value="12" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq1"
-   end="ddc_data_30.irq">
+   end="dcc_data_30.irq">
   <parameter name="irqNumber" value="13" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq1"
-   end="ddc_data_31.irq">
+   end="dcc_data_31.irq">
   <parameter name="irqNumber" value="14" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="hps_0.f2h_irq1"
-   end="ddc_data_16.irq">
+   end="dcc_data_16.irq">
   <parameter name="irqNumber" value="15" />
  </connection>
  <connection kind="interrupt" version="18.1" start="ILC.irq" end="jtag_uart.irq">
@@ -3501,162 +3501,162 @@
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_1.reset" />
+   end="dcc_data_1.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_time_out.reset" />
+   end="dcc_time_out.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_3.reset" />
+   end="dcc_data_3.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_2.reset" />
+   end="dcc_data_2.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_4.reset" />
+   end="dcc_data_4.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_5.reset" />
+   end="dcc_data_5.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_6.reset" />
+   end="dcc_data_6.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_7.reset" />
+   end="dcc_data_7.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_8.reset" />
+   end="dcc_data_8.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_9.reset" />
+   end="dcc_data_9.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_10.reset" />
+   end="dcc_data_10.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_11.reset" />
+   end="dcc_data_11.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_12.reset" />
+   end="dcc_data_12.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_13.reset" />
+   end="dcc_data_13.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_14.reset" />
+   end="dcc_data_14.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_15.reset" />
+   end="dcc_data_15.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_16.reset" />
+   end="dcc_data_16.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_17.reset" />
+   end="dcc_data_17.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_18.reset" />
+   end="dcc_data_18.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_19.reset" />
+   end="dcc_data_19.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_20.reset" />
+   end="dcc_data_20.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_21.reset" />
+   end="dcc_data_21.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_22.reset" />
+   end="dcc_data_22.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_23.reset" />
+   end="dcc_data_23.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_24.reset" />
+   end="dcc_data_24.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_25.reset" />
+   end="dcc_data_25.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_26.reset" />
+   end="dcc_data_26.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_27.reset" />
+   end="dcc_data_27.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_28.reset" />
+   end="dcc_data_28.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_29.reset" />
+   end="dcc_data_29.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_30.reset" />
+   end="dcc_data_30.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="ddc_data_31.reset" />
+   end="dcc_data_31.reset" />
  <connection
    kind="reset"
    version="18.1"
